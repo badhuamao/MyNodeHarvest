@@ -1,0 +1,153 @@
+proxies:
+- name: US
+  type: hysteria2
+  server: dbp.qzz.io
+  port: 8443
+  password: GEbo3x7TXbmNkdmABqS4mZP7Ax5fjFBPbheKauGJJ9Sw
+  sni: dbp.qzz.io
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: US
+  type: hysteria2
+  server: 134.195.101.199
+  port: 443
+  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  sni: www.apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇯🇵 机场推荐:dafei.de 日本 04 t.me/rjsxrd
+  type: hysteria2
+  server: jp-hy2.onetaplink.app
+  port: 5443
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  sni: hy2-jp.onetaplink.app
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸 机场推荐:dafei.de 美国 02 t.me/rjsxrd
+  type: hysteria2
+  server: 208.87.242.77
+  port: 35000
+  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  sni: www.apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇩🇪 机场推荐:dafei.de 德国 01 t.me/rjsxrd
+  type: hysteria2
+  server: de4.xiaoliyu.cyou
+  port: 10086
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  sni: de4.xiaoliyu.cyou
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇬🇧 机场推荐:dafei.de 英国 01 t.me/rjsxrd
+  type: hysteria2
+  server: gb1.xiaoliyu.cyou
+  port: 10086
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  sni: gb1.xiaoliyu.cyou
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇭🇰 机场推荐:dafei.de 香港 06 t.me/rjsxrd
+  type: hysteria2
+  server: fre.guren1.me
+  port: 8443
+  password: b2325ebb-21a3-46db-ae98-44884ef6dc44
+  sni: python.org
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸US_3|2.5MB/s t.me/rjsxrd
+  type: hysteria2
+  server: us1.xiaoliyu.cyou
+  port: 10086
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  sni: us1.xiaoliyu.cyou
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇸🇬SG_9|1.1MB/s t.me/rjsxrd
+  type: hysteria2
+  server: sg-hy2.onetaplink.app
+  port: 443
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  sni: hy2-sg.onetaplink.app
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '1809'
+  type: hysteria2
+  server: hkt.ccwink.cc
+  port: 56309
+  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
+  sni: hkt.ccwink.cc
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '4138'
+  type: hysteria2
+  server: de.mjhy2.com
+  port: 1443
+  password: b688ce0f-9201-4e8e-a67a-f3be2c6aa201
+  sni: de.mjhy2.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: ⭐
+  type: hysteria2
+  server: 45.82.245.37
+  port: 444
+  password: strong-secret-pass-777
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+proxy-groups:
+- name: 🐻 熊家 HY2 专线
+  type: url-test
+  proxies:
+  - US
+  - US
+  - 🇯🇵 机场推荐:dafei.de 日本 04 t.me/rjsxrd
+  - 🇺🇸 机场推荐:dafei.de 美国 02 t.me/rjsxrd
+  - 🇩🇪 机场推荐:dafei.de 德国 01 t.me/rjsxrd
+  - 🇬🇧 机场推荐:dafei.de 英国 01 t.me/rjsxrd
+  - 🇭🇰 机场推荐:dafei.de 香港 06 t.me/rjsxrd
+  - 🇺🇸US_3|2.5MB/s t.me/rjsxrd
+  - 🇸🇬SG_9|1.1MB/s t.me/rjsxrd
+  - '1809'
+  - '4138'
+  - ⭐
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+rules:
+- MATCH,🐻 熊家 HY2 专线
