@@ -1,12 +1,13 @@
 name: Node Harvest
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # 保留手动触发按钮，方便调试
   push:
     paths:
-      - 'urls.txt'
+      - 'urls.txt'    # 当你修改链接列表时立即运行
   schedule:
-    - cron: '0 0 * * *' # 每天凌晨自动更新一次
+    # 核心修改点：每 6 小时运行一次 (UTC 时间 0, 6, 12, 18 点)
+    - cron: '0 */6 * * *' 
 
 jobs:
   build:
@@ -31,5 +32,5 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action"
           git add clash.yaml
-          git commit -m "Update clash nodes" || exit 0
+          git commit -m "Timed Update: Cleaned nodes" || exit 0
           git push
