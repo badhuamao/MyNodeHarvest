@@ -76,6 +76,17 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🇭🇰HK_7|1.6MB/s t.me/rjsxrd
+  type: hysteria2
+  server: hk1.xiaoliyu.cyou
+  port: 23990
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  sni: hk1.xiaoliyu.cyou
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: 🇺🇸US_3|2.5MB/s t.me/rjsxrd
   type: hysteria2
   server: us1.xiaoliyu.cyou
@@ -93,17 +104,6 @@ proxies:
   port: 443
   password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
   sni: hy2-sg.onetaplink.app
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: '1809'
-  type: hysteria2
-  server: hkt.ccwink.cc
-  port: 56309
-  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-  sni: hkt.ccwink.cc
   skip-cert-verify: true
   alpn:
   - h3
@@ -142,9 +142,9 @@ proxy-groups:
   - 🇩🇪 机场推荐:dafei.de 德国 01 t.me/rjsxrd
   - 🇬🇧 机场推荐:dafei.de 英国 01 t.me/rjsxrd
   - 🇭🇰 机场推荐:dafei.de 香港 06 t.me/rjsxrd
+  - 🇭🇰HK_7|1.6MB/s t.me/rjsxrd
   - 🇺🇸US_3|2.5MB/s t.me/rjsxrd
   - 🇸🇬SG_9|1.1MB/s t.me/rjsxrd
-  - '1809'
   - '4138'
   - ⭐
   url: http://www.gstatic.com/generate_204
