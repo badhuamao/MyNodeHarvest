@@ -8,11 +8,11 @@ from urllib.parse import urlparse, unquote
 URLS_FILE = "urls.txt"
 OUTPUT_FILE = "clash.yaml"
 
-def parse_to_proxies(text):
-    """暴力提取所有支持的协议链接"""
+def parse_only_hy2(text):
+    """暴力提取并只保留 Hysteria2 协议链接"""
     proxies = []
-    # 正则表达式：专门抓取各种协议开头的明文链接
-    links = re.findall(r'(?:hysteria2|hy2|vless|vmess|ss|trojan)://[^\s"\'|]+', text)
+    # 仅匹配 hy2 或 hysteria2 开头的链接
+    links = re.findall(r'(?:hysteria2|hy2)://[^\s"\'|]+', text)
     
     for link in links:
         try:
@@ -22,46 +22,34 @@ def parse_to_proxies(text):
             auth, server_port = parsed.netloc.split('@')
             server, port = server_port.split(':')
             query = dict(q.split('=') for q in parsed.query.split('&') if '=' in q)
-            # 自动解码名字里的表情和中文
-            name = unquote(parsed.fragment) if parsed.fragment else f"{parsed.scheme}_{server}"
+            # 自动解码名字，移除可能导致 YAML 报错的特殊字符
+            name = unquote(parsed.fragment) if parsed.fragment else f"Hy2_{server}"
             
-            # Hysteria2 专门处理
-            if parsed.scheme in ['hysteria2', 'hy2']:
-                proxies.append({
-                    "name": name.strip(),
-                    "type": "hysteria2",
-                    "server": server,
-                    "port": int(port),
-                    "password": auth,
-                    "sni": query.get('sni', server),
-                    "skip-cert-verify": True, # 强制跳过证书校验，解决不可用问题
-                    "alpn": ["h3"]
-                })
-            # VLESS 处理
-            elif parsed.scheme == 'vless':
-                proxies.append({
-                    "name": name.strip(),
-                    "type": "vless",
-                    "server": server,
-                    "port": int(port),
-                    "uuid": auth,
-                    "tls": True,
-                    "skip-cert-verify": True,
-                    "servername": query.get('sni', server),
-                    "network": query.get('type', 'tcp')
-                })
+            # 构造标准的 Clash Hysteria2 配置
+            proxies.append({
+                "name": name.strip(),
+                "type": "hysteria2",
+                "server": server,
+                "port": int(port),
+                "password": auth,
+                "sni": query.get('sni', server),
+                "skip-cert-verify": True, # 核心修复：强制跳过证书校验
+                "alpn": ["h3"],
+                "up": query.get('up', '100'),
+                "down": query.get('down', '100')
+            })
         except:
             continue
     return proxies
 
 def main():
     all_proxies = []
-    seen_nodes = set() # 去重器
+    seen_nodes = set() # 依然保留去重逻辑
 
     if not os.path.exists(URLS_FILE):
-        print("错误：未找到 urls.txt")
         return
 
+    # 从 urls.txt 读取待爬取的地址
     with open(URLS_FILE, 'r', encoding='utf-8') as f:
         urls = [line.strip() for line in f if line.strip()]
 
@@ -69,39 +57,39 @@ def main():
 
     for url in urls:
         try:
-            print(f"正在清洗: {url}")
+            print(f"正在提取 HY2 节点: {url}")
             resp = requests.get(url, headers=headers, timeout=15)
             if resp.status_code != 200: continue
             
-            nodes = parse_to_proxies(resp.text)
+            nodes = parse_only_hy2(resp.text)
             for node in nodes:
-                # 唯一性标识：服务器+端口+密码
-                # 这样即使名字改了，只要节点是一样的，就不会重复
+                # 去重指纹：服务器地址 + 端口
                 fingerprint = f"{node['server']}:{node['port']}"
                 if fingerprint not in seen_nodes:
                     all_proxies.append(node)
                     seen_nodes.add(fingerprint)
         except Exception as e:
-            print(f"处理失败: {e}")
+            print(f"抓取出错: {e}")
 
-    # 构建 Clash 结构
+    # 构建 Clash 配置文件结构
     clash_config = {
         "proxies": all_proxies,
         "proxy-groups": [
             {
-                "name": "🐻 熊家自动选择",
+                "name": "🐻 熊家 HY2 专线",
                 "type": "url-test",
-                "proxies": [p['name'] for p in all_proxies],
+                "proxies": [p['name'] for p in all_proxies] if all_proxies else ["DIRECT"],
                 "url": "http://www.gstatic.com/generate_204",
                 "interval": 300
             }
         ],
-        "rules": ["MATCH,🐻 熊家自动选择"]
+        "rules": ["MATCH,🐻 熊家 HY2 专线"]
     }
 
+    # 写入文件
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         yaml.dump(clash_config, f, allow_unicode=True, sort_keys=False)
-    print(f"清洗完成！共获得 {len(all_proxies)} 个唯一节点。")
+    print(f"提取完成！共获得 {len(all_proxies)} 个唯一 HY2 节点。")
 
 if __name__ == "__main__":
     main()
