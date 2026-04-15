@@ -87,6 +87,193 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🇩🇪 Germany, Bad Soden am Taunus (Neuenhain) | [BL]
+  type: hysteria2
+  server: sde.dbp.qzz.io
+  port: 8443
+  password: fb211338854624f161f1Ea3D9584E2DEFE7c10A3
+  sni: dbp.qzz.io
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇩🇪 Germany, Berlin | [BL]
+  type: hysteria2
+  server: 83.243.86.103
+  port: 12855
+  password: github.com%2FAlvin9999-newpac%2Ffanqiang
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
+  type: hysteria2
+  server: 37.114.49.38
+  port: 2056
+  password: 4d092122-268a-4a1a-b23f-83931c5abc3a
+  sni: flkf.mangshe.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇭🇰 Hong Kong, Central | [BL]
+  type: hysteria2
+  server: 2185b8c5-t48f40-t6v6ki-1phla.hk1.hyhuawei.com
+  port: 443
+  password: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
+  sni: 2185b8c5-t48f40-t6v6ki-1phla.hk1.hyhuawei.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇭🇰 Hong Kong, Hong Kong | [BL]
+  type: hysteria2
+  server: hk3.jueduibupao.top
+  port: 43802
+  password: aa61a314-2d82-4509-b9fa-eb93a921b6ab
+  sni: hk3.jueduibupao.top
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇭🇰 Hong Kong, Hong Kong | [BL]
+  type: hysteria2
+  server: hk3.jueduibupao.top
+  port: 48651
+  password: aa61a314-2d82-4509-b9fa-eb93a921b6ab
+  sni: hk3.jueduibupao.top
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
+  type: hysteria2
+  server: 45.192.195.52
+  port: 5555
+  password: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
+  sni: 45.192.195.52
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
+  type: hysteria2
+  server: hk1.xiaoliyu.cyou
+  port: 23990
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  sni: hk1.xiaoliyu.cyou
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
+  type: hysteria2
+  server: iij.mggl.wang
+  port: 35789
+  password: 79d73809-f5ed-4099-8588-ba77578def1d
+  sni: iij.mggl.wang
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇯🇵 Japan, Chiyoda City | [BL]
+  type: hysteria2
+  server: vpn-jp-016.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-jp-016.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇯🇵 Japan, Shibuya City | [BL]
+  type: hysteria2
+  server: 103.62.49.76
+  port: 35000
+  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  sni: www.apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇯🇵 Japan, Shibuya City | [BL]
+  type: hysteria2
+  server: vpn-jp-007.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-jp-007.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇯🇵 Japan, Shibuya City | 🌐 | [IPv6] | [BL]
+  type: hysteria2
+  server: dbp.qzz.io
+  port: 8443
+  password: GEbo3x7TXbmNkdmABqS4mZP7Ax5fjFBPbheKauGJJ9Sw
+  sni: dbp.qzz.io
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇪🇸 Spain, Madrid | [BL]
+  type: hysteria2
+  server: es1.xiaoliyu.cyou
+  port: 4433
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  sni: es1.xiaoliyu.cyou
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇳🇱 The Netherlands, Amsterdam | [BL]
+  type: hysteria2
+  server: 144.31.224.14
+  port: 443
+  password: 123456789StrongPass
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸 United States | 🌐 | [IPv6] | [BL]
+  type: hysteria2
+  server: 134.195.101.199
+  port: 443
+  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  sni: www.apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🌐 Anycast-IP | [IPv6] | [BL]
+  type: hysteria2
+  server: de1.xiaoliyu.cyou
+  port: 4433
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  sni: de1.xiaoliyu.cyou
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
@@ -99,6 +286,23 @@ proxy-groups:
   - 🆓
   - ⭐
   - 🇫🇷
+  - 🇩🇪 Germany, Bad Soden am Taunus (Neuenhain) | [BL]
+  - 🇩🇪 Germany, Berlin | [BL]
+  - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
+  - 🇭🇰 Hong Kong, Central | [BL]
+  - 🇭🇰 Hong Kong, Hong Kong | [BL]
+  - 🇭🇰 Hong Kong, Hong Kong | [BL]
+  - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
+  - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
+  - 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
+  - 🇯🇵 Japan, Chiyoda City | [BL]
+  - 🇯🇵 Japan, Shibuya City | [BL]
+  - 🇯🇵 Japan, Shibuya City | [BL]
+  - 🇯🇵 Japan, Shibuya City | 🌐 | [IPv6] | [BL]
+  - 🇪🇸 Spain, Madrid | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam | [BL]
+  - 🇺🇸 United States | 🌐 | [IPv6] | [BL]
+  - 🌐 Anycast-IP | [IPv6] | [BL]
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
