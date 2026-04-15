@@ -10,12 +10,45 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🇩🇪 机场推荐:dafei.de 德国 01 t.me/rjsxrd
+  type: hysteria2
+  server: de4.xiaoliyu.cyou
+  port: 10086
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  sni: de4.xiaoliyu.cyou
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇬🇧 机场推荐:dafei.de 英国 01 t.me/rjsxrd
+  type: hysteria2
+  server: gb1.xiaoliyu.cyou
+  port: 10086
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  sni: gb1.xiaoliyu.cyou
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: 🇭🇰 机场推荐:dafei.de 香港 06 t.me/rjsxrd
   type: hysteria2
   server: fre.guren1.me
   port: 8443
   password: b2325ebb-21a3-46db-ae98-44884ef6dc44
   sni: python.org
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '1809'
+  type: hysteria2
+  server: hkt.ccwink.cc
+  port: 56309
+  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
+  sni: hkt.ccwink.cc
   skip-cert-verify: true
   alpn:
   - h3
@@ -43,12 +76,89 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🔒
+- name: 🇫🇷
   type: hysteria2
-  server: 167.234.249.46
-  port: 444
-  password: sysadmin.sysadmin
-  sni: a.961229.xyz
+  server: 163.172.113.118
+  port: 40022
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🍏91@oneclickvpnkeys
+  type: hysteria2
+  server: 37.114.49.38
+  port: 2056
+  password: 4d092122-268a-4a1a-b23f-83931c5abc3a
+  sni: flkf.mangshe.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇭🇰 机场推荐:dafei.de 香港 10
+  type: hysteria2
+  server: jpaws.ccwink.photos
+  port: 88
+  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
+  sni: hkak.ccwink.cc
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇪🇸 机场推荐:dafei.de 西班牙 01
+  type: hysteria2
+  server: 143.47.56.230
+  port: 35000
+  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  sni: www.lamer.com.hk
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸 机场推荐:dafei.de 美国 01
+  type: hysteria2
+  server: us1.xiaoliyu.cyou
+  port: 10086
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  sni: us1.xiaoliyu.cyou
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇯🇵 机场推荐:dafei.de 日本 13
+  type: hysteria2
+  server: jp1.xiaoliyu.cyou
+  port: 10086
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  sni: jp1.xiaoliyu.cyou
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '>>@oneclickvpnkeys::DE'
+  type: hysteria2
+  server: 130.61.50.75
+  port: 6443
+  password: zhangyang
+  sni: 130.61.50.75
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '>>@oneclickvpnkeys::NL'
+  type: hysteria2
+  server: 144.31.224.14
+  port: 443
+  password: 123456789StrongPass
+  sni: www.cloudflare.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -59,10 +169,20 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸 机场推荐:dafei.de 美国 02 t.me/rjsxrd
+  - 🇩🇪 机场推荐:dafei.de 德国 01 t.me/rjsxrd
+  - 🇬🇧 机场推荐:dafei.de 英国 01 t.me/rjsxrd
   - 🇭🇰 机场推荐:dafei.de 香港 06 t.me/rjsxrd
+  - '1809'
   - 🆓
   - ⭐
-  - 🔒
+  - 🇫🇷
+  - 🍏91@oneclickvpnkeys
+  - 🇭🇰 机场推荐:dafei.de 香港 10
+  - 🇪🇸 机场推荐:dafei.de 西班牙 01
+  - 🇺🇸 机场推荐:dafei.de 美国 01
+  - 🇯🇵 机场推荐:dafei.de 日本 13
+  - '>>@oneclickvpnkeys::DE'
+  - '>>@oneclickvpnkeys::NL'
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
