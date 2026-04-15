@@ -10,34 +10,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇩🇪 机场推荐:dafei.de 德国 01 t.me/rjsxrd
+- name: 🇭🇰 机场推荐:dafei.de 香港 06 t.me/rjsxrd
   type: hysteria2
-  server: de4.xiaoliyu.cyou
-  port: 10086
-  password: a4c1b618-024a-42d4-b78a-1c25c337a484
-  sni: de4.xiaoliyu.cyou
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇬🇧 机场推荐:dafei.de 英国 01 t.me/rjsxrd
-  type: hysteria2
-  server: gb1.xiaoliyu.cyou
-  port: 10086
-  password: a4c1b618-024a-42d4-b78a-1c25c337a484
-  sni: gb1.xiaoliyu.cyou
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: '1809'
-  type: hysteria2
-  server: hkt.ccwink.cc
-  port: 56309
-  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-  sni: hkt.ccwink.cc
+  server: fre.guren1.me
+  port: 8443
+  password: b2325ebb-21a3-46db-ae98-44884ef6dc44
+  sni: python.org
   skip-cert-verify: true
   alpn:
   - h3
@@ -76,41 +54,15 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇪🇸
-  type: hysteria2
-  server: 143.47.56.230
-  port: 35000
-  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-  sni: www.lamer.com.hk
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇫🇷
-  type: hysteria2
-  server: 163.172.113.118
-  port: 40022
-  password: dongtaiwang.com
-  sni: www.microsoft.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
   - 🇺🇸 机场推荐:dafei.de 美国 02 t.me/rjsxrd
-  - 🇩🇪 机场推荐:dafei.de 德国 01 t.me/rjsxrd
-  - 🇬🇧 机场推荐:dafei.de 英国 01 t.me/rjsxrd
-  - '1809'
+  - 🇭🇰 机场推荐:dafei.de 香港 06 t.me/rjsxrd
   - 🆓
   - ⭐
   - 🔒
-  - 🇪🇸
-  - 🇫🇷
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
