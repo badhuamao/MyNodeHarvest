@@ -2,19 +2,16 @@ import requests
 import yaml
 import re
 import os
-import socket
-from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urlparse, unquote
 
 # 文件配置
 URLS_FILE = "urls.txt"
 OUTPUT_FILE = "clash.yaml"
-MAX_WORKERS = 50  # 线程数，3000个节点建议设为50-100，太大会被系统限制
-CHECK_TIMEOUT = 2  # 连通性测试超时时间（秒）
 
 def parse_only_hy2(text):
     """暴力提取并只保留 Hysteria2 协议链接"""
     proxies = []
+    # 仅匹配 hy2 或 hysteria2 开头的链接
     links = re.findall(r'(?:hysteria2|hy2)://[^\s"\'|]+', text)
     
     for link in links:
@@ -25,8 +22,10 @@ def parse_only_hy2(text):
             auth, server_port = parsed.netloc.split('@')
             server, port = server_port.split(':')
             query = dict(q.split('=') for q in parsed.query.split('&') if '=' in q)
+            # 自动解码名字，移除可能导致 YAML 报错的特殊字符
             name = unquote(parsed.fragment) if parsed.fragment else f"Hy2_{server}"
             
+            # 构造标准的 Clash Hysteria2 配置
             proxies.append({
                 "name": name.strip(),
                 "type": "hysteria2",
@@ -34,7 +33,7 @@ def parse_only_hy2(text):
                 "port": int(port),
                 "password": auth,
                 "sni": query.get('sni', server),
-                "skip-cert-verify": True,
+                "skip-cert-verify": True, # 核心修复：强制跳过证书校验
                 "alpn": ["h3"],
                 "up": query.get('up', '100'),
                 "down": query.get('down', '100')
@@ -43,65 +42,44 @@ def parse_only_hy2(text):
             continue
     return proxies
 
-def check_port(node):
-    """简单的 TCP 连通性检测"""
-    try:
-        # 注意：HY2 虽然是 UDP，但大部分服务器底层端口 TCP 也是开放的，
-        # 或者通过这种方式能过滤掉大部分死 IP。
-        with socket.create_connection((node['server'], node['port']), timeout=CHECK_TIMEOUT):
-            return node
-    except:
-        return None
-
 def main():
     all_proxies = []
-    seen_nodes = set()
+    seen_nodes = set() # 依然保留去重逻辑
 
     if not os.path.exists(URLS_FILE):
-        print(f"找不到 {URLS_FILE}")
+        print(f"找不到 {URLS_FILE}，请检查文件是否存在")
         return
 
+    # 从 urls.txt 读取待爬取的地址
     with open(URLS_FILE, 'r', encoding='utf-8') as f:
         urls = [line.strip() for line in f if line.strip()]
 
     headers = {'User-Agent': 'ClashforWindows/0.20.39'}
 
-    # 1. 抓取阶段
-    raw_nodes = []
     for url in urls:
         try:
-            print(f"正在下载源: {url}")
-            resp = requests.get(url, headers=headers, timeout=10)
+            print(f"正在提取 HY2 节点: {url}")
+            resp = requests.get(url, headers=headers, timeout=15)
             if resp.status_code != 200: continue
             
             nodes = parse_only_hy2(resp.text)
             for node in nodes:
+                # 去重指纹：服务器地址 + 端口
                 fingerprint = f"{node['server']}:{node['port']}"
                 if fingerprint not in seen_nodes:
-                    raw_nodes.append(node)
+                    all_proxies.append(node)
                     seen_nodes.add(fingerprint)
         except Exception as e:
-            print(f"抓取 {url} 出错: {e}")
+            print(f"抓取出错: {e}")
 
-    print(f"抓取完成，共发现 {len(raw_nodes)} 个节点。开始多线程检测连通性...")
-
-    # 2. 筛选阶段 (多线程)
-    valid_proxies = []
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        # 提交检测任务
-        results = executor.map(check_port, raw_nodes)
-        for res in results:
-            if res:
-                valid_proxies.append(res)
-
-    # 3. 写入文件
+    # 构建 Clash 配置文件结构
     clash_config = {
-        "proxies": valid_proxies,
+        "proxies": all_proxies,
         "proxy-groups": [
             {
                 "name": "🐻 熊家 HY2 专线",
                 "type": "url-test",
-                "proxies": [p['name'] for p in valid_proxies] if valid_proxies else ["DIRECT"],
+                "proxies": [p['name'] for p in all_proxies] if all_proxies else ["DIRECT"],
                 "url": "http://www.gstatic.com/generate_204",
                 "interval": 300
             }
@@ -109,14 +87,10 @@ def main():
         "rules": ["MATCH,🐻 熊家 HY2 专线"]
     }
 
+    # 写入文件
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         yaml.dump(clash_config, f, allow_unicode=True, sort_keys=False)
-    
-    print(f"--- 报告 ---")
-    print(f"原始发现: {len(raw_nodes)}")
-    print(f"检测有效: {len(valid_proxies)}")
-    print(f"剔除死点: {len(raw_nodes) - len(valid_proxies)}")
-    print(f"结果已保存至 {OUTPUT_FILE}")
+    print(f"提取完成！共获得 {len(all_proxies)} 个唯一 HY2 节点。")
 
 if __name__ == "__main__":
     main()
