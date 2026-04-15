@@ -164,6 +164,149 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: Hy2_c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
+  type: hysteria2
+  server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
+  port: 1743
+  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+  sni: 🔒
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: Hy2_91.132.51.160
+  type: hysteria2
+  server: 91.132.51.160
+  port: 844
+  password: 5046SHWqk6
+  sni: 91.132.51.160
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: Hy2_206.71.158.23
+  type: hysteria2
+  server: 206.71.158.23
+  port: 45000
+  password: Telegram--%3E%40Ln2Ray
+  sni: 🔒
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: Hy2_gavazn.lnmarketplace.net
+  type: hysteria2
+  server: gavazn.lnmarketplace.net
+  port: 45000
+  password: Telegram--%3E%40Ln2Ray
+  sni: 🔒
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: Hy2_206.71.158.37
+  type: hysteria2
+  server: 206.71.158.37
+  port: 36400
+  password: Yet-Another-Public-Config-1
+  sni: 🔒
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: Hy2_206.71.158.40
+  type: hysteria2
+  server: 206.71.158.40
+  port: 35000
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  sni: 🔒
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: Hy2_206.71.158.41
+  type: hysteria2
+  server: 206.71.158.41
+  port: 35000
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  sni: 🔒
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🌐سرور
+  type: hysteria2
+  server: sg-hy2.onetaplink.app
+  port: 443
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  sni: hy2-sg.onetaplink.app
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '@V2rayNG3'
+  type: hysteria2
+  server: 206.71.158.37
+  port: 35000
+  password: Yet-Another-Public-Config-1
+  sni: YAPC-1.afshin.ir
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '@V2RAYROZ 🐥🌷'
+  type: hysteria2
+  server: 181.214.99.162
+  port: 35000
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  sni: api.kermanshahi.org
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '@V2RAYROZ 🐥🌷'
+  type: hysteria2
+  server: 5.175.249.174
+  port: 35000
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  sni: api.kermanshahi.org
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '@V2rayNG3'
+  type: hysteria2
+  server: 77.90.41.197
+  port: 35000
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  sni: api.kermanshahi.org
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: Hy2_208.87.243.187
+  type: hysteria2
+  server: 208.87.243.187
+  port: 22222
+  password: dongtaiwang.com
+  sni: 🔒
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
@@ -183,6 +326,19 @@ proxy-groups:
   - 🇯🇵 机场推荐:dafei.de 日本 13
   - '>>@oneclickvpnkeys::DE'
   - '>>@oneclickvpnkeys::NL'
+  - Hy2_c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
+  - Hy2_91.132.51.160
+  - Hy2_206.71.158.23
+  - Hy2_gavazn.lnmarketplace.net
+  - Hy2_206.71.158.37
+  - Hy2_206.71.158.40
+  - Hy2_206.71.158.41
+  - 🌐سرور
+  - '@V2rayNG3'
+  - '@V2RAYROZ 🐥🌷'
+  - '@V2RAYROZ 🐥🌷'
+  - '@V2rayNG3'
+  - Hy2_208.87.243.187
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
