@@ -1,21 +1,109 @@
 proxies:
-- name: 🇺🇸 机场推荐:dafei.de 美国 02 t.me/rjsxrd
+- name: HK
   type: hysteria2
-  server: 208.87.242.77
-  port: 35000
-  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-  sni: www.apple.com
+  server: hk1.xiaoliyu.cyou
+  port: 23990
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  sni: hk1.xiaoliyu.cyou
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇩🇪 机场推荐:dafei.de 德国 01 t.me/rjsxrd
+- name: 🇸🇬 机场推荐:dafei.de 新加坡 05 t.me/rjsxrd
+  type: hysteria2
+  server: sg-hy2.onetaplink.app
+  port: 443
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  sni: hy2-sg.onetaplink.app
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸 机场推荐:dafei.de 美国 02 t.me/rjsxrd
+  type: hysteria2
+  server: us1.xiaoliyu.cyou
+  port: 10086
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  sni: us1.xiaoliyu.cyou
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 233boy-hysteria2-45.192.195.52 t.me/rjsxrd
+  type: hysteria2
+  server: 45.192.195.52
+  port: 5555
+  password: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
+  sni: 45.192.195.52
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇨🇾CY_1|3.3MB/s t.me/rjsxrd
   type: hysteria2
   server: de4.xiaoliyu.cyou
   port: 10086
   password: a4c1b618-024a-42d4-b78a-1c25c337a484
   sni: de4.xiaoliyu.cyou
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇷FR_1|4.2MB/s t.me/rjsxrd
+  type: hysteria2
+  server: 163.172.113.118
+  port: 40022
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇸🇬SG_5|8.3MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-sg-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-sg-002.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇩🇪 Germany, Bad Soden am Taunus (Neuenhain) | [BL] t.me/rjsxrd
+  type: hysteria2
+  server: sde.dbp.qzz.io
+  port: 8443
+  password: fb211338854624f161f1Ea3D9584E2DEFE7c10A3
+  sni: dbp.qzz.io
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇯🇵 Japan, Shibuya City | 🌐 | [IPv6] | [BL] t.me/rjsxrd
+  type: hysteria2
+  server: dbp.qzz.io
+  port: 8443
+  password: GEbo3x7TXbmNkdmABqS4mZP7Ax5fjFBPbheKauGJJ9Sw
+  sni: dbp.qzz.io
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🌐 Anycast-IP | [IPv6] | [BL] t.me/rjsxrd
+  type: hysteria2
+  server: de1.xiaoliyu.cyou
+  port: 4433
+  password: a4c1b618-024a-42d4-b78a-1c25c337a484
+  sni: de1.xiaoliyu.cyou
   skip-cert-verify: true
   alpn:
   - h3
@@ -32,23 +120,67 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇭🇰 机场推荐:dafei.de 香港 06 t.me/rjsxrd
+- name: 🇺🇸 机场推荐:dafei.de 美国 02 t.me/rjsxrd
   type: hysteria2
-  server: fre.guren1.me
-  port: 8443
-  password: b2325ebb-21a3-46db-ae98-44884ef6dc44
-  sni: python.org
+  server: 208.87.242.77
+  port: 35000
+  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
+  sni: www.apple.com
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: '1809'
+- name: t.me/rjsxrd t.me/rjsxrd
   type: hysteria2
-  server: hkt.ccwink.cc
-  port: 56309
-  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-  sni: hkt.ccwink.cc
+  server: jp-hy2.onetaplink.app
+  port: 5443
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  sni: hy2-jp.onetaplink.app
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: t.me/rjsxrd t.me/rjsxrd
+  type: hysteria2
+  server: 206.71.158.37
+  port: 35000
+  password: Yet-Another-Public-Config-1
+  sni: YAPC-1.afshin.ir
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: t.me/rjsxrd t.me/rjsxrd
+  type: hysteria2
+  server: 208.87.243.187
+  port: 22222
+  password: dongtaiwang.com
+  sni: ''
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: t.me/rjsxrd t.me/rjsxrd
+  type: hysteria2
+  server: musicclips.videolinks.ru
+  port: 443
+  password: rstnnl
+  sni: musicclips.videolinks.ru
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: t.me/rjsxrd t.me/rjsxrd
+  type: hysteria2
+  server: nrealistic.nn-foto.ru
+  port: 443
+  password: rstnnl
+  sni: nrealistic.nn-foto.ru
   skip-cert-verify: true
   alpn:
   - h3
@@ -76,23 +208,122 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇫🇷
+- name: t.me/rjsxrd t.me/rjsxrd
   type: hysteria2
-  server: 163.172.113.118
-  port: 40022
-  password: dongtaiwang.com
-  sni: www.microsoft.com
+  server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
+  port: 1743
+  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+  sni: ''
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇩🇪 Germany, Bad Soden am Taunus (Neuenhain) | [BL]
+- name: t.me/rjsxrd t.me/rjsxrd
   type: hysteria2
-  server: sde.dbp.qzz.io
-  port: 8443
-  password: fb211338854624f161f1Ea3D9584E2DEFE7c10A3
-  sni: dbp.qzz.io
+  server: 91.132.51.160
+  port: 844
+  password: 5046SHWqk6
+  sni: 91.132.51.160
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: t.me/rjsxrd t.me/rjsxrd
+  type: hysteria2
+  server: 206.71.158.23
+  port: 45000
+  password: Telegram--%3E%40Ln2Ray
+  sni: ''
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: t.me/rjsxrd t.me/rjsxrd
+  type: hysteria2
+  server: gavazn.lnmarketplace.net
+  port: 45000
+  password: Telegram--%3E%40Ln2Ray
+  sni: ''
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: t.me/rjsxrd t.me/rjsxrd
+  type: hysteria2
+  server: 206.71.158.37
+  port: 36400
+  password: Yet-Another-Public-Config-1
+  sni: ''
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: t.me/rjsxrd t.me/rjsxrd
+  type: hysteria2
+  server: 181.214.99.162
+  port: 35000
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  sni: api.kermanshahi.org
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: t.me/rjsxrd t.me/rjsxrd
+  type: hysteria2
+  server: 206.71.158.40
+  port: 35000
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  sni: ''
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: t.me/rjsxrd t.me/rjsxrd
+  type: hysteria2
+  server: 206.71.158.41
+  port: 35000
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  sni: ''
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: t.me/rjsxrd t.me/rjsxrd
+  type: hysteria2
+  server: 130.61.50.75
+  port: 6443
+  password: zhangyang
+  sni: 130.61.50.75
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸 美国 | USA
+  type: hysteria2
+  server: vpn-us-020.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-020.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇷 France, Paris | 🌐 | [IPv6] | [BL]
+  type: hysteria2
+  server: 62.210.124.146
+  port: 22000
+  password: dongtaiwang.com
+  sni: www.microsoft.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -155,32 +386,10 @@ proxies:
   down: '100'
 - name: 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
   type: hysteria2
-  server: 45.192.195.52
-  port: 5555
-  password: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
-  sni: 45.192.195.52
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
-  type: hysteria2
-  server: hk1.xiaoliyu.cyou
-  port: 23990
-  password: a4c1b618-024a-42d4-b78a-1c25c337a484
-  sni: hk1.xiaoliyu.cyou
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
-  type: hysteria2
-  server: iij.mggl.wang
-  port: 35789
-  password: 79d73809-f5ed-4099-8588-ba77578def1d
-  sni: iij.mggl.wang
+  server: fre.guren1.me
+  port: 8443
+  password: b2325ebb-21a3-46db-ae98-44884ef6dc44
+  sni: python.org
   skip-cert-verify: true
   alpn:
   - h3
@@ -219,17 +428,6 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇯🇵 Japan, Shibuya City | 🌐 | [IPv6] | [BL]
-  type: hysteria2
-  server: dbp.qzz.io
-  port: 8443
-  password: GEbo3x7TXbmNkdmABqS4mZP7Ax5fjFBPbheKauGJJ9Sw
-  sni: dbp.qzz.io
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 🇪🇸 Spain, Madrid | [BL]
   type: hysteria2
   server: es1.xiaoliyu.cyou
@@ -246,29 +444,7 @@ proxies:
   server: 144.31.224.14
   port: 443
   password: 123456789StrongPass
-  sni: www.cloudflare.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇺🇸 United States | 🌐 | [IPv6] | [BL]
-  type: hysteria2
-  server: 134.195.101.199
-  port: 443
-  password: 38428a74-c651-47a5-b2c9-4bec5a1809cf
-  sni: www.apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🌐 Anycast-IP | [IPv6] | [BL]
-  type: hysteria2
-  server: de1.xiaoliyu.cyou
-  port: 4433
-  password: a4c1b618-024a-42d4-b78a-1c25c337a484
-  sni: de1.xiaoliyu.cyou
+  sni: 144.31.224.14
   skip-cert-verify: true
   alpn:
   - h3
@@ -278,31 +454,47 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
+  - HK
+  - 🇸🇬 机场推荐:dafei.de 新加坡 05 t.me/rjsxrd
   - 🇺🇸 机场推荐:dafei.de 美国 02 t.me/rjsxrd
-  - 🇩🇪 机场推荐:dafei.de 德国 01 t.me/rjsxrd
+  - 233boy-hysteria2-45.192.195.52 t.me/rjsxrd
+  - 🇨🇾CY_1|3.3MB/s t.me/rjsxrd
+  - 🇫🇷FR_1|4.2MB/s t.me/rjsxrd
+  - 🇸🇬SG_5|8.3MB/s t.me/rjsxrd
+  - 🇩🇪 Germany, Bad Soden am Taunus (Neuenhain) | [BL] t.me/rjsxrd
+  - 🇯🇵 Japan, Shibuya City | 🌐 | [IPv6] | [BL] t.me/rjsxrd
+  - 🌐 Anycast-IP | [IPv6] | [BL] t.me/rjsxrd
   - 🇬🇧 机场推荐:dafei.de 英国 01 t.me/rjsxrd
-  - 🇭🇰 机场推荐:dafei.de 香港 06 t.me/rjsxrd
-  - '1809'
+  - 🇺🇸 机场推荐:dafei.de 美国 02 t.me/rjsxrd
+  - t.me/rjsxrd t.me/rjsxrd
+  - t.me/rjsxrd t.me/rjsxrd
+  - t.me/rjsxrd t.me/rjsxrd
+  - t.me/rjsxrd t.me/rjsxrd
+  - t.me/rjsxrd t.me/rjsxrd
   - 🆓
   - ⭐
-  - 🇫🇷
-  - 🇩🇪 Germany, Bad Soden am Taunus (Neuenhain) | [BL]
+  - t.me/rjsxrd t.me/rjsxrd
+  - t.me/rjsxrd t.me/rjsxrd
+  - t.me/rjsxrd t.me/rjsxrd
+  - t.me/rjsxrd t.me/rjsxrd
+  - t.me/rjsxrd t.me/rjsxrd
+  - t.me/rjsxrd t.me/rjsxrd
+  - t.me/rjsxrd t.me/rjsxrd
+  - t.me/rjsxrd t.me/rjsxrd
+  - t.me/rjsxrd t.me/rjsxrd
+  - 🇺🇸 美国 | USA
+  - 🇫🇷 France, Paris | 🌐 | [IPv6] | [BL]
   - 🇩🇪 Germany, Berlin | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
   - 🇭🇰 Hong Kong, Central | [BL]
   - 🇭🇰 Hong Kong, Hong Kong | [BL]
   - 🇭🇰 Hong Kong, Hong Kong | [BL]
   - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
-  - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
-  - 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇯🇵 Japan, Shibuya City | [BL]
   - 🇯🇵 Japan, Shibuya City | [BL]
-  - 🇯🇵 Japan, Shibuya City | 🌐 | [IPv6] | [BL]
   - 🇪🇸 Spain, Madrid | [BL]
   - 🇳🇱 The Netherlands, Amsterdam | [BL]
-  - 🇺🇸 United States | 🌐 | [IPv6] | [BL]
-  - 🌐 Anycast-IP | [IPv6] | [BL]
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
