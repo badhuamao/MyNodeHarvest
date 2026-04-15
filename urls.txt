@@ -1,2 +1,3 @@
 https://raw.githubusercontent.com/Supprise0901/Fetch/refs/heads/main/list
 https://raw.githubusercontent.com/Argh73/VpnConfigCollector/refs/heads/main/Splitted-By-Protocol/Hysteria2.txt
+https://raw.githubusercontent.com/Argh94/V2RayAutoConfig/refs/heads/main/configs/Hysteria2.txt
