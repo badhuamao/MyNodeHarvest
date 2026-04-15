@@ -1,3 +1,4 @@
 https://raw.githubusercontent.com/Supprise0901/Fetch/refs/heads/main/list
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/master/BLACK_SS%2BAll_RUS.txt
 https://raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
+https://extract.ashly.dpdns.org/?pw=autorun
