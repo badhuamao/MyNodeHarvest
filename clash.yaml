@@ -10,23 +10,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇯🇵 机场推荐:dafei.de 日本 24 t.me/rjsxrd
+- name: 233boy-hysteria2-45.192.195.52 t.me/rjsxrd
   type: hysteria2
-  server: dbp.qzz.io
-  port: 8443
-  password: GEbo3x7TXbmNkdmABqS4mZP7Ax5fjFBPbheKauGJJ9Sw
-  sni: dbp.qzz.io
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇭🇰 机场推荐:dafei.de 香港 08 t.me/rjsxrd
-  type: hysteria2
-  server: hkt1.jueduibupao.top
-  port: 46824
-  password: aa61a314-2d82-4509-b9fa-eb93a921b6ab
-  sni: hkt1.jueduibupao.top
+  server: 45.192.195.52
+  port: 5555
+  password: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
+  sni: 45.192.195.52
   skip-cert-verify: true
   alpn:
   - h3
@@ -54,17 +43,6 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇩🇪DE_11|1.6MB/s t.me/rjsxrd
-  type: hysteria2
-  server: sde.dbp.qzz.io
-  port: 8443
-  password: fb211338854624f161f1Ea3D9584E2DEFE7c10A3
-  sni: dbp.qzz.io
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 🇯🇵 日本 05 t.me/rjsxrd
   type: hysteria2
   server: 151.241.130.90
@@ -76,7 +54,7 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇯🇵 Japan, Shibuya City | [BL] t.me/rjsxrd
+- name: '1851'
   type: hysteria2
   server: vpn-jp-007.fastervpn.world
   port: 443
@@ -87,7 +65,7 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇭🇰 Hong Kong, Central [🏴BL] t.me/rjsxrd
+- name: 🇭🇰 Hong Kong, Central | [BL] t.me/rjsxrd
   type: hysteria2
   server: hkt.ccwink.cc
   port: 56309
@@ -115,17 +93,6 @@ proxies:
   port: 444
   password: strong-secret-pass-777
   sni: www.microsoft.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇺🇸 美国 | USA t.me/rjsxrd
-  type: hysteria2
-  server: vpn-us-006.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-006.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -164,11 +131,33 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🇭🇰 Hong Kong, Hong Kong | [BL]
+  type: hysteria2
+  server: hk3.jueduibupao.top
+  port: 43802
+  password: aa61a314-2d82-4509-b9fa-eb93a921b6ab
+  sni: hk3.jueduibupao.top
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇭🇰 Hong Kong, Hong Kong | [BL]
+  type: hysteria2
+  server: hk3.jueduibupao.top
+  port: 47441
+  password: aa61a314-2d82-4509-b9fa-eb93a921b6ab
+  sni: hk3.jueduibupao.top
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
   type: hysteria2
   server: fre.guren1.me
   port: 8443
-  password: b2325ebb-21a3-46db-ae98-44884ef6dc44
+  password: e795f042-4c9f-46d1-9d85-8816e0ff0cfb
   sni: python.org
   skip-cert-verify: true
   alpn:
@@ -189,7 +178,7 @@ proxies:
 - name: 🇹🇼 Taiwan, Taipei | [BL]
   type: hysteria2
   server: tw3.jueduibupao.top
-  port: 41331
+  port: 45229
   password: aa61a314-2d82-4509-b9fa-eb93a921b6ab
   sni: tw3.jueduibupao.top
   skip-cert-verify: true
@@ -208,41 +197,28 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇺🇸 United States | 🌐 | [IPv6] | [BL]
-  type: hysteria2
-  server: 134.195.101.199
-  port: 443
-  password: fadab0a4-861d-4ebf-89ac-c9b34aef631a
-  sni: www.apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
   - 🇸🇬SG_1
-  - 🇯🇵 机场推荐:dafei.de 日本 24 t.me/rjsxrd
-  - 🇭🇰 机场推荐:dafei.de 香港 08 t.me/rjsxrd
+  - 233boy-hysteria2-45.192.195.52 t.me/rjsxrd
   - 🌐سرور t.me/rjsxrd
   - 🌻32@oneclickvpnkeys t.me/rjsxrd
-  - 🇩🇪DE_11|1.6MB/s t.me/rjsxrd
   - 🇯🇵 日本 05 t.me/rjsxrd
-  - 🇯🇵 Japan, Shibuya City | [BL] t.me/rjsxrd
-  - 🇭🇰 Hong Kong, Central [🏴BL] t.me/rjsxrd
+  - '1851'
+  - 🇭🇰 Hong Kong, Central | [BL] t.me/rjsxrd
   - 🆓
   - ⭐
-  - 🇺🇸 美国 | USA t.me/rjsxrd
   - 🔒
   - 🇫🇷 France, Paris | 🌐 | [IPv6] | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
+  - 🇭🇰 Hong Kong, Hong Kong | [BL]
+  - 🇭🇰 Hong Kong, Hong Kong | [BL]
   - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇹🇼 Taiwan, Taipei | [BL]
   - 🇳🇱 The Netherlands, Amsterdam | [BL]
-  - 🇺🇸 United States | 🌐 | [IPv6] | [BL]
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
