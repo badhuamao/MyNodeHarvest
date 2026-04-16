@@ -1,21 +1,10 @@
 proxies:
-- name: 233boy-hysteria2-45.192.195.52 t.me/rjsxrd
+- name: 🇸🇬SG_1
   type: hysteria2
-  server: 45.192.195.52
-  port: 5555
-  password: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
-  sni: 45.192.195.52
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇩🇪 Germany, Bad Soden am Taunus (Neuenhain) | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: sde.dbp.qzz.io
-  port: 8443
-  password: fb211338854624f161f1Ea3D9584E2DEFE7c10A3
-  sni: dbp.qzz.io
+  server: vpn-sg-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-sg-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -54,12 +43,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇺🇸 美国 | USA
+- name: 🇯🇵 日本 05
   type: hysteria2
-  server: vpn-us-006.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-006.fastervpn.world
+  server: 151.241.130.90
+  port: 55000
+  password: 9d9519a0-7df0-42a4-a765-29512ab65f5c
+  sni: www.bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -87,6 +76,17 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🇩🇪 Germany, Bad Soden am Taunus (Neuenhain) | [BL]
+  type: hysteria2
+  server: sde.dbp.qzz.io
+  port: 8443
+  password: fb211338854624f161f1Ea3D9584E2DEFE7c10A3
+  sni: dbp.qzz.io
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: 🇩🇪 Germany, Berlin | [BL]
   type: hysteria2
   server: 83.243.86.103
@@ -103,7 +103,7 @@ proxies:
   server: 37.114.49.38
   port: 2056
   password: 4d092122-268a-4a1a-b23f-83931c5abc3a
-  sni: flkf.mangshe.xyz
+  sni: 37.114.49.38
   skip-cert-verify: true
   alpn:
   - h3
@@ -120,34 +120,23 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇭🇰 Hong Kong, Hong Kong | [BL]
-  type: hysteria2
-  server: hk3.jueduibupao.top
-  port: 43802
-  password: aa61a314-2d82-4509-b9fa-eb93a921b6ab
-  sni: hk3.jueduibupao.top
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇭🇰 Hong Kong, Hong Kong | [BL]
-  type: hysteria2
-  server: hk3.jueduibupao.top
-  port: 47441
-  password: aa61a314-2d82-4509-b9fa-eb93a921b6ab
-  sni: hk3.jueduibupao.top
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
   type: hysteria2
   server: fre.guren1.me
   port: 8443
   password: b2325ebb-21a3-46db-ae98-44884ef6dc44
   sni: python.org
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
+  type: hysteria2
+  server: iij.mggl.wang
+  port: 35789
+  password: 79d73809-f5ed-4099-8588-ba77578def1d
+  sni: iij.mggl.wang
   skip-cert-verify: true
   alpn:
   - h3
@@ -175,26 +164,37 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🇺🇸 United States | 🌐 | [IPv6] | [BL]
+  type: hysteria2
+  server: 134.195.101.199
+  port: 443
+  password: fadab0a4-861d-4ebf-89ac-c9b34aef631a
+  sni: www.apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 233boy-hysteria2-45.192.195.52 t.me/rjsxrd
-  - 🇩🇪 Germany, Bad Soden am Taunus (Neuenhain) | [BL] t.me/rjsxrd
+  - 🇸🇬SG_1
   - 🇯🇵 Japan, Shibuya City | [BL] t.me/rjsxrd
   - 🆓
   - ⭐
-  - 🇺🇸 美国 | USA
+  - 🇯🇵 日本 05
   - 🇫🇷 France, Paris | [BL]
   - 🇫🇷 France, Paris | 🌐 | [IPv6] | [BL]
+  - 🇩🇪 Germany, Bad Soden am Taunus (Neuenhain) | [BL]
   - 🇩🇪 Germany, Berlin | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
   - 🇭🇰 Hong Kong, Central | [BL]
-  - 🇭🇰 Hong Kong, Hong Kong | [BL]
-  - 🇭🇰 Hong Kong, Hong Kong | [BL]
   - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
+  - 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇳🇱 The Netherlands, Amsterdam | [BL]
+  - 🇺🇸 United States | 🌐 | [IPv6] | [BL]
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
