@@ -10,12 +10,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇸🇬SG_1
+- name: 233boy-hysteria2-45.192.195.52 t.me/rjsxrd
   type: hysteria2
-  server: vpn-sg-002.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-sg-002.fastervpn.world
+  server: 45.192.195.52
+  port: 5555
+  password: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
+  sni: 45.192.195.52
   skip-cert-verify: true
   alpn:
   - h3
@@ -32,12 +32,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇯🇵 机场推荐:dafei.de 日本 11 t.me/rjsxrd
+- name: 🇸🇬 机场推荐:dafei.de 新加坡 07 t.me/rjsxrd
   type: hysteria2
-  server: vpn-jp-001.fastervpn.world
+  server: vpn-sg-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-jp-001.fastervpn.world
+  sni: vpn-sg-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -87,6 +87,17 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: '0065'
+  type: hysteria2
+  server: fre.guren1.me
+  port: 8443
+  password: e795f042-4c9f-46d1-9d85-8816e0ff0cfb
+  sni: python.org
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: h@oneclickvpnkeys t.me/rjsxrd
   type: hysteria2
   server: 156.226.173.8
@@ -104,6 +115,28 @@ proxies:
   port: 444
   password: strong-secret-pass-777
   sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: ⭐
+  type: hysteria2
+  server: 45.12.134.57
+  port: 444
+  password: strong-secret-pass-777
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 8|@anonymouskeys
+  type: hysteria2
+  server: 20.230.191.53
+  port: 8443
+  password: 3780fcbcddd107f7d7c727eb18e28f4c
+  sni: 20.230.191.53
   skip-cert-verify: true
   alpn:
   - h3
@@ -131,17 +164,6 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
-  type: hysteria2
-  server: 37.114.49.38
-  port: 2056
-  password: 4d092122-268a-4a1a-b23f-83931c5abc3a
-  sni: flkf.mangshe.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 🇭🇰 Hong Kong, Central | [BL]
   type: hysteria2
   server: 12f7c432-t6t0g0-t87m8y-1pr35.hk1.hyhuawei.com
@@ -153,23 +175,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
+- name: 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
   type: hysteria2
-  server: 45.192.195.52
-  port: 5555
-  password: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
-  sni: 45.192.195.52
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
-  type: hysteria2
-  server: fre.guren1.me
-  port: 8443
-  password: b2325ebb-21a3-46db-ae98-44884ef6dc44
-  sni: python.org
+  server: iij.mggl.wang
+  port: 35789
+  password: 79d73809-f5ed-4099-8588-ba77578def1d
+  sni: iij.mggl.wang
   skip-cert-verify: true
   alpn:
   - h3
@@ -202,7 +213,7 @@ proxies:
   server: 144.31.224.14
   port: 443
   password: 123456789StrongPass
-  sni: 144.31.224.14
+  sni: www.cloudflare.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -268,21 +279,22 @@ proxy-groups:
   type: url-test
   proxies:
   - 🚹47@oneclickvpnkeys t.me/rjsxrd
-  - 🇸🇬SG_1
+  - 233boy-hysteria2-45.192.195.52 t.me/rjsxrd
   - 🚹1@oneclickvpnkeys t.me/rjsxrd
-  - 🇯🇵 机场推荐:dafei.de 日本 11 t.me/rjsxrd
+  - 🇸🇬 机场推荐:dafei.de 新加坡 07 t.me/rjsxrd
   - 🇺🇸 机场推荐:dafei.de 美国 07 t.me/rjsxrd
   - 🇺🇸 机场推荐:dafei.de 美国 03 t.me/rjsxrd
   - IQ
   - 🇺🇸 机场推荐:dafei.de 美国 03 t.me/rjsxrd
+  - '0065'
   - h@oneclickvpnkeys t.me/rjsxrd
   - ⭐
+  - ⭐
+  - 8|@anonymouskeys
   - 🇫🇷 France, Paris | 🌐 | [IPv6] | [BL]
   - 🇩🇪 Germany, Berlin | [BL]
-  - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
   - 🇭🇰 Hong Kong, Central | [BL]
-  - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
-  - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
+  - 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇰🇷 South Korea, Chuncheon-si | [BL]
   - 🇳🇱 The Netherlands, Amsterdam | [BL]
