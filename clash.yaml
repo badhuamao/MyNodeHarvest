@@ -1,15 +1,4 @@
 proxies:
-- name: 🇸🇬SG_1
-  type: hysteria2
-  server: vpn-sg-002.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-sg-002.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 233boy-hysteria2-45.192.195.52 t.me/rjsxrd
   type: hysteria2
   server: 45.192.195.52
@@ -32,28 +21,6 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: HK
-  type: hysteria2
-  server: 156.226.173.8
-  port: 8443
-  password: 9c23940e-efd8-4763-bfb5-54739b50893d
-  sni: hy5.hy2yydsapi.top
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: US
-  type: hysteria2
-  server: 46.38.157.183
-  port: 10004
-  password: fc4dd6fd-4a35-42f5-8208-bbb089747292
-  sni: 46.38.157.183
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 🇭🇰 机场推荐:dafei.de 香港 08 t.me/rjsxrd
   type: hysteria2
   server: fre.guren1.me
@@ -65,33 +32,11 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇺🇸 机场推荐:dafei.de 美国 07 t.me/rjsxrd
-  type: hysteria2
-  server: 46.38.157.183
-  port: 10003
-  password: a722e51b-325e-4238-a480-02fe7d0dab28
-  sni: 46.38.157.183
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: ⭐
   type: hysteria2
   server: 45.12.146.179
   port: 444
   password: strong-secret-pass-777
-  sni: www.microsoft.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇫🇷
-  type: hysteria2
-  server: 163.172.113.118
-  port: 41283
-  password: dongtaiwang.com
   sni: www.microsoft.com
   skip-cert-verify: true
   alpn:
@@ -142,34 +87,23 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇭🇰香港1号
-  type: hysteria2
-  server: 103.197.71.97
-  port: 50000
-  password: 8e8f0173-6426-4fed-94f6-580847c744f1
-  sni: www.hoyoverse.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇭🇰香港2号
-  type: hysteria2
-  server: 103.197.71.98
-  port: 50000
-  password: 8e8f0173-6426-4fed-94f6-580847c744f1
-  sni: www.hoyoverse.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 🇭🇰香港3号
   type: hysteria2
   server: 103.197.71.119
   port: 50000
   password: 8e8f0173-6426-4fed-94f6-580847c744f1
   sni: www.hoyoverse.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇷 France, Paris | [BL]
+  type: hysteria2
+  server: 163.172.113.118
+  port: 41283
+  password: dongtaiwang.com
+  sni: www.microsoft.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -213,7 +147,7 @@ proxies:
   server: 37.114.49.38
   port: 2056
   password: 4d092122-268a-4a1a-b23f-83931c5abc3a
-  sni: flkf.mangshe.xyz
+  sni: 37.114.49.38
   skip-cert-verify: true
   alpn:
   - h3
@@ -225,6 +159,17 @@ proxies:
   port: 443
   password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
   sni: 12f7c432-t6t0g0-t87m8y-1pr35.hk1.hyhuawei.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇭🇰 Hong Kong, Wan Chai | [BL]
+  type: hysteria2
+  server: 103.197.71.97
+  port: 50000
+  password: 8e8f0173-6426-4fed-94f6-580847c744f1
+  sni: www.hoyoverse.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -285,39 +230,6 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇺🇸 United States, Los Angeles | [BL]
-  type: hysteria2
-  server: 46.38.157.183
-  port: 10005
-  password: ab077d22-f952-45dd-843d-46ce0c60de19
-  sni: 46.38.157.183
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇺🇸 United States, Los Angeles | [BL]
-  type: hysteria2
-  server: 46.38.157.183
-  port: 10001
-  password: ca6a629c-7c7e-4ee4-84b5-ab8984fd9579
-  sni: 46.38.157.183
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇺🇸 United States, Los Angeles | [BL]
-  type: hysteria2
-  server: 46.38.157.183
-  port: 10002
-  password: f8815861-9fa8-48a9-83b1-086823aff16e
-  sni: 46.38.157.183
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 🌐 Anycast-IP | [IPv6] | [BL]
   type: hysteria2
   server: 178.18.147.66
@@ -333,35 +245,27 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 🇸🇬SG_1
   - 233boy-hysteria2-45.192.195.52 t.me/rjsxrd
   - FR
-  - HK
-  - US
   - 🇭🇰 机场推荐:dafei.de 香港 08 t.me/rjsxrd
-  - 🇺🇸 机场推荐:dafei.de 美国 07 t.me/rjsxrd
   - ⭐
-  - 🇫🇷
   - 🇺🇸美国洛杉矶1号
   - 🇺🇸美国洛杉矶3号
   - 🇺🇸美国凤凰城1号
   - 🇯🇵日本
-  - 🇭🇰香港1号
-  - 🇭🇰香港2号
   - 🇭🇰香港3号
+  - 🇫🇷 France, Paris | [BL]
   - 🇫🇷 France, Paris | 🌐 | [IPv6] | [BL]
   - 🇩🇪 Germany, Bad Soden am Taunus (Neuenhain) | [BL]
   - 🇩🇪 Germany, Berlin | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
   - 🇭🇰 Hong Kong, Central | [BL]
+  - 🇭🇰 Hong Kong, Wan Chai | [BL]
   - 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇰🇷 South Korea, Chuncheon-si | [BL]
   - 🇳🇱 The Netherlands, Amsterdam | [BL]
   - 🇳🇱 The Netherlands, Amsterdam (Amsterdam-Centrum) | [BL]
-  - 🇺🇸 United States, Los Angeles | [BL]
-  - 🇺🇸 United States, Los Angeles | [BL]
-  - 🇺🇸 United States, Los Angeles | [BL]
   - 🌐 Anycast-IP | [IPv6] | [BL]
   url: http://www.gstatic.com/generate_204
   interval: 300
