@@ -76,6 +76,17 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: h@oneclickvpnkeys t.me/rjsxrd
+  type: hysteria2
+  server: 156.226.173.8
+  port: 8443
+  password: 9c23940e-efd8-4763-bfb5-54739b50893d
+  sni: hy5.hy2yydsapi.top
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: t.me/rjsxrd
   type: hysteria2
   server: jpntt.sharecentre.online
@@ -87,12 +98,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇺🇸 机场推荐:dafei.de 美国 02 t.me/rjsxrd t.me/rjsxrd
+- name: 🇺🇸 机场推荐:dafei.de 美国 05 t.me/rjsxrd
   type: hysteria2
-  server: vpn-us-006.fastervpn.world
+  server: vpn-us-018.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-006.fastervpn.world
+  sni: vpn-us-018.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -115,6 +126,17 @@ proxies:
   port: 5443
   password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
   sni: hy2-jp.onetaplink.app
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇰🇷  South Korea  [037]  MIFA t.me/rjsxrd
+  type: hysteria2
+  server: 66yun-link1.66jc.xyz
+  port: 20001
+  password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
+  sni: hkzz.66jc.xyz
   skip-cert-verify: true
   alpn:
   - h3
@@ -355,19 +377,8 @@ proxies:
   type: hysteria2
   server: fre.guren1.me
   port: 8443
-  password: 88e7924f-d580-4779-ada8-cb3a457c7528
+  password: b2325ebb-21a3-46db-ae98-44884ef6dc44
   sni: python.org
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
-  type: hysteria2
-  server: iij.mggl.wang
-  port: 35789
-  password: 79d73809-f5ed-4099-8588-ba77578def1d
-  sni: iij.mggl.wang
   skip-cert-verify: true
   alpn:
   - h3
@@ -379,6 +390,17 @@ proxies:
   port: 50914
   password: 820409af-997a-41c4-9e51-46f373951a39
   sni: www.bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇹🇼 Taiwan, Taoyuan | [BL]
+  type: hysteria2
+  server: vpn-tw-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-tw-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -417,10 +439,12 @@ proxy-groups:
   - 🇯🇵JP_5|1.2MB/s t.me/rjsxrd
   - 0490
   - '1379'
+  - h@oneclickvpnkeys t.me/rjsxrd
   - t.me/rjsxrd
-  - 🇺🇸 机场推荐:dafei.de 美国 02 t.me/rjsxrd t.me/rjsxrd
+  - 🇺🇸 机场推荐:dafei.de 美国 05 t.me/rjsxrd
   - 🇨🇦 加拿大 | CAN t.me/rjsxrd
   - 🇯🇵 机场推荐:dafei.de 日本 12 t.me/rjsxrd
+  - 🇰🇷  South Korea  [037]  MIFA t.me/rjsxrd
   - t.me/rjsxrd
   - t.me/rjsxrd
   - t.me/rjsxrd
@@ -443,8 +467,8 @@ proxy-groups:
   - 🇩🇪 Germany, Frankfurt am Main | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
   - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
-  - 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
   - 🇰🇷 South Korea, Chuncheon-si | [BL]
+  - 🇹🇼 Taiwan, Taoyuan | [BL]
   - 🇳🇱 The Netherlands, Amsterdam | [BL]
   - 🌐 Anycast-IP | [IPv6] | [BL]
   url: http://www.gstatic.com/generate_204
