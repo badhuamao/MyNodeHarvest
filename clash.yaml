@@ -1,4 +1,15 @@
 proxies:
+- name: US
+  type: hysteria2
+  server: vpn-us-018.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-018.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: t.me/rjsxrd
   type: hysteria2
   server: 163.172.113.118
@@ -21,17 +32,6 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇸🇬SG_1
-  type: hysteria2
-  server: vpn-sg-002.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-sg-002.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 233boy-hysteria2-45.192.195.52 t.me/rjsxrd
   type: hysteria2
   server: 45.192.195.52
@@ -49,6 +49,17 @@ proxies:
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   sni: vpn-jp-016.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 0968
+  type: hysteria2
+  server: fre.guren1.me
+  port: 8443
+  password: e795f042-4c9f-46d1-9d85-8816e0ff0cfb
+  sni: python.org
   skip-cert-verify: true
   alpn:
   - h3
@@ -82,28 +93,6 @@ proxies:
   port: 4433
   password: sharecentrepro
   sni: jpntt.sharecentre.online
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: ⭐
-  type: hysteria2
-  server: 45.149.114.75
-  port: 444
-  password: strong-secret-pass-777
-  sni: www.microsoft.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: ⭐
-  type: hysteria2
-  server: 85.208.108.63
-  port: 444
-  password: strong-secret-pass-777
-  sni: www.microsoft.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -285,21 +274,21 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇫🇷 France, Paris | [BL]
+- name: 🇯🇵
   type: hysteria2
-  server: 163.172.113.118
-  port: 41283
-  password: dongtaiwang.com
-  sni: www.microsoft.com
+  server: jp-hy2.onetaplink.app
+  port: 5443
+  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
+  sni: hy2-jp.onetaplink.app
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇫🇷 France, Paris | 🌐 | [IPv6] | [BL]
+- name: 🇫🇷 France, Paris | [BL]
   type: hysteria2
-  server: 62.210.124.146
-  port: 22000
+  server: 163.172.113.118
+  port: 41283
   password: dongtaiwang.com
   sni: www.microsoft.com
   skip-cert-verify: true
@@ -324,17 +313,6 @@ proxies:
   port: 2056
   password: 4d092122-268a-4a1a-b23f-83931c5abc3a
   sni: 37.114.49.38
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
-  type: hysteria2
-  server: fre.guren1.me
-  port: 8443
-  password: 88e7924f-d580-4779-ada8-cb3a457c7528
-  sni: python.org
   skip-cert-verify: true
   alpn:
   - h3
@@ -399,16 +377,15 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
+  - US
   - t.me/rjsxrd
   - t.me/rjsxrd
-  - 🇸🇬SG_1
   - 233boy-hysteria2-45.192.195.52 t.me/rjsxrd
   - 0579
+  - 0968
   - '1665'
   - h@oneclickvpnkeys t.me/rjsxrd
   - t.me/rjsxrd
-  - ⭐
-  - ⭐
   - t.me/rjsxrd
   - t.me/rjsxrd
   - t.me/rjsxrd
@@ -425,11 +402,10 @@ proxy-groups:
   - t.me/rjsxrd
   - t.me/rjsxrd
   - t.me/rjsxrd
+  - 🇯🇵
   - 🇫🇷 France, Paris | [BL]
-  - 🇫🇷 France, Paris | 🌐 | [IPv6] | [BL]
   - 🇩🇪 Germany, Berlin | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
-  - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
   - 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
   - 🇰🇷 South Korea, Chuncheon-si | [BL]
   - 🇳🇱 The Netherlands, Amsterdam | [BL]
