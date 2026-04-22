@@ -1,16 +1,16 @@
 proxies:
-- name: 🇭🇰 机场推荐:dafei.de 香港 02 t.me/rjsxrd
+- name: 🇸🇬SG_1
   type: hysteria2
-  server: 45.192.195.52
-  port: 5555
-  password: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
-  sni: 45.192.195.52
+  server: vpn-sg-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-sg-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: FR_1|1.0MB/s t.me/rjsxrd
+- name: 🇫🇷 机场推荐:dafei.de 法国 02 t.me/rjsxrd
   type: hysteria2
   server: 163.172.113.118
   port: 40022
@@ -21,18 +21,18 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇯🇵 机场推荐:dafei.de 日本 14 t.me/rjsxrd
+- name: JP_4|515KB/s t.me/rjsxrd
   type: hysteria2
-  server: vpn-jp-005.fastervpn.world
+  server: vpn-jp-011.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-jp-005.fastervpn.world
+  sni: vpn-jp-011.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇻🇳 机场推荐:dafei.de 越南 01 t.me/rjsxrd
+- name: 🇻🇳VN_1|2.5MB/s t.me/rjsxrd
   type: hysteria2
   server: vpn-vn-001.fastervpn.world
   port: 443
@@ -43,18 +43,7 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇸🇬SG_6|9.3MB/s t.me/rjsxrd
-  type: hysteria2
-  server: vpn-sg-001.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-sg-001.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇯🇵JP_4|6.1MB/s t.me/rjsxrd
+- name: 🇯🇵JP_3|4.9MB/s t.me/rjsxrd
   type: hysteria2
   server: vpn-jp-004.fastervpn.world
   port: 443
@@ -65,18 +54,18 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇹🇼TW_1|3.0MB/s t.me/rjsxrd
+- name: 🇸🇬SG_1|4.9MB/s t.me/rjsxrd
   type: hysteria2
-  server: vpn-tw-001.fastervpn.world
+  server: vpn-sg-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-tw-001.fastervpn.world
+  sni: vpn-sg-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇸🇬SG_4|5.8MB/s t.me/rjsxrd
+- name: 🇸🇬SG_2|4.7MB/s t.me/rjsxrd
   type: hysteria2
   server: vpn-sg-003.fastervpn.world
   port: 443
@@ -87,12 +76,34 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: '2622'
+- name: 🇯🇵JP_2|7.3MB/s t.me/rjsxrd
   type: hysteria2
-  server: sde.dbp.qzz.io
-  port: 8443
-  password: fb211338854624f161f1Ea3D9584E2DEFE7c10A3
-  sni: dbp.qzz.io
+  server: vpn-jp-003.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-jp-003.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇯🇵JP_1|7.0MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-jp-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-jp-002.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '0062'
+  type: hysteria2
+  server: 45.192.195.52
+  port: 5555
+  password: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
+  sni: 45.192.195.52
   skip-cert-verify: true
   alpn:
   - h3
@@ -104,17 +115,6 @@ proxies:
   port: 8443
   password: 9c23940e-efd8-4763-bfb5-54739b50893d
   sni: hy5.hy2yydsapi.top
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: JP_4|515KB/s
-  type: hysteria2
-  server: vpn-jp-011.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-jp-011.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -142,6 +142,17 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🇩🇪 Germany, Bad Soden am Taunus (Neuenhain) | [BL]
+  type: hysteria2
+  server: sde.dbp.qzz.io
+  port: 8443
+  password: fb211338854624f161f1Ea3D9584E2DEFE7c10A3
+  sni: dbp.qzz.io
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: 🇩🇪 Germany, Berlin | [BL]
   type: hysteria2
   server: 83.243.86.103
@@ -164,23 +175,23 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
+- name: 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
   type: hysteria2
-  server: 37.114.49.38
-  port: 2056
-  password: 4d092122-268a-4a1a-b23f-83931c5abc3a
-  sni: flkf.mangshe.xyz
+  server: fre.guren1.me
+  port: 8443
+  password: e795f042-4c9f-46d1-9d85-8816e0ff0cfb
+  sni: python.org
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
+- name: 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
   type: hysteria2
-  server: fre.guren1.me
-  port: 8443
-  password: 88e7924f-d580-4779-ada8-cb3a457c7528
-  sni: python.org
+  server: iij.mggl.wang
+  port: 35789
+  password: 79d73809-f5ed-4099-8588-ba77578def1d
+  sni: iij.mggl.wang
   skip-cert-verify: true
   alpn:
   - h3
@@ -203,6 +214,17 @@ proxies:
   port: 50914
   password: 820409af-997a-41c4-9e51-46f373951a39
   sni: www.bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇹🇼 Taiwan, Taoyuan | [BL]
+  type: hysteria2
+  server: vpn-tw-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-tw-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -234,25 +256,27 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 🇭🇰 机场推荐:dafei.de 香港 02 t.me/rjsxrd
-  - FR_1|1.0MB/s t.me/rjsxrd
-  - 🇯🇵 机场推荐:dafei.de 日本 14 t.me/rjsxrd
-  - 🇻🇳 机场推荐:dafei.de 越南 01 t.me/rjsxrd
-  - 🇸🇬SG_6|9.3MB/s t.me/rjsxrd
-  - 🇯🇵JP_4|6.1MB/s t.me/rjsxrd
-  - 🇹🇼TW_1|3.0MB/s t.me/rjsxrd
-  - 🇸🇬SG_4|5.8MB/s t.me/rjsxrd
-  - '2622'
+  - 🇸🇬SG_1
+  - 🇫🇷 机场推荐:dafei.de 法国 02 t.me/rjsxrd
+  - JP_4|515KB/s t.me/rjsxrd
+  - 🇻🇳VN_1|2.5MB/s t.me/rjsxrd
+  - 🇯🇵JP_3|4.9MB/s t.me/rjsxrd
+  - 🇸🇬SG_1|4.9MB/s t.me/rjsxrd
+  - 🇸🇬SG_2|4.7MB/s t.me/rjsxrd
+  - 🇯🇵JP_2|7.3MB/s t.me/rjsxrd
+  - 🇯🇵JP_1|7.0MB/s t.me/rjsxrd
+  - '0062'
   - h@oneclickvpnkeys t.me/rjsxrd
-  - JP_4|515KB/s
   - 🇫🇷 France, Paris | [BL]
   - 🇫🇷 France, Paris | 🌐 | [IPv6] | [BL]
+  - 🇩🇪 Germany, Bad Soden am Taunus (Neuenhain) | [BL]
   - 🇩🇪 Germany, Berlin | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | [BL]
-  - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
   - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
+  - 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇰🇷 South Korea, Chuncheon-si | [BL]
+  - 🇹🇼 Taiwan, Taoyuan | [BL]
   - 🇳🇱 The Netherlands, Amsterdam | [BL]
   - 🌐 Anycast-IP | [IPv6] | [BL]
   url: http://www.gstatic.com/generate_204
