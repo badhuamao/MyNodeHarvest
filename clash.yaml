@@ -1,15 +1,4 @@
 proxies:
-- name: 🇸🇬SG_1
-  type: hysteria2
-  server: vpn-sg-002.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-sg-002.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 🇫🇷 机场推荐:dafei.de 法国 02 t.me/rjsxrd
   type: hysteria2
   server: 163.172.113.118
@@ -109,12 +98,34 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: h@oneclickvpnkeys t.me/rjsxrd
+- name: '0126'
   type: hysteria2
-  server: 156.226.173.8
+  server: sde.dbp.qzz.io
   port: 8443
-  password: 9c23940e-efd8-4763-bfb5-54739b50893d
-  sni: hy5.hy2yydsapi.top
+  password: fb211338854624f161f1Ea3D9584E2DEFE7c10A3
+  sni: dbp.qzz.io
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇩🇪 德国 | DEU
+  type: hysteria2
+  server: vpn-de-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇪🇸
+  type: hysteria2
+  server: vpn-uk-004.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-uk-004.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -136,28 +147,6 @@ proxies:
   server: 62.210.124.146
   port: 22000
   password: dongtaiwang.com
-  sni: www.microsoft.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇩🇪 Germany, Bad Soden am Taunus (Neuenhain) | [BL]
-  type: hysteria2
-  server: sde.dbp.qzz.io
-  port: 8443
-  password: fb211338854624f161f1Ea3D9584E2DEFE7c10A3
-  sni: dbp.qzz.io
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇩🇪 Germany, Berlin | [BL]
-  type: hysteria2
-  server: 83.243.86.103
-  port: 12855
-  password: github.com%2FAlvin9999-newpac%2Ffanqiang
   sni: www.microsoft.com
   skip-cert-verify: true
   alpn:
@@ -241,6 +230,17 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🌐 Anycast-IP | [BL]
+  type: hysteria2
+  server: 83.243.86.103
+  port: 12855
+  password: github.com%2FAlvin9999-newpac%2Ffanqiang
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: 🌐 Anycast-IP | [IPv6] | [BL]
   type: hysteria2
   server: 178.18.147.66
@@ -252,11 +252,21 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🌐 Anycast-IP | [IPv6] | [BL]
+  type: hysteria2
+  server: 83.243.86.103
+  port: 38563
+  password: github.com%2FAlvin9999-newpac%2Ffanqiang
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 🇸🇬SG_1
   - 🇫🇷 机场推荐:dafei.de 法国 02 t.me/rjsxrd
   - JP_4|515KB/s t.me/rjsxrd
   - 🇻🇳VN_1|2.5MB/s t.me/rjsxrd
@@ -266,11 +276,11 @@ proxy-groups:
   - 🇯🇵JP_2|7.3MB/s t.me/rjsxrd
   - 🇯🇵JP_1|7.0MB/s t.me/rjsxrd
   - '0062'
-  - h@oneclickvpnkeys t.me/rjsxrd
+  - '0126'
+  - 🇩🇪 德国 | DEU
+  - 🇪🇸
   - 🇫🇷 France, Paris | [BL]
   - 🇫🇷 France, Paris | 🌐 | [IPv6] | [BL]
-  - 🇩🇪 Germany, Bad Soden am Taunus (Neuenhain) | [BL]
-  - 🇩🇪 Germany, Berlin | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | [BL]
   - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
   - 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
@@ -278,6 +288,8 @@ proxy-groups:
   - 🇰🇷 South Korea, Chuncheon-si | [BL]
   - 🇹🇼 Taiwan, Taoyuan | [BL]
   - 🇳🇱 The Netherlands, Amsterdam | [BL]
+  - 🌐 Anycast-IP | [BL]
+  - 🌐 Anycast-IP | [IPv6] | [BL]
   - 🌐 Anycast-IP | [IPv6] | [BL]
   url: http://www.gstatic.com/generate_204
   interval: 300
