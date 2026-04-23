@@ -10,6 +10,17 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🇯🇵 机场推荐:dafei.de 日本 01 t.me/rjsxrd
+  type: hysteria2
+  server: vpn-jp-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-jp-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: JP_4|515KB/s t.me/rjsxrd
   type: hysteria2
   server: vpn-jp-011.fastervpn.world
@@ -109,43 +120,10 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇩🇪 德国 | DEU
-  type: hysteria2
-  server: vpn-de-002.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇪🇸
-  type: hysteria2
-  server: vpn-uk-004.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-uk-004.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 🇫🇷 France, Paris | [BL]
   type: hysteria2
   server: 163.172.113.118
   port: 41283
-  password: dongtaiwang.com
-  sni: www.microsoft.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇫🇷 France, Paris | 🌐 | [IPv6] | [BL]
-  type: hysteria2
-  server: 62.210.124.146
-  port: 22000
   password: dongtaiwang.com
   sni: www.microsoft.com
   skip-cert-verify: true
@@ -164,23 +142,23 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
+  type: hysteria2
+  server: 37.114.49.38
+  port: 2056
+  password: 4d092122-268a-4a1a-b23f-83931c5abc3a
+  sni: flkf.mangshe.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
   type: hysteria2
   server: fre.guren1.me
   port: 8443
   password: e795f042-4c9f-46d1-9d85-8816e0ff0cfb
   sni: python.org
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
-  type: hysteria2
-  server: iij.mggl.wang
-  port: 35789
-  password: 79d73809-f5ed-4099-8588-ba77578def1d
-  sni: iij.mggl.wang
   skip-cert-verify: true
   alpn:
   - h3
@@ -224,7 +202,29 @@ proxies:
   server: 144.31.224.14
   port: 443
   password: 123456789StrongPass
-  sni: www.cloudflare.com
+  sni: 144.31.224.14
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇬🇧 United Kingdom, London | [BL]
+  type: hysteria2
+  server: vpn-uk-004.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-uk-004.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸 United States, Manassas | [BL]
+  type: hysteria2
+  server: 152.53.54.139
+  port: 36002
+  password: a50a83bd-1fe8-4dd4-ba55-48f80190f527
+  sni: hk1.zongyunti.site
   skip-cert-verify: true
   alpn:
   - h3
@@ -234,17 +234,6 @@ proxies:
   type: hysteria2
   server: 83.243.86.103
   port: 12855
-  password: github.com%2FAlvin9999-newpac%2Ffanqiang
-  sni: www.microsoft.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🌐 Anycast-IP | [IPv6] | [BL]
-  type: hysteria2
-  server: 178.18.147.66
-  port: 29900
   password: github.com%2FAlvin9999-newpac%2Ffanqiang
   sni: www.microsoft.com
   skip-cert-verify: true
@@ -268,6 +257,7 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇫🇷 机场推荐:dafei.de 法国 02 t.me/rjsxrd
+  - 🇯🇵 机场推荐:dafei.de 日本 01 t.me/rjsxrd
   - JP_4|515KB/s t.me/rjsxrd
   - 🇻🇳VN_1|2.5MB/s t.me/rjsxrd
   - 🇯🇵JP_3|4.9MB/s t.me/rjsxrd
@@ -277,19 +267,17 @@ proxy-groups:
   - 🇯🇵JP_1|7.0MB/s t.me/rjsxrd
   - '0062'
   - '0126'
-  - 🇩🇪 德国 | DEU
-  - 🇪🇸
   - 🇫🇷 France, Paris | [BL]
-  - 🇫🇷 France, Paris | 🌐 | [IPv6] | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | [BL]
+  - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
   - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
-  - 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇰🇷 South Korea, Chuncheon-si | [BL]
   - 🇹🇼 Taiwan, Taoyuan | [BL]
   - 🇳🇱 The Netherlands, Amsterdam | [BL]
+  - 🇬🇧 United Kingdom, London | [BL]
+  - 🇺🇸 United States, Manassas | [BL]
   - 🌐 Anycast-IP | [BL]
-  - 🌐 Anycast-IP | [IPv6] | [BL]
   - 🌐 Anycast-IP | [IPv6] | [BL]
   url: http://www.gstatic.com/generate_204
   interval: 300
