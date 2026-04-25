@@ -1,15 +1,4 @@
 proxies:
-- name: 🇺🇸 机场推荐:dafei.de 美国 05 t.me/rjsxrd
-  type: hysteria2
-  server: usa-hy2.onetaplink.app
-  port: 443
-  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-  sni: hy2-usa.onetaplink.app
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: FR_1|1.0MB/s t.me/rjsxrd
   type: hysteria2
   server: 163.172.113.118
@@ -54,17 +43,6 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇯🇵 机场推荐:dafei.de 日本 05 t.me/rjsxrd
-  type: hysteria2
-  server: vpn-jp-002.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-jp-002.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 🇯🇵 机场推荐:dafei.de 日本 06 t.me/rjsxrd
   type: hysteria2
   server: vpn-jp-003.fastervpn.world
@@ -98,17 +76,6 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: AT
-  type: hysteria2
-  server: 152.53.54.139
-  port: 36002
-  password: a50a83bd-1fe8-4dd4-ba55-48f80190f527
-  sni: hk1.zongyunti.site
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: DE
   type: hysteria2
   server: vpn-de-001.fastervpn.world
@@ -126,17 +93,6 @@ proxies:
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   sni: vpn-au-001.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇯🇵 机场推荐:dafei.de 日本 05 t.me/rjsxrd
-  type: hysteria2
-  server: jp1.dexlos.com
-  port: 20039
-  password: A537EA13-778F-4967-953F-EE29617B8E55
-  sni: jp1.dexlos.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -241,12 +197,78 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🔒
+- name: 🇰🇷 韩国 | KOR t.me/rjsxrd
   type: hysteria2
-  server: 167.234.249.46
-  port: 444
-  password: sysadmin.sysadmin
-  sni: a.961229.xyz
+  server: vpn-kr-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-kr-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 'C - 🇭🇰 HK 19 TG: @nodpai'
+  type: hysteria2
+  server: zz.66jc.xyz
+  port: 20003
+  password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
+  sni: hkzz.66jc.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 'B - 🇺🇸 US 06 TG: @nodpai'
+  type: hysteria2
+  server: vpn-us-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-002.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇰🇷KR_4|2.0MB/s
+  type: hysteria2
+  server: vpn-kr-003.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-kr-003.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 'B - 🇺🇸 US 10 TG: @nodpai'
+  type: hysteria2
+  server: vpn-us-018.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-018.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 'B - 🇺🇸 US 11 TG: @nodpai'
+  type: hysteria2
+  server: vpn-us-003.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: KR_6|2.0MB/s|1.6MB/s
+  type: hysteria2
+  server: vpn-kr-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-kr-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -263,34 +285,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇨🇦CA_1|1.3MB/s
+- name: 🇨🇦
   type: hysteria2
-  server: vpn-ca-001.fastervpn.world
+  server: vpn-ca-002.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-ca-001.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'B - 🇸🇬 SG 13 TG: @nodpai'
-  type: hysteria2
-  server: vpn-sg-001.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-sg-001.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇬🇧
-  type: hysteria2
-  server: vpn-uk-001.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-uk-001.fastervpn.world
+  sni: vpn-ca-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -324,6 +324,17 @@ proxies:
   port: 2056
   password: 4d092122-268a-4a1a-b23f-83931c5abc3a
   sni: 37.114.49.38
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇭🇰 Hong Kong, Central | [BL]
+  type: hysteria2
+  server: 22f48047-t6pb40-tasftf-duku.hk1.hyhuawei.com
+  port: 443
+  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  sni: 22f48047-t6pb40-tasftf-duku.hk1.hyhuawei.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -400,7 +411,7 @@ proxies:
   server: 144.31.224.14
   port: 443
   password: 123456789StrongPass
-  sni: 144.31.224.14
+  sni: www.cloudflare.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -421,19 +432,15 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 🇺🇸 机场推荐:dafei.de 美国 05 t.me/rjsxrd
   - FR_1|1.0MB/s t.me/rjsxrd
   - 🇦🇺 机场推荐:dafei.de 澳大利亚 01 t.me/rjsxrd
   - 🇩🇪 机场推荐:dafei.de 德国 01 t.me/rjsxrd
   - 🇫🇷 机场推荐:dafei.de 法国 01 t.me/rjsxrd
-  - 🇯🇵 机场推荐:dafei.de 日本 05 t.me/rjsxrd
   - 🇯🇵 机场推荐:dafei.de 日本 06 t.me/rjsxrd
   - 🇬🇧 机场推荐:dafei.de 英国 02 t.me/rjsxrd
   - 🇺🇸 机场推荐:dafei.de 美国 07 t.me/rjsxrd
-  - AT
   - DE
   - AU
-  - 🇯🇵 机场推荐:dafei.de 日本 05 t.me/rjsxrd
   - JP_4|515KB/s t.me/rjsxrd
   - 🇬🇧 机场推荐:dafei.de 英国 02 t.me/rjsxrd
   - '1049'
@@ -443,14 +450,19 @@ proxy-groups:
   - 🆓
   - ⭐
   - 🇫🇷 法国 | FRA t.me/rjsxrd
-  - 🔒
+  - 🇰🇷 韩国 | KOR t.me/rjsxrd
+  - 'C - 🇭🇰 HK 19 TG: @nodpai'
+  - 'B - 🇺🇸 US 06 TG: @nodpai'
+  - 🇰🇷KR_4|2.0MB/s
+  - 'B - 🇺🇸 US 10 TG: @nodpai'
+  - 'B - 🇺🇸 US 11 TG: @nodpai'
+  - KR_6|2.0MB/s|1.6MB/s
   - 'A - 🇺🇸 US 02 TG: @nodpai'
-  - 🇨🇦CA_1|1.3MB/s
-  - 'B - 🇸🇬 SG 13 TG: @nodpai'
-  - 🇬🇧
+  - 🇨🇦
   - 🇩🇪 Germany, Berlin | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
+  - 🇭🇰 Hong Kong, Central | [BL]
   - 🇭🇰 Hong Kong, Central | [BL]
   - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
