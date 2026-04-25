@@ -76,12 +76,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇯🇵JP_4
+- name: 🇸🇬SG_2
   type: hysteria2
-  server: vpn-jp-001.fastervpn.world
+  server: vpn-sg-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-jp-001.fastervpn.world
+  sni: vpn-sg-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -115,17 +115,6 @@ proxies:
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   sni: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇦🇺AU_1|3.3MB/s t.me/rjsxrd
-  type: hysteria2
-  server: vpn-au-002.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-au-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -170,6 +159,17 @@ proxies:
   port: 7081
   password: d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a
   sni: rzd.ru
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: h@oneclickvpnkeys t.me/rjsxrd
+  type: hysteria2
+  server: 156.226.173.8
+  port: 8443
+  password: 9c23940e-efd8-4763-bfb5-54739b50893d
+  sni: hy5.hy2yydsapi.top
   skip-cert-verify: true
   alpn:
   - h3
@@ -329,17 +329,6 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇩🇪 Germany, Berlin | [BL]
-  type: hysteria2
-  server: 83.243.86.103
-  port: 12855
-  password: github.com%2FAlvin9999-newpac%2Ffanqiang
-  sni: www.microsoft.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 🇩🇪 Germany, Frankfurt am Main | [BL]
   type: hysteria2
   server: 72.56.122.195
@@ -356,7 +345,40 @@ proxies:
   server: 37.114.49.38
   port: 2056
   password: 4d092122-268a-4a1a-b23f-83931c5abc3a
-  sni: 37.114.49.38
+  sni: flkf.mangshe.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
+  type: hysteria2
+  server: fre.guren1.me
+  port: 8443
+  password: c3a8753e-317e-479e-bee7-01adf5e2af7e
+  sni: python.org
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇭🇰 Hong Kong, Wan Chai | [BL]
+  type: hysteria2
+  server: 103.197.71.118
+  port: 35000
+  password: 99c91f05-4cd3-4021-8aa8-c70fdc4ff1b5
+  sni: www.lamer.com.hk
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇯🇵 Japan, Chiyoda City | [BL]
+  type: hysteria2
+  server: vpn-jp-010.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-jp-010.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -400,18 +422,7 @@ proxies:
   server: 144.31.224.14
   port: 443
   password: 123456789StrongPass
-  sni: 144.31.224.14
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇬🇧 United Kingdom, London | [BL]
-  type: hysteria2
-  server: vpn-uk-004.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-uk-004.fastervpn.world
+  sni: www.cloudflare.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -428,12 +439,23 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇻🇳 Vietnam, Quận Bốn | [BL]
+- name: 🌐 Anycast-IP | [BL]
   type: hysteria2
-  server: vpn-vn-001.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-vn-001.fastervpn.world
+  server: yy.xbs54as9c6.ru
+  port: 8041
+  password: 75356919-6ece-455c-ba7a-9f042a60d2c5
+  sni: market.yandex.ru
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🌐 Anycast-IP | [BL]
+  type: hysteria2
+  server: 83.243.86.103
+  port: 12855
+  password: github.com%2FAlvin9999-newpac%2Ffanqiang
+  sni: www.microsoft.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -443,6 +465,17 @@ proxies:
   type: hysteria2
   server: 178.18.147.66
   port: 29900
+  password: github.com%2FAlvin9999-newpac%2Ffanqiang
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🌐 Anycast-IP | [IPv6] | [BL]
+  type: hysteria2
+  server: 83.243.86.103
+  port: 38563
   password: github.com%2FAlvin9999-newpac%2Ffanqiang
   sni: www.microsoft.com
   skip-cert-verify: true
@@ -461,15 +494,15 @@ proxy-groups:
   - TW
   - FR
   - 🇯🇵JP_1
-  - 🇯🇵JP_4
+  - 🇸🇬SG_2
   - 🇮🇳IN_1|4.9MB/s t.me/rjsxrd
   - 🇩🇪DE_1|3.3MB/s t.me/rjsxrd
   - 🇩🇪DE_3|3.4MB/s t.me/rjsxrd
-  - 🇦🇺AU_1|3.3MB/s t.me/rjsxrd
   - 🇬🇧GB_1|3.3MB/s t.me/rjsxrd
   - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL] t.me/rjsxrd
   - 🇩🇪 Germany | 🌐 | [IPv6] [*CIDR] t.me/rjsxrd
   - 🇩🇪 Germany | 🌐 | [IPv6] [*CIDR] t.me/rjsxrd
+  - h@oneclickvpnkeys t.me/rjsxrd
   - 🇩🇪 Germany | 🌐 | [IPv6] [SNI-RU] live.ok.ru t.me/rjsxrd
   - 🇩🇪 Germany | 🌐 | [IPv6] [SNI-RU] rzd.ru t.me/rjsxrd
   - 🌐 Anycast-IP | [IPv6] [SNI-RU] rbc.ru t.me/rjsxrd
@@ -484,16 +517,19 @@ proxy-groups:
   - 🇺🇸 美国 | USA t.me/rjsxrd
   - JP_4|515KB/s
   - 🇫🇷 France, Paris | [BL]
-  - 🇩🇪 Germany, Berlin | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
+  - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
+  - 🇭🇰 Hong Kong, Wan Chai | [BL]
+  - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇯🇵 Japan, Shibuya City | [BL]
   - 🇰🇷 South Korea, Chuncheon-si | [BL]
   - 🇳🇱 The Netherlands, Amsterdam | [BL]
-  - 🇬🇧 United Kingdom, London | [BL]
   - 🇺🇸 United States, Manassas | [BL]
-  - 🇻🇳 Vietnam, Quận Bốn | [BL]
+  - 🌐 Anycast-IP | [BL]
+  - 🌐 Anycast-IP | [BL]
+  - 🌐 Anycast-IP | [IPv6] | [BL]
   - 🌐 Anycast-IP | [IPv6] | [BL]
   url: http://www.gstatic.com/generate_204
   interval: 300
