@@ -10,28 +10,6 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇹🇼TW_1|1.0MB/s t.me/rjsxrd
-  type: hysteria2
-  server: vpn-tw-001.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-tw-001.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'B - 🇯🇵 JP 15 TG: @nodpai t.me/rjsxrd'
-  type: hysteria2
-  server: 151.241.130.90
-  port: 55000
-  password: 9d9519a0-7df0-42a4-a765-29512ab65f5c
-  sni: www.bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 🏁 未知-91A68973|1.6MB/s|2.4MB/s t.me/rjsxrd
   type: hysteria2
   server: vpn-de-001.fastervpn.world
@@ -81,6 +59,17 @@ proxies:
   server: 163.172.113.118
   port: 40022
   password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇬🇧GB_2|1.3MB/s t.me/rjsxrd
+  type: hysteria2
+  server: 45.140.167.209
+  port: 444
+  password: strong-secret-pass-777
   sni: www.microsoft.com
   skip-cert-verify: true
   alpn:
@@ -241,45 +230,34 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 'B - 🇯🇵 JP 02 TG: @nodpai t.me/rjsxrd'
+- name: 🇨🇦 加拿大 | CAN t.me/rjsxrd
   type: hysteria2
-  server: jp-hy2.onetaplink.app
-  port: 5443
-  password: 48b36b6a-eaa6-4843-9231-0bb8b38b5da5
-  sni: hy2-jp.onetaplink.app
+  server: vpn-ca-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-ca-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🔒
+- name: 'A - 🇺🇸 US 02 TG: @nodpai'
   type: hysteria2
-  server: 167.234.249.46
-  port: 444
-  password: sysadmin.sysadmin
-  sni: a.961229.xyz
+  server: vpn-us-017.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-017.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇬🇧
+- name: 'B - 🇺🇸 US 04 TG: @nodpai'
   type: hysteria2
-  server: douk.388898.xyz
-  port: 31809
-  password: 992af1b9-8494-4d6e-8d41-4cf1a20ea618
-  sni: douk.388898.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇳🇱
-  type: hysteria2
-  server: nrealistic.nn-foto.ru
-  port: 8932
-  password: rstnnl:7ltZBmta4ahLenTIoywBy3R1Z1PV7ZGf
-  sni: nrealistic.nn-foto.ru
+  server: vpn-us-020.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-020.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -301,7 +279,7 @@ proxies:
   server: 72.56.122.195
   port: 443
   password: hysteria_master_password
-  sni: www.bing.com
+  sni: google.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -346,6 +324,17 @@ proxies:
   port: 8443
   password: c3a8753e-317e-479e-bee7-01adf5e2af7e
   sni: python.org
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
+  type: hysteria2
+  server: 151.241.130.90
+  port: 55000
+  password: 9d9519a0-7df0-42a4-a765-29512ab65f5c
+  sni: www.bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -406,6 +395,28 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🇹🇼 Taiwan, Taoyuan | [BL]
+  type: hysteria2
+  server: vpn-tw-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-tw-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇹🇼 Taiwan, Yuanlin | [BL]
+  type: hysteria2
+  server: seednet-2.388898.xyz
+  port: 13005
+  password: 992af1b9-8494-4d6e-8d41-4cf1a20ea618
+  sni: www.bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: 🇳🇱 The Netherlands, Amsterdam | [BL]
   type: hysteria2
   server: 144.31.224.14
@@ -455,13 +466,12 @@ proxy-groups:
   type: url-test
   proxies:
   - 'C - 🇭🇰 HK 23 TG: @nodpai t.me/rjsxrd'
-  - 🇹🇼TW_1|1.0MB/s t.me/rjsxrd
-  - 'B - 🇯🇵 JP 15 TG: @nodpai t.me/rjsxrd'
   - 🏁 未知-91A68973|1.6MB/s|2.4MB/s t.me/rjsxrd
   - 🇬🇧GB_1|1.1MB/s t.me/rjsxrd
   - 🇺🇸US_2|1001KB/s t.me/rjsxrd
   - 🇺🇸US_3|1.4MB/s t.me/rjsxrd
   - 🇫🇷FR_1|1.8MB/s t.me/rjsxrd
+  - 🇬🇧GB_2|1.3MB/s t.me/rjsxrd
   - 🇬🇧GB_4|2.2MB/s t.me/rjsxrd
   - FR
   - US_4|1.4MB/s t.me/rjsxrd
@@ -476,21 +486,23 @@ proxy-groups:
   - '0664'
   - '1628'
   - 🇹🇼 Taiwan, Yuanlin | [BL] t.me/rjsxrd
-  - 'B - 🇯🇵 JP 02 TG: @nodpai t.me/rjsxrd'
-  - 🔒
-  - 🇬🇧
-  - 🇳🇱
+  - 🇨🇦 加拿大 | CAN t.me/rjsxrd
+  - 'A - 🇺🇸 US 02 TG: @nodpai'
+  - 'B - 🇺🇸 US 04 TG: @nodpai'
   - 🇫🇷 France, Paris | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | [BL]
   - 🇭🇰 Hong Kong, Central | [BL]
   - 🇭🇰 Hong Kong, Central | [BL]
   - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
   - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
+  - 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇰🇷 South Korea, Chuncheon-si | [BL]
+  - 🇹🇼 Taiwan, Taoyuan | [BL]
+  - 🇹🇼 Taiwan, Yuanlin | [BL]
   - 🇳🇱 The Netherlands, Amsterdam | [BL]
   - 🌐 Anycast-IP | [BL]
   - 🌐 Anycast-IP | [IPv6] | [BL]
