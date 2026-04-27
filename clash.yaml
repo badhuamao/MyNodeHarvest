@@ -1,38 +1,27 @@
 proxies:
-- name: 'C - 🇭🇰 HK 23 TG: @nodpai t.me/rjsxrd'
+- name: 'B - 🇹🇼 TW 01 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
-  server: zz.66jc.xyz
-  port: 20003
-  password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
-  sni: hkzz.66jc.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🏁 未知-91A68973|1.6MB/s|2.4MB/s t.me/rjsxrd
-  type: hysteria2
-  server: vpn-de-001.fastervpn.world
+  server: vpn-tw-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-de-001.fastervpn.world
+  sni: vpn-tw-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇬🇧GB_1|1.1MB/s t.me/rjsxrd
+- name: 'B - 🇺🇸 US 04 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
-  server: vpn-uk-002.fastervpn.world
+  server: vpn-us-020.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-uk-002.fastervpn.world
+  sni: vpn-us-020.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇺🇸US_2|1001KB/s t.me/rjsxrd
+- name: 'B - 🇺🇸 US 09 TG: @nodpai|1.7MB... t.me/rjsxrd'
   type: hysteria2
   server: vpn-us-005.fastervpn.world
   port: 443
@@ -43,40 +32,7 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇺🇸US_3|1.4MB/s t.me/rjsxrd
-  type: hysteria2
-  server: vpn-us-001.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-001.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇫🇷FR_1|1.8MB/s t.me/rjsxrd
-  type: hysteria2
-  server: 163.172.113.118
-  port: 40022
-  password: dongtaiwang.com
-  sni: www.microsoft.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇬🇧GB_2|1.3MB/s t.me/rjsxrd
-  type: hysteria2
-  server: 45.140.167.209
-  port: 444
-  password: strong-secret-pass-777
-  sni: www.microsoft.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇬🇧GB_4|2.2MB/s t.me/rjsxrd
+- name: 🇬🇧 英国 | GBR 5|2.0MB/s t.me/rjsxrd
   type: hysteria2
   server: vpn-uk-001.fastervpn.world
   port: 443
@@ -87,7 +43,18 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: FR
+- name: 🇺🇸US_4|2.1MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-us-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇷FR_1|1.9MB/s t.me/rjsxrd
   type: hysteria2
   server: vpn-fr-002.fastervpn.world
   port: 443
@@ -98,40 +65,62 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: US_4|1.4MB/s t.me/rjsxrd
+- name: JP
   type: hysteria2
-  server: vpn-us-016.fastervpn.world
+  server: vpn-jp-003.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-016.fastervpn.world
+  sni: vpn-jp-003.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 'B - 🇺🇸 US 10 TG: @nodpai t.me/rjsxrd'
+- name: JP
   type: hysteria2
-  server: vpn-us-018.fastervpn.world
+  server: vpn-jp-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-018.fastervpn.world
+  sni: vpn-jp-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 'B - 🇺🇸 US 10 TG: @nodpai t.me/rjsxrd'
+- name: DE
   type: hysteria2
-  server: vpn-us-006.fastervpn.world
+  server: vpn-de-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-006.fastervpn.world
+  sni: vpn-de-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇰🇷KR_3|2.6MB/s t.me/rjsxrd
+- name: 🇫🇷FR_1|1.6MB/s t.me/rjsxrd
+  type: hysteria2
+  server: 163.172.113.118
+  port: 40022
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇰🇷KR_6|1.5MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-kr-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-kr-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇰🇷KR_5|2.0MB/s t.me/rjsxrd
   type: hysteria2
   server: vpn-kr-003.fastervpn.world
   port: 443
@@ -142,9 +131,53 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 0148
+- name: 🏁 未知-0453A371|1.8MB/s t.me/rjsxrd
   type: hysteria2
-  server: tn.xbs54as9c6.ru
+  server: vpn-us-003.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸 美国 | USA|1.3MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-us-004.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-004.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 'B - 🇺🇸 US 04 TG: @nodpai t.me/rjsxrd'
+  type: hysteria2
+  server: vpn-us-006.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-006.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 'B - 🇺🇸 US 05 TG: @nodpai t.me/rjsxrd'
+  type: hysteria2
+  server: vpn-us-018.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-018.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '0043'
+  type: hysteria2
+  server: tg.xbs54as9c6.ru
   port: 443
   password: d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a
   sni: live.ok.ru
@@ -153,40 +186,29 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 0209
+- name: 0198
   type: hysteria2
-  server: tg.xbs54as9c6.ru
-  port: 7081
-  password: d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a
-  sni: rzd.ru
+  server: seednet-2.388898.xyz
+  port: 13003
+  password: 992af1b9-8494-4d6e-8d41-4cf1a20ea618
+  sni: www.bing.com
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 0286
-  type: hysteria2
-  server: yy.xbs54as9c6.ru
-  port: 443
-  password: d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a
-  sni: rbc.ru
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 0383
+- name: '0246'
   type: hysteria2
   server: yy.xbs54as9c6.ru
   port: 8002
-  password: 75356919-6ece-455c-ba7a-9f042a60d2c5
+  password: d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a
   sni: rbc.ru
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 0495
+- name: 0248
   type: hysteria2
   server: tn.xbs54as9c6.ru
   port: 7081
@@ -197,34 +219,78 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: '0664'
+- name: 0538
+  type: hysteria2
+  server: tn.xbs54as9c6.ru
+  port: 443
+  password: 75356919-6ece-455c-ba7a-9f042a60d2c5
+  sni: live.ok.ru
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '0607'
+  type: hysteria2
+  server: yy.xbs54as9c6.ru
+  port: 443
+  password: d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a
+  sni: rbc.ru
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 0785
   type: hysteria2
   server: yy.xbs54as9c6.ru
   port: 8041
-  password: 75356919-6ece-455c-ba7a-9f042a60d2c5
+  password: d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a
   sni: market.yandex.ru
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: '1628'
+- name: '1606'
   type: hysteria2
   server: tg.xbs54as9c6.ru
-  port: 443
-  password: d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a
-  sni: live.ok.ru
+  port: 7081
+  password: 75356919-6ece-455c-ba7a-9f042a60d2c5
+  sni: rzd.ru
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇹🇼 Taiwan, Yuanlin | [BL] t.me/rjsxrd
+- name: 🆓
   type: hysteria2
-  server: seednet-2.388898.xyz
-  port: 13003
-  password: 992af1b9-8494-4d6e-8d41-4cf1a20ea618
-  sni: www.bing.com
+  server: 45.140.167.209
+  port: 444
+  password: strong-secret-pass-777
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: ⭐
+  type: hysteria2
+  server: 45.15.140.128
+  port: 444
+  password: strong-secret-pass-777
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: ⭐
+  type: hysteria2
+  server: 45.12.134.57
+  port: 444
+  password: strong-secret-pass-777
+  sni: www.microsoft.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -241,23 +307,34 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 'A - 🇺🇸 US 02 TG: @nodpai'
+- name: 🇩🇪 德国 | DEU t.me/rjsxrd
   type: hysteria2
-  server: vpn-us-017.fastervpn.world
+  server: vpn-de-002.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-017.fastervpn.world
+  sni: vpn-de-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 'B - 🇺🇸 US 04 TG: @nodpai'
+- name: 🔒
   type: hysteria2
-  server: vpn-us-020.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-020.fastervpn.world
+  server: 167.234.249.46
+  port: 444
+  password: sysadmin.sysadmin
+  sni: a.961229.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇹🇼 🇨🇳 台湾 | TWN
+  type: hysteria2
+  server: seednet-2.388898.xyz
+  port: 13001
+  password: 992af1b9-8494-4d6e-8d41-4cf1a20ea618
+  sni: www.bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -280,6 +357,17 @@ proxies:
   port: 443
   password: hysteria_master_password
   sni: google.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
+  type: hysteria2
+  server: 37.114.49.38
+  port: 2056
+  password: 4d092122-268a-4a1a-b23f-83931c5abc3a
+  sni: flkf.mangshe.xyz
   skip-cert-verify: true
   alpn:
   - h3
@@ -322,19 +410,8 @@ proxies:
   type: hysteria2
   server: fre.guren1.me
   port: 8443
-  password: c3a8753e-317e-479e-bee7-01adf5e2af7e
+  password: e795f042-4c9f-46d1-9d85-8816e0ff0cfb
   sni: python.org
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
-  type: hysteria2
-  server: 151.241.130.90
-  port: 55000
-  password: 9d9519a0-7df0-42a4-a765-29512ab65f5c
-  sni: www.bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -395,21 +472,21 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇹🇼 Taiwan, Taoyuan | [BL]
+- name: 🇹🇼 Taiwan, Fengyuan | [BL]
   type: hysteria2
-  server: vpn-tw-001.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-tw-001.fastervpn.world
+  server: seednet-2.388898.xyz
+  port: 13005
+  password: 992af1b9-8494-4d6e-8d41-4cf1a20ea618
+  sni: www.bing.com
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇹🇼 Taiwan, Yuanlin | [BL]
+- name: 🇹🇼 Taiwan, Fengyuan | [BL]
   type: hysteria2
   server: seednet-2.388898.xyz
-  port: 13005
+  port: 13006
   password: 992af1b9-8494-4d6e-8d41-4cf1a20ea618
   sni: www.bing.com
   skip-cert-verify: true
@@ -465,44 +542,51 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 'C - 🇭🇰 HK 23 TG: @nodpai t.me/rjsxrd'
-  - 🏁 未知-91A68973|1.6MB/s|2.4MB/s t.me/rjsxrd
-  - 🇬🇧GB_1|1.1MB/s t.me/rjsxrd
-  - 🇺🇸US_2|1001KB/s t.me/rjsxrd
-  - 🇺🇸US_3|1.4MB/s t.me/rjsxrd
-  - 🇫🇷FR_1|1.8MB/s t.me/rjsxrd
-  - 🇬🇧GB_2|1.3MB/s t.me/rjsxrd
-  - 🇬🇧GB_4|2.2MB/s t.me/rjsxrd
-  - FR
-  - US_4|1.4MB/s t.me/rjsxrd
-  - 'B - 🇺🇸 US 10 TG: @nodpai t.me/rjsxrd'
-  - 'B - 🇺🇸 US 10 TG: @nodpai t.me/rjsxrd'
-  - 🇰🇷KR_3|2.6MB/s t.me/rjsxrd
-  - 0148
-  - 0209
-  - 0286
-  - 0383
-  - 0495
-  - '0664'
-  - '1628'
-  - 🇹🇼 Taiwan, Yuanlin | [BL] t.me/rjsxrd
+  - 'B - 🇹🇼 TW 01 TG: @nodpai t.me/rjsxrd'
+  - 'B - 🇺🇸 US 04 TG: @nodpai t.me/rjsxrd'
+  - 'B - 🇺🇸 US 09 TG: @nodpai|1.7MB... t.me/rjsxrd'
+  - 🇬🇧 英国 | GBR 5|2.0MB/s t.me/rjsxrd
+  - 🇺🇸US_4|2.1MB/s t.me/rjsxrd
+  - 🇫🇷FR_1|1.9MB/s t.me/rjsxrd
+  - JP
+  - JP
+  - DE
+  - 🇫🇷FR_1|1.6MB/s t.me/rjsxrd
+  - 🇰🇷KR_6|1.5MB/s t.me/rjsxrd
+  - 🇰🇷KR_5|2.0MB/s t.me/rjsxrd
+  - 🏁 未知-0453A371|1.8MB/s t.me/rjsxrd
+  - 🇺🇸 美国 | USA|1.3MB/s t.me/rjsxrd
+  - 'B - 🇺🇸 US 04 TG: @nodpai t.me/rjsxrd'
+  - 'B - 🇺🇸 US 05 TG: @nodpai t.me/rjsxrd'
+  - '0043'
+  - 0198
+  - '0246'
+  - 0248
+  - 0538
+  - '0607'
+  - 0785
+  - '1606'
+  - 🆓
+  - ⭐
+  - ⭐
   - 🇨🇦 加拿大 | CAN t.me/rjsxrd
-  - 'A - 🇺🇸 US 02 TG: @nodpai'
-  - 'B - 🇺🇸 US 04 TG: @nodpai'
+  - 🇩🇪 德国 | DEU t.me/rjsxrd
+  - 🔒
+  - 🇹🇼 🇨🇳 台湾 | TWN
   - 🇫🇷 France, Paris | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | [BL]
+  - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
   - 🇭🇰 Hong Kong, Central | [BL]
   - 🇭🇰 Hong Kong, Central | [BL]
   - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
   - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
-  - 🇯🇵 Japan | 🌐 | [IPv6] | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇰🇷 South Korea, Chuncheon-si | [BL]
-  - 🇹🇼 Taiwan, Taoyuan | [BL]
-  - 🇹🇼 Taiwan, Yuanlin | [BL]
+  - 🇹🇼 Taiwan, Fengyuan | [BL]
+  - 🇹🇼 Taiwan, Fengyuan | [BL]
   - 🇳🇱 The Netherlands, Amsterdam | [BL]
   - 🌐 Anycast-IP | [BL]
   - 🌐 Anycast-IP | [IPv6] | [BL]
