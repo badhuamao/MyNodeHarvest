@@ -1,5 +1,5 @@
 proxies:
-- name: 'B - 🇺🇸 US 10 TG: @nodpai t.me/rjsxrd'
+- name: 'B - 🇺🇸 US 12 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
   server: vpn-us-002.fastervpn.world
   port: 443
@@ -10,51 +10,7 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 'B - 🇺🇸 US 13 TG: @nodpai t.me/rjsxrd'
-  type: hysteria2
-  server: vpn-us-005.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-005.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'B - 🇺🇸 US 15 TG: @nodpai t.me/rjsxrd'
-  type: hysteria2
-  server: vpn-us-006.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-006.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'B - 🇺🇸 US 19 TG: @nodpai t.me/rjsxrd'
-  type: hysteria2
-  server: vpn-us-004.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-004.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'B - 🇺🇸 US 21 TG: @nodpai t.me/rjsxrd'
-  type: hysteria2
-  server: vpn-us-003.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-003.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'B - 🇺🇸 US 31 TG: @nodpai t.me/rjsxrd'
+- name: 'B - 🇺🇸 US 20 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
   server: vpn-us-001.fastervpn.world
   port: 443
@@ -65,23 +21,23 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 'A - 🇩🇪 DE 06 TG: @nodpai t.me/rjsxrd'
+- name: 'B - 🇺🇸 US 22 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
-  server: vpn-de-002.fastervpn.world
+  server: vpn-us-004.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-de-002.fastervpn.world
+  sni: vpn-us-004.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 'B - 🇫🇷 FR 03 TG: @nodpai t.me/rjsxrd'
+- name: 🇩🇪DE_1|1.2MB/s t.me/rjsxrd
   type: hysteria2
-  server: 163.172.113.118
-  port: 40022
-  password: dongtaiwang.com
-  sni: www.microsoft.com
+  server: vpn-de-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-de-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -98,18 +54,29 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: AU_1|2.1MB/s t.me/rjsxrd
+- name: KR_1|1.6MB/s t.me/rjsxrd
   type: hysteria2
-  server: vpn-au-002.fastervpn.world
+  server: vpn-kr-003.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-au-002.fastervpn.world
+  sni: vpn-kr-003.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇩🇪DE_1|1.8MB/s t.me/rjsxrd
+- name: 'B - 🇺🇸 US 20 TG: @nodpai t.me/rjsxrd'
+  type: hysteria2
+  server: vpn-us-003.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇩🇪DE_1|3.3MB/s t.me/rjsxrd
   type: hysteria2
   server: vpn-de-001.fastervpn.world
   port: 443
@@ -131,34 +98,34 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇯🇵JP_3|2.3MB/s
+- name: 🔒
   type: hysteria2
-  server: jpaws.ccwink.photos
-  port: 6533
-  password: f8af73ed-363a-4dfb-b99f-65bd8ad1a329
-  sni: jpdigital.ccwink.cc
+  server: 167.234.249.46
+  port: 444
+  password: sysadmin.sysadmin
+  sni: a.961229.xyz
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇸🇬SG_1|1.2MB/s
+- name: 🇨🇳 机场推荐:dafei.de 台湾 02
   type: hysteria2
-  server: hkaws.ccwink.photos
-  port: 52348
-  password: f8af73ed-363a-4dfb-b99f-65bd8ad1a329
-  sni: sgdigital.ccwink.cc
+  server: 5gzdx.233235.xyz
+  port: 8080
+  password: 748f9f2b-0b3a-4480-87c4-4bdefa909757
+  sni: 5gzdx.233235.xyz
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇸🇬SG_2|1.2MB/s
+- name: 🇫🇷 France, Paris | [BL]
   type: hysteria2
-  server: jpaws.ccwink.photos
-  port: 52348
-  password: f8af73ed-363a-4dfb-b99f-65bd8ad1a329
-  sni: sgdigital.ccwink.cc
+  server: 163.172.113.118
+  port: 40022
+  password: dongtaiwang.com
+  sni: www.microsoft.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -186,34 +153,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
-  type: hysteria2
-  server: 37.114.49.38
-  port: 2056
-  password: 4d092122-268a-4a1a-b23f-83931c5abc3a
-  sni: flkf.mangshe.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
   type: hysteria2
   server: 45.192.195.52
   port: 5555
   password: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
   sni: 45.192.195.52
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
-  type: hysteria2
-  server: fre.guren1.me
-  port: 8443
-  password: c3a8753e-317e-479e-bee7-01adf5e2af7e
-  sni: python.org
   skip-cert-verify: true
   alpn:
   - h3
@@ -333,25 +278,20 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 'B - 🇺🇸 US 10 TG: @nodpai t.me/rjsxrd'
-  - 'B - 🇺🇸 US 13 TG: @nodpai t.me/rjsxrd'
-  - 'B - 🇺🇸 US 15 TG: @nodpai t.me/rjsxrd'
-  - 'B - 🇺🇸 US 19 TG: @nodpai t.me/rjsxrd'
-  - 'B - 🇺🇸 US 21 TG: @nodpai t.me/rjsxrd'
-  - 'B - 🇺🇸 US 31 TG: @nodpai t.me/rjsxrd'
-  - 'A - 🇩🇪 DE 06 TG: @nodpai t.me/rjsxrd'
-  - 'B - 🇫🇷 FR 03 TG: @nodpai t.me/rjsxrd'
+  - 'B - 🇺🇸 US 12 TG: @nodpai t.me/rjsxrd'
+  - 'B - 🇺🇸 US 20 TG: @nodpai t.me/rjsxrd'
+  - 'B - 🇺🇸 US 22 TG: @nodpai t.me/rjsxrd'
+  - 🇩🇪DE_1|1.2MB/s t.me/rjsxrd
   - GB
-  - AU_1|2.1MB/s t.me/rjsxrd
-  - 🇩🇪DE_1|1.8MB/s t.me/rjsxrd
+  - KR_1|1.6MB/s t.me/rjsxrd
+  - 'B - 🇺🇸 US 20 TG: @nodpai t.me/rjsxrd'
+  - 🇩🇪DE_1|3.3MB/s t.me/rjsxrd
   - 🇻🇳 Vietnam, Quận Bốn | [BL] t.me/rjsxrd
-  - 🇯🇵JP_3|2.3MB/s
-  - 🇸🇬SG_1|1.2MB/s
-  - 🇸🇬SG_2|1.2MB/s
+  - 🔒
+  - 🇨🇳 机场推荐:dafei.de 台湾 02
+  - 🇫🇷 France, Paris | [BL]
   - 🇫🇷 France, Paris | [BL]
   - 🇩🇪 Germany, Frankfurt am Main | [BL]
-  - 🇩🇪 Germany, Frankfurt am Main | 🌐 | [IPv6] | [BL]
-  - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
   - 🇭🇰 Hong Kong, Hong Kong | 🌐 | [IPv6] | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
