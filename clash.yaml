@@ -1,10 +1,10 @@
 proxies:
-- name: 'C - 🇯🇵 JP 04 TG: @nodpai t.me/rjsxrd'
+- name: 'B - 🇭🇰 HK 02 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
-  server: vpn-jp-018.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-jp-018.fastervpn.world
+  server: zz.66jc.xyz
+  port: 20003
+  password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
+  sni: hkzz.66jc.xyz
   skip-cert-verify: true
   alpn:
   - h3
@@ -21,12 +21,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 'B - 🇺🇸 US 11 TG: @nodpai t.me/rjsxrd'
+- name: 'B - 🇺🇸 US 12 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
-  server: vpn-us-004.fastervpn.world
+  server: vpn-us-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-004.fastervpn.world
+  sni: vpn-us-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -76,12 +76,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🌞74@oneclickvpnkeys t.me/rjsxrd
+- name: US
   type: hysteria2
-  server: vpn-de-002.fastervpn.world
+  server: vpn-us-002.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-de-002.fastervpn.world
+  sni: vpn-us-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -89,10 +89,21 @@ proxies:
   down: '100'
 - name: US
   type: hysteria2
-  server: vpn-us-002.fastervpn.world
+  server: vpn-us-006.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-002.fastervpn.world
+  sni: vpn-us-006.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: KR
+  type: hysteria2
+  server: vpn-kr-003.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-kr-003.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -109,21 +120,21 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 'C - 🇯🇵 JP 25 TG: @nodpai t.me/rjsxrd'
+- name: 🇯🇵JP_2
   type: hysteria2
-  server: vpn-jp-002.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-jp-002.fastervpn.world
+  server: jpaws.ccwink.photos
+  port: 6533
+  password: f8af73ed-363a-4dfb-b99f-65bd8ad1a329
+  sni: jpaws.ccwink.photos
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇯🇵JP_2
+- name: 🇸🇬SG_1
   type: hysteria2
   server: jpaws.ccwink.photos
-  port: 6533
+  port: 52348
   password: f8af73ed-363a-4dfb-b99f-65bd8ad1a329
   sni: jpaws.ccwink.photos
   skip-cert-verify: true
@@ -164,17 +175,6 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🏳️ ShatakVPN 322774 t.me/rjsxrd
-  type: hysteria2
-  server: 3.124.12.194
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 🏳️ ShatakVPN 288079 t.me/rjsxrd
   type: hysteria2
   server: 18.195.203.186
@@ -197,34 +197,78 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🏳️ ShatakVPN 855481 t.me/rjsxrd
+- name: 🇮🇳 印度 | IND t.me/rjsxrd
   type: hysteria2
-  server: 3.70.157.226
+  server: vpn-in-002.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-de-002.fastervpn.world
+  sni: vpn-in-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇸🇬 新加坡 | SGP t.me/rjsxrd
+- name: 🇦🇹 Austria, Vienna | [BL]
   type: hysteria2
-  server: sg09.453521.xyz
-  port: 8080
-  password: 748f9f2b-0b3a-4480-87c4-4bdefa909757
-  sni: sg09.453521.xyz
+  server: 5.181.21.132
+  port: 1935
+  password: hysteria2_fastlane_qonu84fei%3AW52eKOzIwNbnbbiT9WphlbLD40M3NEww
+  sni: at1.h.smartaisupport.ru
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇸🇬 新加坡 | SGP t.me/rjsxrd
+- name: 🇨🇿 Czechia, Prague | [BL]
   type: hysteria2
-  server: jpaws.ccwink.photos
-  port: 52348
-  password: f8af73ed-363a-4dfb-b99f-65bd8ad1a329
-  sni: sgdigital.ccwink.cc
+  server: cz.washing.help
+  port: 443
+  password: hy2_o3qkn50k%3AkvRaY1alT0dNK3JZkr6Z09uAQ2Zcyhzk
+  sni: cz.washing.help
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇮 Finland, Helsinki | [BL]
+  type: hysteria2
+  server: fn.washing.help
+  port: 443
+  password: hy2_o3qkn50k%3AekNHSgzBNss3PIvPPmSxUvWqG6dlA6fI
+  sni: fn.washing.help
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇮 Finland, Helsinki | [BL]
+  type: hysteria2
+  server: washing.help
+  port: 443
+  password: hy2_o3qkn50k%3AZjQvFzETUDLUl12RPzcdtueXpBpFDmUN
+  sni: washing.help
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇮 Finland, Helsinki | [BL]
+  type: hysteria2
+  server: 64.188.107.79
+  port: 1935
+  password: hysteria2_fastlane_gznjmjmn8%3A3y7UHn4GieLWxnE3udqlwd4pQzFPb1U2
+  sni: fn1.h.fastlanehosting.ru
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇷 France, Paris | [BL]
+  type: hysteria2
+  server: fr.verymad.net
+  port: 23661
+  password: 811f37e7-5dfd-4e41-a176-aae13c364252
+  sni: fr.verymad.net
   skip-cert-verify: true
   alpn:
   - h3
@@ -254,10 +298,10 @@ proxies:
   down: '100'
 - name: 🇫🇷 France, Paris | [BL]
   type: hysteria2
-  server: 163.172.113.118
-  port: 41947
-  password: dongtaiwang.com
-  sni: www.microsoft.com
+  server: hy.fr.cleanersaz.help
+  port: 443
+  password: hy2_o3qkn50k%3AlyN5GDzh8GpdG0EUHcaNjGYQh5ADiwfn
+  sni: hy.fr.cleanersaz.help
   skip-cert-verify: true
   alpn:
   - h3
@@ -509,7 +553,7 @@ proxies:
   type: hysteria2
   server: fre.guren1.me
   port: 8443
-  password: c3a8753e-317e-479e-bee7-01adf5e2af7e
+  password: e795f042-4c9f-46d1-9d85-8816e0ff0cfb
   sni: python.org
   skip-cert-verify: true
   alpn:
@@ -549,6 +593,17 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🇨🇭 Switzerland, Bern | 🌐 | [IPv6] | [BL]
+  type: hysteria2
+  server: 150.241.78.128
+  port: 1935
+  password: hysteria2_fastlane_lw4wiu7pv%3ANsrmLKav8Jnd4sDVHwHkB4Lp04fIYb1Q
+  sni: de9.h.fastlanehosting.ru
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: 🇹🇼 Taiwan, Taoyuan | [BL]
   type: hysteria2
   server: vpn-tw-001.fastervpn.world
@@ -566,6 +621,61 @@ proxies:
   port: 443
   password: 123456789StrongPass
   sni: www.cloudflare.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇳🇱 The Netherlands, Amsterdam (Amsterdam-Centrum) | [BL]
+  type: hysteria2
+  server: 144.31.134.98
+  port: 1935
+  password: hysteria2_fastlane_b05om36k3%3AxyB3yoYgFbhJQK4fQCKtaKAlUevd0P32
+  sni: nl1.h.smartaisupport.ru
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇬🇧 United Kingdom, Coventry | 🌐 | [IPv6] | [BL]
+  type: hysteria2
+  server: 91.132.160.243
+  port: 1935
+  password: hysteria2_fastlane_48eimommj%3A69Aibfmy1d2dgXu0Vt751VavSl0rJGyw
+  sni: de6.h.fastlanehosting.ru
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇬🇧 United Kingdom, London | [BL]
+  type: hysteria2
+  server: gb.cleanersaz.help
+  port: 443
+  password: hy2_o3qkn50k%3AZMoiU0jihcJtepMQ5aBRhHjfP5BD379E
+  sni: gb.cleanersaz.help
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇬🇧 United Kingdom, London | [BL]
+  type: hysteria2
+  server: gb2.cleanersaz.help
+  port: 443
+  password: hy2_o3qkn50k%3AZMoiU0jihcJtepMQ5aBRhHjfP5BD379E
+  sni: gb2.cleanersaz.help
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸 United States, Secaucus | [BL]
+  type: hysteria2
+  server: us3.washing.help
+  port: 443
+  password: hy2_o3qkn50k%3AhaTs3koPa4LsveLxOAhojORDZpxEWV4V
+  sni: us3.washing.help
   skip-cert-verify: true
   alpn:
   - h3
@@ -608,27 +718,31 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 'C - 🇯🇵 JP 04 TG: @nodpai t.me/rjsxrd'
+  - 'B - 🇭🇰 HK 02 TG: @nodpai t.me/rjsxrd'
   - 'B - 🇺🇸 US 09 TG: @nodpai t.me/rjsxrd'
-  - 'B - 🇺🇸 US 11 TG: @nodpai t.me/rjsxrd'
+  - 'B - 🇺🇸 US 12 TG: @nodpai t.me/rjsxrd'
   - 🇺🇸US_4|1.1MB/s t.me/rjsxrd
   - 'B - 🇬🇧 GB 03 TG: @nodpai t.me/rjsxrd'
   - 'B - 🇫🇷 FR 02 TG: @nodpai t.me/rjsxrd'
   - 'B - 🇻🇳 VN 01 TG: @nodpai t.me/rjsxrd'
-  - 🌞74@oneclickvpnkeys t.me/rjsxrd
   - US
+  - US
+  - KR
   - DE_1|2.2MB/s t.me/rjsxrd
-  - 'C - 🇯🇵 JP 25 TG: @nodpai t.me/rjsxrd'
   - 🇯🇵JP_2
+  - 🇸🇬SG_1
   - 'A - 🇸🇬 SG 01 TG: @nodpai t.me/rjsxrd'
   - 'B - 🇬🇧 GB 03 TG: @nodpai t.me/rjsxrd'
   - 'B - 🇫🇷 FR 04 TG: @nodpai t.me/rjsxrd'
-  - 🏳️ ShatakVPN 322774 t.me/rjsxrd
   - 🏳️ ShatakVPN 288079 t.me/rjsxrd
   - 🏳️ ShatakVPN 942798 t.me/rjsxrd
-  - 🏳️ ShatakVPN 855481 t.me/rjsxrd
-  - 🇸🇬 新加坡 | SGP t.me/rjsxrd
-  - 🇸🇬 新加坡 | SGP t.me/rjsxrd
+  - 🇮🇳 印度 | IND t.me/rjsxrd
+  - 🇦🇹 Austria, Vienna | [BL]
+  - 🇨🇿 Czechia, Prague | [BL]
+  - 🇫🇮 Finland, Helsinki | [BL]
+  - 🇫🇮 Finland, Helsinki | [BL]
+  - 🇫🇮 Finland, Helsinki | [BL]
+  - 🇫🇷 France, Paris | [BL]
   - 🇫🇷 France, Paris | [BL]
   - 🇫🇷 France, Paris | [BL]
   - 🇫🇷 France, Paris | [BL]
@@ -658,8 +772,14 @@ proxy-groups:
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
   - 🇯🇵 Japan, Chiyoda City | [BL]
+  - 🇨🇭 Switzerland, Bern | 🌐 | [IPv6] | [BL]
   - 🇹🇼 Taiwan, Taoyuan | [BL]
   - 🇳🇱 The Netherlands, Amsterdam | [BL]
+  - 🇳🇱 The Netherlands, Amsterdam (Amsterdam-Centrum) | [BL]
+  - 🇬🇧 United Kingdom, Coventry | 🌐 | [IPv6] | [BL]
+  - 🇬🇧 United Kingdom, London | [BL]
+  - 🇬🇧 United Kingdom, London | [BL]
+  - 🇺🇸 United States, Secaucus | [BL]
   - 🌐 Anycast-IP | [BL]
   - 🌐 Anycast-IP | [IPv6] | [BL]
   - 🌐 Anycast-IP | [IPv6] | [BL]
