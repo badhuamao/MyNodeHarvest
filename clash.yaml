@@ -10,12 +10,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🎈66@oneclickvpnkeys t.me/rjsxrd
+- name: 'C - 🇺🇸 US 65 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
-  server: vpn-sg-002.fastervpn.world
+  server: vpn-us-005.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-sg-002.fastervpn.world
+  sni: vpn-us-005.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -43,12 +43,23 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇰🇷KR_1
+- name: 🇯🇵 机场推荐:dafei.de 日本 01 t.me/rjsxrd
   type: hysteria2
-  server: vpn-kr-003.fastervpn.world
+  server: vpn-jp-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-kr-003.fastervpn.world
+  sni: vpn-jp-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇩🇪DE_1
+  type: hysteria2
+  server: vpn-de-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-de-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -70,10 +81,11 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US_4|1.9MB/s t.me/rjsxrd
-  - 🎈66@oneclickvpnkeys t.me/rjsxrd
+  - 'C - 🇺🇸 US 65 TG: @nodpai t.me/rjsxrd'
   - 🎈68@oneclickvpnkeys t.me/rjsxrd
   - 🇫🇷 机场推荐:dafei.de 法国 04 t.me/rjsxrd
-  - 🇰🇷KR_1
+  - 🇯🇵 机场推荐:dafei.de 日本 01 t.me/rjsxrd
+  - 🇩🇪DE_1
   - 0951
   url: http://www.gstatic.com/generate_204
   interval: 300
