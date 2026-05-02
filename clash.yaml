@@ -43,6 +43,17 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 'C - 🇭🇰 HK 14 TG: @nodpai t.me/rjsxrd'
+  type: hysteria2
+  server: zz.66jc.xyz
+  port: 20003
+  password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
+  sni: hkzz.66jc.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: t.me/rjsxrd
   type: hysteria2
   server: 163.172.113.118
@@ -76,23 +87,23 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: '3853'
+  type: hysteria2
+  server: vpn-de-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: t.me/rjsxrd
   type: hysteria2
   server: jpntt.sharecentre.online
   port: 4433
   password: sharecentrepro
   sni: jpntt.sharecentre.online
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'B - 🇫🇷 FR 04 TG: @nodpai|1.8MB... t.me/rjsxrd t.me/rjsxrd'
-  type: hysteria2
-  server: vpn-fr-002.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-fr-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -271,11 +282,12 @@ proxy-groups:
   - 'B - 🇺🇸 US 40 TG: @nodpai t.me/rjsxrd'
   - 🇩🇪DE_1
   - 🇺🇸US_3
+  - 'C - 🇭🇰 HK 14 TG: @nodpai t.me/rjsxrd'
   - t.me/rjsxrd
   - t.me/rjsxrd
   - VN_1|1.3MB/s t.me/rjsxrd
+  - '3853'
   - t.me/rjsxrd
-  - 'B - 🇫🇷 FR 04 TG: @nodpai|1.8MB... t.me/rjsxrd t.me/rjsxrd'
   - t.me/rjsxrd
   - t.me/rjsxrd
   - t.me/rjsxrd
