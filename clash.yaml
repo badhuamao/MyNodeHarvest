@@ -32,23 +32,23 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇰🇷KR_1
-  type: hysteria2
-  server: vpn-kr-003.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-kr-003.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: t.me/rjsxrd
   type: hysteria2
   server: 45.81.19.251
   port: 443
   password: DBUklcvOyH
   sni: 45.81.19.251
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸 United States | 🌐 | [IPv6] | [BL] t.me/rjsxrd
+  type: hysteria2
+  server: 154.26.186.98
+  port: 8443
+  password: sdd512
+  sni: www.bing.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -65,12 +65,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: ORANGE-JPN-HY2 t.me/rjsxrd
+- name: ⭐
   type: hysteria2
-  server: vps-orange-jpn.maze-maker.com
-  port: 8443
-  password: XKuFgZiq27oj
-  sni: vps-orange-jpn.maze-maker.com
+  server: 45.12.134.57
+  port: 444
+  password: strong-secret-pass-777
+  sni: www.microsoft.com
   skip-cert-verify: true
   alpn:
   - h3
@@ -197,6 +197,17 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🔒
+  type: hysteria2
+  server: 167.234.249.46
+  port: 444
+  password: sysadmin.sysadmin
+  sni: a.961229.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: t.me/rjsxrd
   type: hysteria2
   server: 104.192.224.140
@@ -259,10 +270,10 @@ proxy-groups:
   - t.me/rjsxrd
   - t.me/rjsxrd
   - 🇩🇪DE_1
-  - 🇰🇷KR_1
   - t.me/rjsxrd
+  - 🇺🇸 United States | 🌐 | [IPv6] | [BL] t.me/rjsxrd
   - t.me/rjsxrd
-  - ORANGE-JPN-HY2 t.me/rjsxrd
+  - ⭐
   - ⭐
   - t.me/rjsxrd
   - t.me/rjsxrd
@@ -274,6 +285,7 @@ proxy-groups:
   - t.me/rjsxrd
   - t.me/rjsxrd
   - t.me/rjsxrd
+  - 🔒
   - t.me/rjsxrd
   - t.me/rjsxrd
   - t.me/rjsxrd
