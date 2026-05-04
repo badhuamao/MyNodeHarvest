@@ -1,15 +1,4 @@
 proxies:
-- name: 'B - 🇯🇵 JP 06 TG: @nodpai t.me/rjsxrd'
-  type: hysteria2
-  server: vpn-jp-003.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-jp-003.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 🇫🇷FR_2|2.5MB/s t.me/rjsxrd
   type: hysteria2
   server: 163.172.113.118
@@ -54,28 +43,6 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇹🇼 Taiwan, Taipei | 🌐 | [IPv6] | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: cdntw.xhl666.top
-  port: 13456
-  password: 110feae9-02d8-406f-9582-df63f4423aab
-  sni: cdntw.xhl666.top
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇸🇬 ShatakVPN 407712 t.me/rjsxrd
-  type: hysteria2
-  server: 52.77.213.147
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-sg-002.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: ⭐
   type: hysteria2
   server: 45.12.134.57
@@ -98,31 +65,16 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇩🇪
-  type: hysteria2
-  server: fr1.shiyuandian.shop
-  port: 1935
-  password: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  sni: fr1.shiyuandian.shop
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 'B - 🇯🇵 JP 06 TG: @nodpai t.me/rjsxrd'
   - 🇫🇷FR_2|2.5MB/s t.me/rjsxrd
   - 🇩🇪DE_1
   - 🇺🇸US_1
   - 🇯🇵JP_1
-  - 🇹🇼 Taiwan, Taipei | 🌐 | [IPv6] | [BL] t.me/rjsxrd
-  - 🇸🇬 ShatakVPN 407712 t.me/rjsxrd
   - ⭐
   - ⭐
-  - 🇩🇪
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
