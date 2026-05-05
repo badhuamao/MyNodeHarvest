@@ -21,6 +21,17 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 'B - 🇯🇵 JP 14 TG: @nodpai t.me/rjsxrd'
+  type: hysteria2
+  server: vpn-jp-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-jp-002.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: 'B - 🇺🇸 US 05 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
   server: vpn-us-002.fastervpn.world
@@ -49,6 +60,17 @@ proxies:
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   sni: vpn-us-005.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇻🇳
+  type: hysteria2
+  server: vpn-vn-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-vn-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -100,17 +122,6 @@ proxies:
   down: '100'
 - name: ⭐
   type: hysteria2
-  server: 45.12.146.179
-  port: 444
-  password: strong-secret-pass-777
-  sni: www.microsoft.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: ⭐
-  type: hysteria2
   server: 45.82.245.37
   port: 444
   password: strong-secret-pass-777
@@ -120,12 +131,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+- name: 🇸🇬 机场推荐:dafei.de 新加坡 07
   type: hysteria2
-  server: vpn-jp-003.fastervpn.world
+  server: vpn-sg-003.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-jp-003.fastervpn.world
+  sni: vpn-sg-003.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -137,16 +148,17 @@ proxy-groups:
   proxies:
   - FR
   - 𝙁𝙧𝙖𝙣𝙘𝙚 t.me/rjsxrd
+  - 'B - 🇯🇵 JP 14 TG: @nodpai t.me/rjsxrd'
   - 'B - 🇺🇸 US 05 TG: @nodpai t.me/rjsxrd'
   - 🇩🇪DE_1
   - 🇺🇸US_1
+  - 🇻🇳
   - 🏳️ ShatakVPN 347487 t.me/rjsxrd
   - ⭐
   - ⭐
   - ⭐
   - ⭐
-  - ⭐
-  - 'A - 🇯🇵 JP 01 TG: @nodpai'
+  - 🇸🇬 机场推荐:dafei.de 新加坡 07
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
