@@ -1,10 +1,87 @@
 proxies:
-- name: 🇹🇼 Taiwan, Taipei | [BL] t.me/rjsxrd
+- name: '>>@oneclickvpnkeys::FR t.me/rjsxrd'
   type: hysteria2
-  server: tw.ccwink.cc
-  port: 30102
-  password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-  sni: tw.ccwink.cc
+  server: 163.172.113.118
+  port: 40022
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🏳️
+  type: hysteria2
+  server: vpn-us-003.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🏳️ ShatakVPN 995756 t.me/rjsxrd
+  type: hysteria2
+  server: 54.255.188.182
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-sg-002.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇷FR_1|1.2MB/s t.me/rjsxrd
+  type: hysteria2
+  server: 163.172.113.118
+  port: 41581
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸 United States, Santa Clarita (Canyon Country) | [BL] t.me/rjsxrd
+  type: hysteria2
+  server: lb.stlive.top
+  port: 4133
+  password: bc93605a
+  sni: bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸 United States, Santa Clarita (Canyon Country) | 🌐 | [IPv6] | [BL] t.me/rjsxrd
+  type: hysteria2
+  server: zhe.stlive.top
+  port: 10023
+  password: 51bfa975-92ab-4382-a21f-1963604f4fe1
+  sni: addons.mozilla.org
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇻🇳 Vietnam, Quận Bốn | [BL] t.me/rjsxrd
+  type: hysteria2
+  server: 180.93.128.92
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-vn-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇻🇳 Vietnam, Quận Bốn | [BL] t.me/rjsxrd
+  type: hysteria2
+  server: vpn-vn-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-vn-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -13,17 +90,6 @@ proxies:
 - name: ⭐
   type: hysteria2
   server: 45.15.140.128
-  port: 444
-  password: strong-secret-pass-777
-  sni: www.microsoft.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: ⭐
-  type: hysteria2
-  server: 45.149.114.75
   port: 444
   password: strong-secret-pass-777
   sni: www.microsoft.com
@@ -43,23 +109,56 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 'A - 🇸🇬 SG 02 TG: @nodpai'
+- name: 🏳️ ShatakVPN 303510|1.2MB/s
   type: hysteria2
-  server: sg04.352343.cc
-  port: 8080
-  password: 1aa84841-8701-4700-ad46-2923dc2900d0
-  sni: sg04.352343.cc
+  server: 18.225.75.67
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-003.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 'B - 🇭🇰 HK 10 TG: @nodpai'
+- name: 🏳️ ShatakVPN 652508|1.1MB/s
   type: hysteria2
-  server: hkaws.ccwink.photos
-  port: 88
+  server: 3.133.160.228
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🏁 未知-5332D214|1.0MB/s
+  type: hysteria2
+  server: 3.139.104.42
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 'B - 🇯🇵 JP 05 TG: @nodpai'
+  type: hysteria2
+  server: jpaws.ccwink.photos
+  port: 52348
   password: 9e0f72bb-7ad6-4383-994a-497569a94d74
-  sni: hkak.ccwink.cc
+  sni: sgdigital.ccwink.cc
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇬🇧
+  type: hysteria2
+  server: vpn-uk-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-uk-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -69,12 +168,21 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 🇹🇼 Taiwan, Taipei | [BL] t.me/rjsxrd
+  - '>>@oneclickvpnkeys::FR t.me/rjsxrd'
+  - 🏳️
+  - 🏳️ ShatakVPN 995756 t.me/rjsxrd
+  - 🇫🇷FR_1|1.2MB/s t.me/rjsxrd
+  - 🇺🇸 United States, Santa Clarita (Canyon Country) | [BL] t.me/rjsxrd
+  - 🇺🇸 United States, Santa Clarita (Canyon Country) | 🌐 | [IPv6] | [BL] t.me/rjsxrd
+  - 🇻🇳 Vietnam, Quận Bốn | [BL] t.me/rjsxrd
+  - 🇻🇳 Vietnam, Quận Bốn | [BL] t.me/rjsxrd
   - ⭐
   - ⭐
-  - ⭐
-  - 'A - 🇸🇬 SG 02 TG: @nodpai'
-  - 'B - 🇭🇰 HK 10 TG: @nodpai'
+  - 🏳️ ShatakVPN 303510|1.2MB/s
+  - 🏳️ ShatakVPN 652508|1.1MB/s
+  - 🏁 未知-5332D214|1.0MB/s
+  - 'B - 🇯🇵 JP 05 TG: @nodpai'
+  - 🇬🇧
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
