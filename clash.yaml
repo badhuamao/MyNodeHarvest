@@ -1,65 +1,32 @@
 proxies:
-- name: 🇰🇷KR_1
+- name: 'B - 🇺🇸 US 18 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
-  server: vpn-kr-003.fastervpn.world
+  server: vpn-us-002.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-kr-003.fastervpn.world
+  sni: vpn-us-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇺🇸US_1
+- name: 🇸🇬SG_1|2.8MB/s t.me/rjsxrd
   type: hysteria2
-  server: vpn-us-005.fastervpn.world
+  server: vpn-sg-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-005.fastervpn.world
+  sni: vpn-sg-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇺🇸US_2
+- name: 🇯🇵JP_1
   type: hysteria2
-  server: vpn-us-001.fastervpn.world
+  server: vpn-jp-002.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-001.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇺🇸US_3
-  type: hysteria2
-  server: vpn-us-003.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-003.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇺🇸US_4
-  type: hysteria2
-  server: vpn-us-004.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-004.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇺🇸US_6
-  type: hysteria2
-  server: vpn-us-006.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-006.fastervpn.world
+  sni: vpn-jp-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -76,9 +43,9 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇺🇸 ShatakVPN 529956 t.me/rjsxrd
+- name: 🇺🇸
   type: hysteria2
-  server: 18.219.178.163
+  server: vpn-us-003.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   sni: vpn-us-003.fastervpn.world
@@ -87,12 +54,100 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🏳️ ShatakVPN 886476 t.me/rjsxrd
+- name: 🇫🇷 机场推荐:dafei.de 法国 04 t.me/rjsxrd
   type: hysteria2
-  server: 3.145.184.116
+  server: 163.172.113.118
+  port: 41763
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 'B - 🇯🇵 JP 08 TG: @nodpai t.me/rjsxrd'
+  type: hysteria2
+  server: vpn-jp-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-003.fastervpn.world
+  sni: vpn-jp-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇷FR_3|2.9MB/s t.me/rjsxrd
+  type: hysteria2
+  server: 163.172.113.118
+  port: 41784
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇷FR_1|4.0MB/s t.me/rjsxrd
+  type: hysteria2
+  server: 163.172.113.118
+  port: 41073
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸US_4|2.5MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-us-004.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-004.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇰🇷KR_1|3.3MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-kr-003.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-kr-003.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇷FR_2|3.3MB/s t.me/rjsxrd
+  type: hysteria2
+  server: 163.172.113.118
+  port: 41590
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸US_1|4.0MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-us-005.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-005.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇩🇪DE_1|3.3MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-de-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-de-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -120,23 +175,23 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🏳️ ShatakVPN 628480 t.me/rjsxrd
+- name: 🇯🇵 机场推荐:dafei.de 日本 03 t.me/rjsxrd
   type: hysteria2
-  server: 3.148.210.38
+  server: vpn-jp-004.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-003.fastervpn.world
+  sni: vpn-jp-004.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇺🇸 ShatakVPN 548967 t.me/rjsxrd
+- name: '>>@oneclickvpnkeys::SG t.me/rjsxrd'
   type: hysteria2
-  server: 3.148.176.33
+  server: vpn-sg-002.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-003.fastervpn.world
+  sni: vpn-sg-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -153,24 +208,125 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: '>>@oneclickvpnkeys::SG t.me/rjsxrd'
+  type: hysteria2
+  server: 158.178.236.104
+  port: 443
+  password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+  sni: api.push.apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '>>@oneclickvpnkeys::SG t.me/rjsxrd'
+  type: hysteria2
+  server: 203.27.106.148
+  port: 443
+  password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+  sni: www.apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '>>@oneclickvpnkeys::SG t.me/rjsxrd'
+  type: hysteria2
+  server: 152.69.220.212
+  port: 443
+  password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+  sni: api.push.apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🔒
+  type: hysteria2
+  server: 167.234.249.46
+  port: 444
+  password: sysadmin.sysadmin
+  sni: a.961229.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸US_10|2.1MB/s
+  type: hysteria2
+  server: hy2.123266.xyz
+  port: 33333
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  sni: hy2.123266.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸US_11|1.2MB/s
+  type: hysteria2
+  server: 46.38.157.183
+  port: 10002
+  password: 6d1696e4-e423-4ac5-b48c-e9ade2987deb
+  sni: 46.38.157.183
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: ❓Other_2|1.9MB/s
+  type: hysteria2
+  server: 46.38.157.183
+  port: 10001
+  password: 58b662c7-9481-4689-968c-76e048f1a958
+  sni: 46.38.157.183
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇬🇧GB_1|2.0MB/s
+  type: hysteria2
+  server: vpn-uk-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-uk-002.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 🇰🇷KR_1
-  - 🇺🇸US_1
-  - 🇺🇸US_2
-  - 🇺🇸US_3
-  - 🇺🇸US_4
-  - 🇺🇸US_6
+  - 'B - 🇺🇸 US 18 TG: @nodpai t.me/rjsxrd'
+  - 🇸🇬SG_1|2.8MB/s t.me/rjsxrd
+  - 🇯🇵JP_1
   - 🇫🇷
-  - 🇺🇸 ShatakVPN 529956 t.me/rjsxrd
-  - 🏳️ ShatakVPN 886476 t.me/rjsxrd
+  - 🇺🇸
+  - 🇫🇷 机场推荐:dafei.de 法国 04 t.me/rjsxrd
+  - 'B - 🇯🇵 JP 08 TG: @nodpai t.me/rjsxrd'
+  - 🇫🇷FR_3|2.9MB/s t.me/rjsxrd
+  - 🇫🇷FR_1|4.0MB/s t.me/rjsxrd
+  - 🇺🇸US_4|2.5MB/s t.me/rjsxrd
+  - 🇰🇷KR_1|3.3MB/s t.me/rjsxrd
+  - 🇫🇷FR_2|3.3MB/s t.me/rjsxrd
+  - 🇺🇸US_1|4.0MB/s t.me/rjsxrd
+  - 🇩🇪DE_1|3.3MB/s t.me/rjsxrd
   - 🇻🇳 Vietnam, Quận Bốn | [BL] t.me/rjsxrd
   - 🇻🇳 Vietnam, Quận Bốn | [BL] t.me/rjsxrd
-  - 🏳️ ShatakVPN 628480 t.me/rjsxrd
-  - 🇺🇸 ShatakVPN 548967 t.me/rjsxrd
+  - 🇯🇵 机场推荐:dafei.de 日本 03 t.me/rjsxrd
+  - '>>@oneclickvpnkeys::SG t.me/rjsxrd'
   - ⭐
+  - '>>@oneclickvpnkeys::SG t.me/rjsxrd'
+  - '>>@oneclickvpnkeys::SG t.me/rjsxrd'
+  - '>>@oneclickvpnkeys::SG t.me/rjsxrd'
+  - 🔒
+  - 🇺🇸US_10|2.1MB/s
+  - 🇺🇸US_11|1.2MB/s
+  - ❓Other_2|1.9MB/s
+  - 🇬🇧GB_1|2.0MB/s
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
