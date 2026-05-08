@@ -1,4 +1,70 @@
 proxies:
+- name: 🇺🇸US_1|1.4MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-us-004.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-004.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: US
+  type: hysteria2
+  server: vpn-us-006.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-006.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇰🇷KR_4|2.4MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-kr-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-kr-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 0569
+  type: hysteria2
+  server: 156.239.46.82
+  port: 56524
+  password: 9a94ba24
+  sni: www.bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '1870'
+  type: hysteria2
+  server: 157.254.223.43
+  port: 27921
+  password: dongtaiwang.com
+  sni: apple.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸 ShatakVPN 595154 t.me/rjsxrd
+  type: hysteria2
+  server: 3.145.179.31
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: ⭐
   type: hysteria2
   server: 45.82.245.37
@@ -10,23 +76,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇺🇸 美国 | USA
+- name: 🇨🇦CA_1|2.2MB/s
   type: hysteria2
-  server: vpn-us-002.fastervpn.world
+  server: vpn-ca-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-002.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇰🇷
-  type: hysteria2
-  server: vpn-kr-003.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-kr-003.fastervpn.world
+  sni: vpn-ca-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -36,9 +91,14 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
+  - 🇺🇸US_1|1.4MB/s t.me/rjsxrd
+  - US
+  - 🇰🇷KR_4|2.4MB/s t.me/rjsxrd
+  - 0569
+  - '1870'
+  - 🇺🇸 ShatakVPN 595154 t.me/rjsxrd
   - ⭐
-  - 🇺🇸 美国 | USA
-  - 🇰🇷
+  - 🇨🇦CA_1|2.2MB/s
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
