@@ -1,10 +1,43 @@
 proxies:
+- name: 🇺🇸US_1|2.3MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-us-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-002.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸 机场推荐:dafei.de 美国 04 t.me/rjsxrd
+  type: hysteria2
+  server: 157.254.223.43
+  port: 27921
+  password: dongtaiwang.com
+  sni: www.bing.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: 🇺🇸 机场推荐:dafei.de 美国 09 t.me/rjsxrd
   type: hysteria2
   server: vpn-us-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   sni: vpn-us-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸US_2|1.0MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-us-004.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-004.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -21,17 +54,6 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇹🇼 Taiwan, Taipei | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: 5gzdx.233235.xyz
-  port: 8080
-  password: 748f9f2b-0b3a-4480-87c4-4bdefa909757
-  sni: 5gzdx.233235.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: ⭐
   type: hysteria2
   server: 45.82.245.37
@@ -43,14 +65,28 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🇰🇷
+  type: hysteria2
+  server: vpn-kr-003.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-kr-003.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
+  - 🇺🇸US_1|2.3MB/s t.me/rjsxrd
+  - 🇺🇸 机场推荐:dafei.de 美国 04 t.me/rjsxrd
   - 🇺🇸 机场推荐:dafei.de 美国 09 t.me/rjsxrd
+  - 🇺🇸US_2|1.0MB/s t.me/rjsxrd
   - 'B - 🇯🇵 JP 21 TG: @nodpai t.me/rjsxrd'
-  - 🇹🇼 Taiwan, Taipei | [BL] t.me/rjsxrd
   - ⭐
+  - 🇰🇷
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
