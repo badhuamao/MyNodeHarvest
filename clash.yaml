@@ -1,21 +1,32 @@
 proxies:
-- name: 🇺🇸US_1|2.3MB/s t.me/rjsxrd
+- name: 🇩🇪DE_2|1.5MB/s t.me/rjsxrd
   type: hysteria2
-  server: vpn-us-002.fastervpn.world
+  server: vpn-de-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-002.fastervpn.world
+  sni: vpn-de-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇺🇸 机场推荐:dafei.de 美国 04 t.me/rjsxrd
+- name: 🇰🇷KR_3|3.2MB/s t.me/rjsxrd
   type: hysteria2
-  server: 157.254.223.43
-  port: 27921
-  password: dongtaiwang.com
-  sni: www.bing.com
+  server: vpn-kr-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-kr-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: DO印度
+  type: hysteria2
+  server: 167.71.235.75
+  port: 443
+  password: 74lcLz9V0V
+  sni: 167.71.235.75
   skip-cert-verify: true
   alpn:
   - h3
@@ -27,28 +38,6 @@ proxies:
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   sni: vpn-us-001.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇺🇸US_2|1.0MB/s t.me/rjsxrd
-  type: hysteria2
-  server: vpn-us-004.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-004.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'B - 🇯🇵 JP 21 TG: @nodpai t.me/rjsxrd'
-  type: hysteria2
-  server: 154.16.248.199
-  port: 37292
-  password: 72aaf68b-fca5-48fa-9ba3-b0a6fb9990d2
-  sni: akjp.fe-9.top
   skip-cert-verify: true
   alpn:
   - h3
@@ -80,11 +69,10 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 🇺🇸US_1|2.3MB/s t.me/rjsxrd
-  - 🇺🇸 机场推荐:dafei.de 美国 04 t.me/rjsxrd
+  - 🇩🇪DE_2|1.5MB/s t.me/rjsxrd
+  - 🇰🇷KR_3|3.2MB/s t.me/rjsxrd
+  - DO印度
   - 🇺🇸 机场推荐:dafei.de 美国 09 t.me/rjsxrd
-  - 🇺🇸US_2|1.0MB/s t.me/rjsxrd
-  - 'B - 🇯🇵 JP 21 TG: @nodpai t.me/rjsxrd'
   - ⭐
   - 🇰🇷
   url: http://www.gstatic.com/generate_204
