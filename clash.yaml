@@ -1,65 +1,21 @@
 proxies:
-- name: 🇺🇸US_1|1.6MB/s t.me/rjsxrd
+- name: 🇫🇷FR_3|1.7MB/s t.me/rjsxrd
   type: hysteria2
-  server: vpn-us-002.fastervpn.world
+  server: vpn-fr-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-002.fastervpn.world
+  sni: vpn-fr-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇩🇪DE_1|2.3MB/s t.me/rjsxrd
+- name: 🇩🇪 机场推荐:dafei.de 德国 01 t.me/rjsxrd
   type: hysteria2
   server: vpn-de-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   sni: vpn-de-001.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: t.me/rjsxrd
-  type: hysteria2
-  server: 157.254.223.43
-  port: 27921
-  password: dongtaiwang.com
-  sni: www.bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: t.me/rjsxrd
-  type: hysteria2
-  server: 208.87.243.187
-  port: 22222
-  password: dongtaiwang.com
-  sni: www.bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇮🇳IN_1|1.0MB/s t.me/rjsxrd
-  type: hysteria2
-  server: vpn-in-001.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-in-001.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇹🇼 Taiwan, Taipei | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: 5gzdx.233235.xyz
-  port: 8080
-  password: 748f9f2b-0b3a-4480-87c4-4bdefa909757
-  sni: 5gzdx.233235.xyz
   skip-cert-verify: true
   alpn:
   - h3
@@ -76,166 +32,23 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: t.me/rjsxrd
+- name: 'B - 🇯🇵 JP 11 TG: @nodpai'
   type: hysteria2
-  server: 66.135.28.59
-  port: 443
-  password: f6e4b19a3110d19d
-  sni: 66.135.28.59
+  server: jp.1001101.xyz
+  port: 25004
+  password: c5533e6c-6d4f-4b01-b1c8-4fb952631e73
+  sni: jp.1001101.xyz
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: t.me/rjsxrd
+- name: 'B - 🇯🇵 JP 16 TG: @nodpai'
   type: hysteria2
-  server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
-  port: 1743
-  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-  sni: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: t.me/rjsxrd
-  type: hysteria2
-  server: 91.132.51.160
-  port: 844
-  password: 5046SHWqk6
-  sni: 91.132.51.160
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: t.me/rjsxrd
-  type: hysteria2
-  server: 206.71.158.23
-  port: 45000
-  password: Telegram--%3E%40Ln2Ray
-  sni: gavazn.55994421.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: t.me/rjsxrd
-  type: hysteria2
-  server: gavazn.lnmarketplace.net
-  port: 45000
-  password: Telegram--%3E%40Ln2Ray
-  sni: gavazn.55994421.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: t.me/rjsxrd
-  type: hysteria2
-  server: 206.71.158.37
-  port: 36400
-  password: Yet-Another-Public-Config-1
-  sni: YAPC-1.afshin.ir
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: t.me/rjsxrd
-  type: hysteria2
-  server: 206.71.158.40
-  port: 35000
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  sni: api.kermanshahi.org
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: t.me/rjsxrd
-  type: hysteria2
-  server: 206.71.158.41
-  port: 35000
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  sni: api.kermanshahi.org
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: t.me/rjsxrd
-  type: hysteria2
-  server: 130.61.50.75
-  port: 6443
-  password: zhangyang
-  sni: 130.61.50.75
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: t.me/rjsxrd
-  type: hysteria2
-  server: 108.181.5.130
-  port: 63015
-  password: dongtaiwang.com
-  sni: apple.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: t.me/rjsxrd
-  type: hysteria2
-  server: 104.192.224.140
-  port: 40391
-  password: dongtaiwang.com
-  sni: www.bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: t.me/rjsxrd
-  type: hysteria2
-  server: de.sharecentrepro.link
-  port: 4433
-  password: sharecentrepro
-  sni: de.sharecentrepro.link
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: t.me/rjsxrd
-  type: hysteria2
-  server: 165.227.238.198
-  port: 594
-  password: GlysitGlysit
-  sni: bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: t.me/rjsxrd
-  type: hysteria2
-  server: 125.227.83.24
-  port: 3074
-  password: NDE0NTc3OjExMTIwMTplODE1ODQ3YmIyZGJjZDM0=
-  sni: 125.227.83.24
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: t.me/rjsxrd
-  type: hysteria2
-  server: azadi-az-inja-migzare-d2.dgi000.store
-  port: 443
-  password: azadi
-  sni: bing.com
+  server: 154.16.248.199
+  port: 31190
+  password: 72aaf68b-fca5-48fa-9ba3-b0a6fb9990d2
+  sni: akjp.fe-9.top
   skip-cert-verify: true
   alpn:
   - h3
@@ -245,28 +58,11 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 🇺🇸US_1|1.6MB/s t.me/rjsxrd
-  - 🇩🇪DE_1|2.3MB/s t.me/rjsxrd
-  - t.me/rjsxrd
-  - t.me/rjsxrd
-  - 🇮🇳IN_1|1.0MB/s t.me/rjsxrd
-  - 🇹🇼 Taiwan, Taipei | [BL] t.me/rjsxrd
+  - 🇫🇷FR_3|1.7MB/s t.me/rjsxrd
+  - 🇩🇪 机场推荐:dafei.de 德国 01 t.me/rjsxrd
   - ⭐
-  - t.me/rjsxrd
-  - t.me/rjsxrd
-  - t.me/rjsxrd
-  - t.me/rjsxrd
-  - t.me/rjsxrd
-  - t.me/rjsxrd
-  - t.me/rjsxrd
-  - t.me/rjsxrd
-  - t.me/rjsxrd
-  - t.me/rjsxrd
-  - t.me/rjsxrd
-  - t.me/rjsxrd
-  - t.me/rjsxrd
-  - t.me/rjsxrd
-  - t.me/rjsxrd
+  - 'B - 🇯🇵 JP 11 TG: @nodpai'
+  - 'B - 🇯🇵 JP 16 TG: @nodpai'
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
