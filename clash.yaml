@@ -1,21 +1,10 @@
 proxies:
-- name: 'A - 🇺🇸 US 01 TG: @nodpai t.me/rjsxrd'
+- name: 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
   type: hysteria2
-  server: v3.aimaii.com
-  port: 25004
-  password: c5533e6c-6d4f-4b01-b1c8-4fb952631e73
-  sni: ''
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'A - 🇺🇸 US 01 TG: @nodpai t.me/rjsxrd'
-  type: hysteria2
-  server: usa2.vpnmiao.site
-  port: 10001
-  password: 7a92d5f1-717d-4b0b-b408-b9eda4944471
-  sni: usa2.vpnmiao.site
+  server: finprem.nimarko.org
+  port: 443
+  password: 661ce23b-7fe9-4217-8abe-76c28b687691
+  sni: finprem.nimarko.org
   skip-cert-verify: true
   alpn:
   - h3
@@ -23,10 +12,10 @@ proxies:
   down: '100'
 - name: 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
   type: hysteria2
-  server: finprem.nimarko.org
+  server: washing.help
   port: 443
-  password: 661ce23b-7fe9-4217-8abe-76c28b687691
-  sni: finprem.nimarko.org
+  password: hy2_nrsipx3s%3AKY1GuGdHSpDuPxzLkDtJLUexoyt5dksu
+  sni: washing.help
   skip-cert-verify: true
   alpn:
   - h3
@@ -43,23 +32,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇹🇼 Taiwan, Taipei | [BL] t.me/rjsxrd
+- name: 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
   type: hysteria2
-  server: 5gzdx.233235.xyz
-  port: 8080
-  password: 748f9f2b-0b3a-4480-87c4-4bdefa909757
-  sni: 5gzdx.233235.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇳🇱 The Netherlands, Eygelshoven | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: nd.nimarko.org
+  server: fn.washing.help
   port: 443
-  password: 661ce23b-7fe9-4217-8abe-76c28b687691
-  sni: nd.nimarko.org
+  password: hy2_nrsipx3s%3Aa8a8tMEzSKGshRh5PSzFkGIHuEdLyGWv
+  sni: fn.washing.help
   skip-cert-verify: true
   alpn:
   - h3
@@ -76,45 +54,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇺🇸US_6|2.2MB/s
+- name: 🇺🇸 United States, Santa Clarita (Canyon Country) | 🌐 | [IPv6] | [BL] t.me/rjsxrd
   type: hysteria2
-  server: racknerd.18kv.com
-  port: 25004
-  password: c5533e6c-6d4f-4b01-b1c8-4fb952631e73
-  sni: racknerd.18kv.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇺🇸US_3|1.2MB/s
-  type: hysteria2
-  server: dmit.adminsis.xyz
-  port: 25004
-  password: c5533e6c-6d4f-4b01-b1c8-4fb952631e73
-  sni: dmit.adminsis.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇺🇸US_5|1.1MB/s
-  type: hysteria2
-  server: bwg.11022.net
-  port: 25004
-  password: c5533e6c-6d4f-4b01-b1c8-4fb952631e73
-  sni: bwg.11022.net
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'B - 🇯🇵 JP 12 TG: @nodpai'
-  type: hysteria2
-  server: vpn-jp-004.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-jp-004.fastervpn.world
+  server: 142.171.241.143
+  port: 41555
+  password: cca70979-4f99-449b-9a01-a3ad8d3d4481
+  sni: 142.171.241.143
   skip-cert-verify: true
   alpn:
   - h3
@@ -124,17 +69,12 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 'A - 🇺🇸 US 01 TG: @nodpai t.me/rjsxrd'
-  - 'A - 🇺🇸 US 01 TG: @nodpai t.me/rjsxrd'
+  - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
   - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
   - 🇵🇱 Poland, Warsaw (Mokotów) | [BL] t.me/rjsxrd
-  - 🇹🇼 Taiwan, Taipei | [BL] t.me/rjsxrd
-  - 🇳🇱 The Netherlands, Eygelshoven | [BL] t.me/rjsxrd
+  - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
   - ⭐
-  - 🇺🇸US_6|2.2MB/s
-  - 🇺🇸US_3|1.2MB/s
-  - 🇺🇸US_5|1.1MB/s
-  - 'B - 🇯🇵 JP 12 TG: @nodpai'
+  - 🇺🇸 United States, Santa Clarita (Canyon Country) | 🌐 | [IPv6] | [BL] t.me/rjsxrd
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
