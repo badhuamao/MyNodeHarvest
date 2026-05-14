@@ -10,12 +10,23 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇷🇺RU_2|3.3MB/s t.me/rjsxrd
+- name: 🇯🇵JP_1|3.3MB/s t.me/rjsxrd
   type: hysteria2
-  server: 195.133.53.33
+  server: vpn-jp-002.fastervpn.world
   port: 443
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  sni: s516.okgfw.top
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-jp-002.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇨🇦CA_1|1.0MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-ca-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-ca-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -32,12 +43,23 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 'B - 🇺🇸 US 03 TG: @nodpai t.me/rjsxrd'
+- name: 'A - 🇸🇬 SG 01 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
-  server: 142.171.241.143
-  port: 41555
-  password: cca70979-4f99-449b-9a01-a3ad8d3d4481
-  sni: 142.171.241.143
+  server: vpn-sg-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-sg-002.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇸🇬SG_1|2.5MB/s|GPT⁺|YT-SG|GM|3% t.me/rjsxrd
+  type: hysteria2
+  server: vpn-sg-003.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-sg-003.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -147,9 +169,11 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇩🇪DE_1|1.3MB/s t.me/rjsxrd
-  - 🇷🇺RU_2|3.3MB/s t.me/rjsxrd
+  - 🇯🇵JP_1|3.3MB/s t.me/rjsxrd
+  - 🇨🇦CA_1|1.0MB/s t.me/rjsxrd
   - 🇬🇧GB_1|2.2MB/s t.me/rjsxrd
-  - 'B - 🇺🇸 US 03 TG: @nodpai t.me/rjsxrd'
+  - 'A - 🇸🇬 SG 01 TG: @nodpai t.me/rjsxrd'
+  - 🇸🇬SG_1|2.5MB/s|GPT⁺|YT-SG|GM|3% t.me/rjsxrd
   - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
   - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
   - 🇵🇱 Poland, Warsaw (Mokotów) | [BL] t.me/rjsxrd
