@@ -1,37 +1,4 @@
 proxies:
-- name: 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: finprem.nimarko.org
-  port: 443
-  password: 661ce23b-7fe9-4217-8abe-76c28b687691
-  sni: finprem.nimarko.org
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: fn.washing.help
-  port: 443
-  password: hy2_nrsipx3s%3Aa8a8tMEzSKGshRh5PSzFkGIHuEdLyGWv
-  sni: fn.washing.help
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: washing.help
-  port: 443
-  password: hy2_nrsipx3s%3AKY1GuGdHSpDuPxzLkDtJLUexoyt5dksu
-  sni: washing.help
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 🇵🇱 Poland, Warsaw (Mokotów) | [BL] t.me/rjsxrd
   type: hysteria2
   server: pols.nimarko.org
@@ -67,7 +34,7 @@ proxies:
   down: '100'
 - name: ⭐
   type: hysteria2
-  server: 45.82.245.37
+  server: 45.15.140.128
   port: 444
   password: strong-secret-pass-777
   sni: www.microsoft.com
@@ -80,9 +47,6 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
-  - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
-  - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
   - 🇵🇱 Poland, Warsaw (Mokotów) | [BL] t.me/rjsxrd
   - 🇳🇱 The Netherlands, Eygelshoven | [BL] t.me/rjsxrd
   - 🇺🇸 United States, Santa Clarita (Canyon Country) | 🌐 | [IPv6] | [BL] t.me/rjsxrd
