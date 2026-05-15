@@ -1,10 +1,10 @@
 proxies:
-- name: 🇺🇸US_1|1.4MB/s t.me/rjsxrd
+- name: 'B - 🇯🇵 JP 13 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
-  server: hy2.123266.xyz
-  port: 33333
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  sni: hy2.123266.xyz
+  server: vpn-jp-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-jp-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -32,6 +32,28 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 'B - 🇯🇵 JP 15 TG: @nodpai t.me/rjsxrd'
+  type: hysteria2
+  server: vpn-jp-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-jp-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇰🇷KR_2|3.9MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-kr-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-kr-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: 🇬🇧 机场推荐:dafei.de 英国 01 t.me/rjsxrd
   type: hysteria2
   server: vpn-uk-002.fastervpn.world
@@ -54,56 +76,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
+- name: 🇯🇵JP_1|3.0MB/s|GPT⁺|YT-JP|NF|GM|0% t.me/rjsxrd
   type: hysteria2
-  server: finprem.nimarko.org
+  server: vpn-jp-004.fastervpn.world
   port: 443
-  password: 661ce23b-7fe9-4217-8abe-76c28b687691
-  sni: finprem.nimarko.org
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇵🇱 Poland, Warsaw (Mokotów) | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: pols.nimarko.org
-  port: 4443
-  password: 661ce23b-7fe9-4217-8abe-76c28b687691
-  sni: pols.nimarko.org
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇳🇱 The Netherlands, Amsterdam | 🌐 | [IPv6] | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: 92.112.124.13
-  port: 10802
-  password: ef6a309e-c300-4907-92a4-f2869eba4be6
-  sni: www.bing.com
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🌐 Anycast-IP | [IPv6] | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: bl.nimarko.org
-  port: 443
-  password: 661ce23b-7fe9-4217-8abe-76c28b687691
-  sni: bl.nimarko.org
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🌐 Anycast-IP | [IPv6] | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: 178.18.147.66
-  port: 29900
-  password: github.com%2FAlvin9999-newpac%2Ffanqiang
-  sni: www.microsoft.com
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-jp-004.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -131,58 +109,20 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇫🇷 法国 | FRA t.me/rjsxrd
-  type: hysteria2
-  server: vpn-fr-001.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-fr-001.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: washing.help
-  port: 443
-  password: hy2_nrsipx3s%3AKY1GuGdHSpDuPxzLkDtJLUexoyt5dksu
-  sni: washing.help
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: fn.washing.help
-  port: 443
-  password: hy2_nrsipx3s%3Aa8a8tMEzSKGshRh5PSzFkGIHuEdLyGWv
-  sni: fn.washing.help
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 🇺🇸US_1|1.4MB/s t.me/rjsxrd
+  - 'B - 🇯🇵 JP 13 TG: @nodpai t.me/rjsxrd'
   - 🇩🇪 机场推荐:dafei.de 德国 01 t.me/rjsxrd
   - 🇮🇳 机场推荐:dafei.de 印度 01 t.me/rjsxrd
+  - 'B - 🇯🇵 JP 15 TG: @nodpai t.me/rjsxrd'
+  - 🇰🇷KR_2|3.9MB/s t.me/rjsxrd
   - 🇬🇧 机场推荐:dafei.de 英国 01 t.me/rjsxrd
   - 🇺🇸US_1|2.1MB/s t.me/rjsxrd
-  - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
-  - 🇵🇱 Poland, Warsaw (Mokotów) | [BL] t.me/rjsxrd
-  - 🇳🇱 The Netherlands, Amsterdam | 🌐 | [IPv6] | [BL] t.me/rjsxrd
-  - 🌐 Anycast-IP | [IPv6] | [BL] t.me/rjsxrd
-  - 🌐 Anycast-IP | [IPv6] | [BL] t.me/rjsxrd
+  - 🇯🇵JP_1|3.0MB/s|GPT⁺|YT-JP|NF|GM|0% t.me/rjsxrd
   - AU_1|1.4MB/s t.me/rjsxrd
   - ⭐
-  - 🇫🇷 法国 | FRA t.me/rjsxrd
-  - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
-  - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
