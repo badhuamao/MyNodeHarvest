@@ -1,10 +1,54 @@
 proxies:
-- name: JP
+- name: 🇺🇸US_1|1.4MB/s t.me/rjsxrd
   type: hysteria2
-  server: vpn-jp-002.fastervpn.world
+  server: hy2.123266.xyz
+  port: 33333
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  sni: hy2.123266.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇩🇪 机场推荐:dafei.de 德国 01 t.me/rjsxrd
+  type: hysteria2
+  server: vpn-de-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-jp-002.fastervpn.world
+  sni: vpn-de-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇮🇳 机场推荐:dafei.de 印度 01 t.me/rjsxrd
+  type: hysteria2
+  server: vpn-in-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-in-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇬🇧 机场推荐:dafei.de 英国 01 t.me/rjsxrd
+  type: hysteria2
+  server: vpn-uk-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-uk-002.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸US_1|2.1MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-us-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -16,28 +60,6 @@ proxies:
   port: 443
   password: 661ce23b-7fe9-4217-8abe-76c28b687691
   sni: finprem.nimarko.org
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: fn.washing.help
-  port: 443
-  password: hy2_nrsipx3s%3Aa8a8tMEzSKGshRh5PSzFkGIHuEdLyGWv
-  sni: fn.washing.help
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: washing.help
-  port: 443
-  password: hy2_nrsipx3s%3AKY1GuGdHSpDuPxzLkDtJLUexoyt5dksu
-  sni: washing.help
   skip-cert-verify: true
   alpn:
   - h3
@@ -65,23 +87,34 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇳🇱 The Netherlands, Eygelshoven | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: nd.nimarko.org
-  port: 443
-  password: 661ce23b-7fe9-4217-8abe-76c28b687691
-  sni: nd.nimarko.org
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: '0251'
+- name: 🌐 Anycast-IP | [IPv6] | [BL] t.me/rjsxrd
   type: hysteria2
   server: bl.nimarko.org
   port: 443
   password: 661ce23b-7fe9-4217-8abe-76c28b687691
   sni: bl.nimarko.org
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🌐 Anycast-IP | [IPv6] | [BL] t.me/rjsxrd
+  type: hysteria2
+  server: 178.18.147.66
+  port: 29900
+  password: github.com%2FAlvin9999-newpac%2Ffanqiang
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: AU_1|1.4MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-au-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-au-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -98,12 +131,34 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇺🇸US_2|1.7MB/s
+- name: 🇫🇷 法国 | FRA t.me/rjsxrd
   type: hysteria2
-  server: hy2.123266.xyz
-  port: 33333
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  sni: hy2.123266.xyz
+  server: vpn-fr-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-fr-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
+  type: hysteria2
+  server: washing.help
+  port: 443
+  password: hy2_nrsipx3s%3AKY1GuGdHSpDuPxzLkDtJLUexoyt5dksu
+  sni: washing.help
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
+  type: hysteria2
+  server: fn.washing.help
+  port: 443
+  password: hy2_nrsipx3s%3Aa8a8tMEzSKGshRh5PSzFkGIHuEdLyGWv
+  sni: fn.washing.help
   skip-cert-verify: true
   alpn:
   - h3
@@ -113,16 +168,21 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - JP
-  - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
-  - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
+  - 🇺🇸US_1|1.4MB/s t.me/rjsxrd
+  - 🇩🇪 机场推荐:dafei.de 德国 01 t.me/rjsxrd
+  - 🇮🇳 机场推荐:dafei.de 印度 01 t.me/rjsxrd
+  - 🇬🇧 机场推荐:dafei.de 英国 01 t.me/rjsxrd
+  - 🇺🇸US_1|2.1MB/s t.me/rjsxrd
   - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
   - 🇵🇱 Poland, Warsaw (Mokotów) | [BL] t.me/rjsxrd
   - 🇳🇱 The Netherlands, Amsterdam | 🌐 | [IPv6] | [BL] t.me/rjsxrd
-  - 🇳🇱 The Netherlands, Eygelshoven | [BL] t.me/rjsxrd
-  - '0251'
+  - 🌐 Anycast-IP | [IPv6] | [BL] t.me/rjsxrd
+  - 🌐 Anycast-IP | [IPv6] | [BL] t.me/rjsxrd
+  - AU_1|1.4MB/s t.me/rjsxrd
   - ⭐
-  - 🇺🇸US_2|1.7MB/s
+  - 🇫🇷 法国 | FRA t.me/rjsxrd
+  - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
+  - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
