@@ -1,54 +1,76 @@
 proxies:
-- name: 🇺🇸US_1|2.1MB/s t.me/rjsxrd
+- name: 'A - 🇯🇵 JP 02 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
-  server: vpn-us-001.fastervpn.world
+  server: vpn-jp-004.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-001.fastervpn.world
+  sni: vpn-jp-004.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇦🇺 机场推荐:dafei.de 澳大利亚 01 t.me/rjsxrd
+- name: 🇺🇸US_3|1.1MB/s t.me/rjsxrd
   type: hysteria2
-  server: vpn-au-002.fastervpn.world
+  server: vpn-us-005.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-au-002.fastervpn.world
+  sni: vpn-us-005.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇯🇵 机场推荐:dafei.de 日本 02 t.me/rjsxrd
+- name: IN_1|1.8MB/s t.me/rjsxrd
   type: hysteria2
-  server: vpn-jp-002.fastervpn.world
+  server: vpn-in-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-jp-002.fastervpn.world
+  sni: vpn-in-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: KR_2|3.9MB/s t.me/rjsxrd
-  type: hysteria2
-  server: vpn-kr-001.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-kr-001.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇸🇬 机场推荐:dafei.de 新加坡 06 t.me/rjsxrd
+- name: SG_1|2.0MB/s t.me/rjsxrd
   type: hysteria2
   server: vpn-sg-003.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   sni: vpn-sg-003.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇬🇧 机场推荐:dafei.de 英国 01 t.me/rjsxrd
+  type: hysteria2
+  server: vpn-uk-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-uk-002.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇷FR_1|1.6MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-fr-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-fr-002.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸US_10|1.8MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-us-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-002.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -65,67 +87,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇵🇱 Poland, Warsaw (Mokotów) | [BL] t.me/rjsxrd
+- name: 🔒
   type: hysteria2
-  server: pols.nimarko.org
-  port: 4443
-  password: 661ce23b-7fe9-4217-8abe-76c28b687691
-  sni: pols.nimarko.org
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇳🇱 The Netherlands, Eygelshoven | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: nd.nimarko.org
-  port: 443
-  password: 661ce23b-7fe9-4217-8abe-76c28b687691
-  sni: nd.nimarko.org
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: '3815'
-  type: hysteria2
-  server: bl.nimarko.org
-  port: 443
-  password: 661ce23b-7fe9-4217-8abe-76c28b687691
-  sni: bl.nimarko.org
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇦🇺AU_1|1.3MB/s
-  type: hysteria2
-  server: vpn-au-001.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-au-001.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇫🇷FR_1|1.6MB/s
-  type: hysteria2
-  server: vpn-fr-002.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-fr-002.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇺🇸 机场推荐:dafei.de 美国 09
-  type: hysteria2
-  server: vpn-us-004.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-004.fastervpn.world
+  server: 167.234.249.46
+  port: 444
+  password: sysadmin.sysadmin
+  sni: a.961229.xyz
   skip-cert-verify: true
   alpn:
   - h3
@@ -135,18 +102,15 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 🇺🇸US_1|2.1MB/s t.me/rjsxrd
-  - 🇦🇺 机场推荐:dafei.de 澳大利亚 01 t.me/rjsxrd
-  - 🇯🇵 机场推荐:dafei.de 日本 02 t.me/rjsxrd
-  - KR_2|3.9MB/s t.me/rjsxrd
-  - 🇸🇬 机场推荐:dafei.de 新加坡 06 t.me/rjsxrd
+  - 'A - 🇯🇵 JP 02 TG: @nodpai t.me/rjsxrd'
+  - 🇺🇸US_3|1.1MB/s t.me/rjsxrd
+  - IN_1|1.8MB/s t.me/rjsxrd
+  - SG_1|2.0MB/s t.me/rjsxrd
+  - 🇬🇧 机场推荐:dafei.de 英国 01 t.me/rjsxrd
+  - 🇫🇷FR_1|1.6MB/s t.me/rjsxrd
+  - 🇺🇸US_10|1.8MB/s t.me/rjsxrd
   - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
-  - 🇵🇱 Poland, Warsaw (Mokotów) | [BL] t.me/rjsxrd
-  - 🇳🇱 The Netherlands, Eygelshoven | [BL] t.me/rjsxrd
-  - '3815'
-  - 🇦🇺AU_1|1.3MB/s
-  - 🇫🇷FR_1|1.6MB/s
-  - 🇺🇸 机场推荐:dafei.de 美国 09
+  - 🔒
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
