@@ -21,6 +21,17 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🇯🇵JP_1|1.5MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-jp-003.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-jp-003.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: 🇬🇧GB_1|2.1MB/s t.me/rjsxrd
   type: hysteria2
   server: vpn-uk-002.fastervpn.world
@@ -54,6 +65,17 @@ proxies:
   - h3
   up: '100'
   down: '100'
+- name: 🇦🇺 机场推荐:dafei.de 澳大利亚 01 t.me/rjsxrd
+  type: hysteria2
+  server: vpn-au-002.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-au-002.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
 - name: KR_2|3.9MB/s t.me/rjsxrd
   type: hysteria2
   server: vpn-kr-001.fastervpn.world
@@ -65,34 +87,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 'A - 🇹🇼 TW 01 TG: @nodpai t.me/rjsxrd'
+- name: 🇸🇬 机场推荐:dafei.de 新加坡 06 t.me/rjsxrd
   type: hysteria2
-  server: tw07.352343.cc
-  port: 8080
-  password: 917bb394-8d91-4eee-956d-b81aba3aed70
-  sni: tw07.352343.cc
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'B - 🇹🇼 TW 05 TG: @nodpai t.me/rjsxrd'
-  type: hysteria2
-  server: tw40.453521.xyz
-  port: 8080
-  password: 917bb394-8d91-4eee-956d-b81aba3aed70
-  sni: tw40.453521.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'B - 🇹🇼 TW 06 TG: @nodpai t.me/rjsxrd'
-  type: hysteria2
-  server: 5gzdx.233235.xyz
-  port: 8080
-  password: 917bb394-8d91-4eee-956d-b81aba3aed70
-  sni: 5gzdx.233235.xyz
+  server: vpn-sg-003.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-sg-003.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -109,67 +109,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 'A - 🇯🇵 JP 02 TG: @nodpai t.me/rjsxrd'
-  type: hysteria2
-  server: hyfnjp03.352343.cc
-  port: 8080
-  password: 917bb394-8d91-4eee-956d-b81aba3aed70
-  sni: hyfnjp03.352343.cc
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'A - 🇸🇬 SG 02 TG: @nodpai t.me/rjsxrd'
-  type: hysteria2
-  server: hkmax06.767887.xyz
-  port: 8080
-  password: 917bb394-8d91-4eee-956d-b81aba3aed70
-  sni: hkmax06.767887.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 'A - 🇸🇬 SG 03 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
   server: hkmax03.476579.xyz
   port: 8080
   password: 917bb394-8d91-4eee-956d-b81aba3aed70
   sni: hkmax03.476579.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'A - 🇸🇬 SG 04 TG: @nodpai t.me/rjsxrd'
-  type: hysteria2
-  server: sg12.352343.cc
-  port: 8080
-  password: 917bb394-8d91-4eee-956d-b81aba3aed70
-  sni: sg12.352343.cc
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'A - 🇸🇬 SG 06 TG: @nodpai t.me/rjsxrd'
-  type: hysteria2
-  server: sg15.476579.xyz
-  port: 8080
-  password: 917bb394-8d91-4eee-956d-b81aba3aed70
-  sni: sg15.476579.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'A - 🇸🇬 SG 07 TG: @nodpai t.me/rjsxrd'
-  type: hysteria2
-  server: sg04.352343.cc
-  port: 8080
-  password: 917bb394-8d91-4eee-956d-b81aba3aed70
-  sni: sg04.352343.cc
   skip-cert-verify: true
   alpn:
   - h3
@@ -192,6 +137,28 @@ proxies:
   port: 8080
   password: 917bb394-8d91-4eee-956d-b81aba3aed70
   sni: sg06.453521.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
+  type: hysteria2
+  server: finprem.nimarko.org
+  port: 443
+  password: 661ce23b-7fe9-4217-8abe-76c28b687691
+  sni: finprem.nimarko.org
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇵🇱 Poland, Warsaw (Mokotów) | [BL] t.me/rjsxrd
+  type: hysteria2
+  server: pols.nimarko.org
+  port: 4443
+  password: 661ce23b-7fe9-4217-8abe-76c28b687691
+  sni: pols.nimarko.org
   skip-cert-verify: true
   alpn:
   - h3
@@ -241,56 +208,89 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 'A - 🇸🇬 SG 04 TG: @nodpai t.me/rjsxrd'
+- name: 'A - 🇸🇬 SG 07 TG: @nodpai'
   type: hysteria2
-  server: vpn-sg-002.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-sg-002.fastervpn.world
+  server: sg05.453521.xyz
+  port: 8080
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: sg05.453521.xyz
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: ⭐
+- name: 'A - 🇸🇬 SG 15 TG: @nodpai'
   type: hysteria2
-  server: 45.15.140.128
-  port: 444
-  password: strong-secret-pass-777
-  sni: www.microsoft.com
+  server: sg21.453521.xyz
+  port: 8080
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: sg21.453521.xyz
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 8|🇮🇳IN_@WangCai_8
+- name: 'A - 🇸🇬 SG 07 TG: @nodpai'
   type: hysteria2
-  server: 13.126.66.208
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: https://t.me/WangCai2🇨🇳
+  server: hkmax06.767887.xyz
+  port: 8080
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: hkmax06.767887.xyz
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: '8|🇮🇳IN_@WangCai_8 #1'
+- name: 'A - 🇸🇬 SG 03 TG: @nodpai'
   type: hysteria2
-  server: 3.110.31.6
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: https://t.me/WangCai2🇨🇳
+  server: sg16.453521.xyz
+  port: 8080
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: sg16.453521.xyz
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: '8|🇮🇳IN_@WangCai_8 #2'
+- name: 'B - 🇹🇼 TW 02 TG: @nodpai'
   type: hysteria2
-  server: 3.6.91.169
+  server: tw3.757866.xyz
+  port: 8080
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: tw3.757866.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 'A - 🇸🇬 SG 14 TG: @nodpai'
+  type: hysteria2
+  server: sg20.476579.xyz
+  port: 8080
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: sg20.476579.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 'A - 🇸🇬 SG 12 TG: @nodpai'
+  type: hysteria2
+  server: 1sg001.476579.xyz
+  port: 8443
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: 1sg001.476579.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸 机场推荐:dafei.de 美国 09
+  type: hysteria2
+  server: vpn-us-004.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: https://t.me/WangCai2🇨🇳
+  sni: vpn-us-004.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
@@ -302,31 +302,31 @@ proxy-groups:
   proxies:
   - 🇺🇸US_1|2.1MB/s t.me/rjsxrd
   - 'A - 🇯🇵 JP 01 TG: @nodpai t.me/rjsxrd'
+  - 🇯🇵JP_1|1.5MB/s t.me/rjsxrd
   - 🇬🇧GB_1|2.1MB/s t.me/rjsxrd
   - 🇰🇷KR_1|3.4MB/s t.me/rjsxrd
   - 🇮🇳IN_1|1.2MB/s t.me/rjsxrd
+  - 🇦🇺 机场推荐:dafei.de 澳大利亚 01 t.me/rjsxrd
   - KR_2|3.9MB/s t.me/rjsxrd
-  - 'A - 🇹🇼 TW 01 TG: @nodpai t.me/rjsxrd'
-  - 'B - 🇹🇼 TW 05 TG: @nodpai t.me/rjsxrd'
-  - 'B - 🇹🇼 TW 06 TG: @nodpai t.me/rjsxrd'
+  - 🇸🇬 机场推荐:dafei.de 新加坡 06 t.me/rjsxrd
   - 'A - 🇯🇵 JP 01 TG: @nodpai t.me/rjsxrd'
-  - 'A - 🇯🇵 JP 02 TG: @nodpai t.me/rjsxrd'
-  - 'A - 🇸🇬 SG 02 TG: @nodpai t.me/rjsxrd'
   - 'A - 🇸🇬 SG 03 TG: @nodpai t.me/rjsxrd'
-  - 'A - 🇸🇬 SG 04 TG: @nodpai t.me/rjsxrd'
-  - 'A - 🇸🇬 SG 06 TG: @nodpai t.me/rjsxrd'
-  - 'A - 🇸🇬 SG 07 TG: @nodpai t.me/rjsxrd'
   - 'A - 🇸🇬 SG 08 TG: @nodpai t.me/rjsxrd'
   - 'A - 🇸🇬 SG 10 TG: @nodpai t.me/rjsxrd'
+  - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
+  - 🇵🇱 Poland, Warsaw (Mokotów) | [BL] t.me/rjsxrd
   - 🇳🇱 The Netherlands, Amsterdam | 🌐 | [IPv6] | [BL] t.me/rjsxrd
   - 🇳🇱 The Netherlands, Eygelshoven | [BL] t.me/rjsxrd
   - '3815'
   - DE_1|1.3MB/s t.me/rjsxrd
-  - 'A - 🇸🇬 SG 04 TG: @nodpai t.me/rjsxrd'
-  - ⭐
-  - 8|🇮🇳IN_@WangCai_8
-  - '8|🇮🇳IN_@WangCai_8 #1'
-  - '8|🇮🇳IN_@WangCai_8 #2'
+  - 'A - 🇸🇬 SG 07 TG: @nodpai'
+  - 'A - 🇸🇬 SG 15 TG: @nodpai'
+  - 'A - 🇸🇬 SG 07 TG: @nodpai'
+  - 'A - 🇸🇬 SG 03 TG: @nodpai'
+  - 'B - 🇹🇼 TW 02 TG: @nodpai'
+  - 'A - 🇸🇬 SG 14 TG: @nodpai'
+  - 'A - 🇸🇬 SG 12 TG: @nodpai'
+  - 🇺🇸 机场推荐:dafei.de 美国 09
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
