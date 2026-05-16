@@ -1,10 +1,21 @@
 proxies:
-- name: 'A - 🇯🇵 JP 02 TG: @nodpai t.me/rjsxrd'
+- name: '🇦🇺AU_3|3.4MB/s | 更多节点: https://t.me/byxiaoxi t.me/rjsxrd'
   type: hysteria2
-  server: vpn-jp-004.fastervpn.world
+  server: vpn-au-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-jp-004.fastervpn.world
+  sni: vpn-au-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇸🇬SG_5|1.3MB/s t.me/rjsxrd
+  type: hysteria2
+  server: sg10.352343.cc
+  port: 8080
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: sg10.352343.cc
   skip-cert-verify: true
   alpn:
   - h3
@@ -21,12 +32,56 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: IN_1|1.8MB/s t.me/rjsxrd
+- name: 🇺🇸 机场推荐:dafei.de 美国 36 t.me/rjsxrd
   type: hysteria2
-  server: vpn-in-001.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-in-001.fastervpn.world
+  server: hkmax003.233235.xyz
+  port: 20000
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: hkmax003.233235.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇯🇵 机场推荐:dafei.de 日本 05 t.me/rjsxrd
+  type: hysteria2
+  server: hyfnjp01.156786.xyz
+  port: 60000
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: hyfnjp01.156786.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇯🇵 机场推荐:dafei.de 日本 04 t.me/rjsxrd
+  type: hysteria2
+  server: hyfnjp03.352343.cc
+  port: 8080
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: hyfnjp03.352343.cc
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇸🇬 机场推荐:dafei.de 新加坡 03 t.me/rjsxrd
+  type: hysteria2
+  server: sg16.453521.xyz
+  port: 8080
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: sg16.453521.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇸🇬 机场推荐:dafei.de 新加坡 10 t.me/rjsxrd
+  type: hysteria2
+  server: sg21.453521.xyz
+  port: 8080
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: sg21.453521.xyz
   skip-cert-verify: true
   alpn:
   - h3
@@ -43,23 +98,12 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇬🇧 机场推荐:dafei.de 英国 01 t.me/rjsxrd
+- name: '🇸🇬SG_9|2.8MB/s | 福利姬: https://t.me/fuliji_Arrest t.me/rjsxrd'
   type: hysteria2
-  server: vpn-uk-002.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-uk-002.fastervpn.world
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇫🇷FR_1|1.6MB/s t.me/rjsxrd
-  type: hysteria2
-  server: vpn-fr-002.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-fr-002.fastervpn.world
+  server: 1sg001.476579.xyz
+  port: 8443
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: 1sg001.476579.xyz
   skip-cert-verify: true
   alpn:
   - h3
@@ -76,23 +120,78 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
+- name: 'A - 🇸🇬 SG 05 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
-  server: finprem.nimarko.org
-  port: 443
-  password: 661ce23b-7fe9-4217-8abe-76c28b687691
-  sni: finprem.nimarko.org
+  server: sg19.453521.xyz
+  port: 8080
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: sg19.453521.xyz
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🔒
+- name: 'A - 🇸🇬 SG 03 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
-  server: 167.234.249.46
-  port: 444
-  password: sysadmin.sysadmin
-  sni: a.961229.xyz
+  server: hkmax03.476579.xyz
+  port: 8080
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: hkmax03.476579.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇫🇷 法国 | FRA t.me/rjsxrd
+  type: hysteria2
+  server: vpn-fr-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-fr-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '🇮🇳IN_@WangCai_8 #1'
+  type: hysteria2
+  server: 13.201.41.222
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '🇮🇳IN_@WangCai_8 #1'
+  type: hysteria2
+  server: 13.201.25.203
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇸🇬 机场推荐:dafei.de 新加坡 02
+  type: hysteria2
+  server: sg20.476579.xyz
+  port: 8080
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  sni: sg20.476579.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇨🇳TW_@WangCai_8
+  type: hysteria2
+  server: 160.187.100.109
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: https://t.me/WangCai2🇨🇳
   skip-cert-verify: true
   alpn:
   - h3
@@ -102,15 +201,24 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 'A - 🇯🇵 JP 02 TG: @nodpai t.me/rjsxrd'
+  - '🇦🇺AU_3|3.4MB/s | 更多节点: https://t.me/byxiaoxi t.me/rjsxrd'
+  - 🇸🇬SG_5|1.3MB/s t.me/rjsxrd
   - 🇺🇸US_3|1.1MB/s t.me/rjsxrd
-  - IN_1|1.8MB/s t.me/rjsxrd
+  - 🇺🇸 机场推荐:dafei.de 美国 36 t.me/rjsxrd
+  - 🇯🇵 机场推荐:dafei.de 日本 05 t.me/rjsxrd
+  - 🇯🇵 机场推荐:dafei.de 日本 04 t.me/rjsxrd
+  - 🇸🇬 机场推荐:dafei.de 新加坡 03 t.me/rjsxrd
+  - 🇸🇬 机场推荐:dafei.de 新加坡 10 t.me/rjsxrd
   - SG_1|2.0MB/s t.me/rjsxrd
-  - 🇬🇧 机场推荐:dafei.de 英国 01 t.me/rjsxrd
-  - 🇫🇷FR_1|1.6MB/s t.me/rjsxrd
+  - '🇸🇬SG_9|2.8MB/s | 福利姬: https://t.me/fuliji_Arrest t.me/rjsxrd'
   - 🇺🇸US_10|1.8MB/s t.me/rjsxrd
-  - 🇫🇮 Finland, Helsinki | [BL] t.me/rjsxrd
-  - 🔒
+  - 'A - 🇸🇬 SG 05 TG: @nodpai t.me/rjsxrd'
+  - 'A - 🇸🇬 SG 03 TG: @nodpai t.me/rjsxrd'
+  - 🇫🇷 法国 | FRA t.me/rjsxrd
+  - '🇮🇳IN_@WangCai_8 #1'
+  - '🇮🇳IN_@WangCai_8 #1'
+  - 🇸🇬 机场推荐:dafei.de 新加坡 02
+  - 🇨🇳TW_@WangCai_8
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
