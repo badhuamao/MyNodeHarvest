@@ -1,10 +1,10 @@
 proxies:
-- name: 🇬🇧GB_2|1.6MB/s t.me/rjsxrd
+- name: 🇹🇼TW_4|2.4MB/s t.me/rjsxrd
   type: hysteria2
-  server: vpn-uk-001.fastervpn.world
+  server: 160.187.100.109
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-uk-001.fastervpn.world
+  sni: https://t.me/WangCai2🇨🇳
   skip-cert-verify: true
   alpn:
   - h3
@@ -32,12 +32,166 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 'A - 🇸🇬 SG 02 TG: @nodpai'
+- name: 🔒
   type: hysteria2
-  server: sg21.453521.xyz
+  server: 167.234.249.46
+  port: 444
+  password: sysadmin.sysadmin
+  sni: a.961229.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 'B - 🇹🇼 TW 08 TG: @nodpai'
+  type: hysteria2
+  server: tw07.352343.cc
+  port: 8080
+  password: 7e2b98ee-5a4c-4630-b389-4afb2087621b
+  sni: tw07.352343.cc
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '🇮🇳IN_@WangCai_8 #1'
+  type: hysteria2
+  server: 13.201.62.194
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '🇮🇳IN_@WangCai_8 #3'
+  type: hysteria2
+  server: 13.206.218.221
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '🇮🇳IN_@WangCai_8 #4'
+  type: hysteria2
+  server: 13.206.251.0
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇸🇬SG_@WangCai_8
+  type: hysteria2
+  server: 13.229.112.192
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '🇸🇬SG_@WangCai_8 #1'
+  type: hysteria2
+  server: 13.250.25.232
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '🇸🇬SG_@WangCai_8 #2'
+  type: hysteria2
+  server: 13.250.60.252
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '🇸🇬SG_@WangCai_8 #3'
+  type: hysteria2
+  server: 47.129.174.18
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: '🇸🇬SG_@WangCai_8 #4'
+  type: hysteria2
+  server: 52.77.240.3
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 'A - 🇸🇬 SG 05 TG: @nodpai'
+  type: hysteria2
+  server: sg12.352343.cc
+  port: 8080
+  password: b172c76d-e25a-449a-88cc-e19e0549d863
+  sni: sg12.352343.cc
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 'A - 🇸🇬 SG 07 TG: @nodpai'
+  type: hysteria2
+  server: hkmax02.352343.cc
+  port: 8080
+  password: b172c76d-e25a-449a-88cc-e19e0549d863
+  sni: hkmax02.352343.cc
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 'A - 🇸🇬 SG 10 TG: @nodpai'
+  type: hysteria2
+  server: sg04.352343.cc
+  port: 8080
+  password: b172c76d-e25a-449a-88cc-e19e0549d863
+  sni: sg04.352343.cc
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 'A - 🇸🇬 SG 06 TG: @nodpai'
+  type: hysteria2
+  server: sg15.476579.xyz
   port: 8080
   password: 8d9ddfb4-7583-45b3-acf1-5343db385a38
-  sni: sg21.453521.xyz
+  sni: sg15.476579.xyz
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 'A - 🇸🇬 SG 09 TG: @nodpai'
+  type: hysteria2
+  server: sg03.344233.cc
+  port: 8080
+  password: b172c76d-e25a-449a-88cc-e19e0549d863
+  sni: sg03.344233.cc
   skip-cert-verify: true
   alpn:
   - h3
@@ -47,10 +201,24 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 🇬🇧GB_2|1.6MB/s t.me/rjsxrd
+  - 🇹🇼TW_4|2.4MB/s t.me/rjsxrd
   - 🇸🇬 机场推荐:dafei.de 新加坡 01 t.me/rjsxrd
   - 🇺🇸US_3|1.3MB/s t.me/rjsxrd
-  - 'A - 🇸🇬 SG 02 TG: @nodpai'
+  - 🔒
+  - 'B - 🇹🇼 TW 08 TG: @nodpai'
+  - '🇮🇳IN_@WangCai_8 #1'
+  - '🇮🇳IN_@WangCai_8 #3'
+  - '🇮🇳IN_@WangCai_8 #4'
+  - 🇸🇬SG_@WangCai_8
+  - '🇸🇬SG_@WangCai_8 #1'
+  - '🇸🇬SG_@WangCai_8 #2'
+  - '🇸🇬SG_@WangCai_8 #3'
+  - '🇸🇬SG_@WangCai_8 #4'
+  - 'A - 🇸🇬 SG 05 TG: @nodpai'
+  - 'A - 🇸🇬 SG 07 TG: @nodpai'
+  - 'A - 🇸🇬 SG 10 TG: @nodpai'
+  - 'A - 🇸🇬 SG 06 TG: @nodpai'
+  - 'A - 🇸🇬 SG 09 TG: @nodpai'
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
