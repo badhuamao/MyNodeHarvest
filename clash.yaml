@@ -1,5 +1,5 @@
 proxies:
-- name: 🇹🇼TW_4|2.4MB/s t.me/rjsxrd
+- name: 🇨🇳TW_@WangCai_8 t.me/rjsxrd
   type: hysteria2
   server: 160.187.100.109
   port: 443
@@ -10,7 +10,7 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇸🇬 机场推荐:dafei.de 新加坡 01 t.me/rjsxrd
+- name: 🇸🇬SG_1|3.3MB/s t.me/rjsxrd
   type: hysteria2
   server: vpn-sg-003.fastervpn.world
   port: 443
@@ -21,177 +21,67 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: 🇺🇸US_3|1.3MB/s t.me/rjsxrd
+- name: 🇰🇷 机场推荐:dafei.de 韩国 01 t.me/rjsxrd
   type: hysteria2
-  server: vpn-us-005.fastervpn.world
+  server: vpn-kr-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-us-005.fastervpn.world
+  sni: vpn-kr-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🔒
+- name: 🇦🇺AU_1|1.2MB/s|GPT⁺|YT-AU|GM|15% t.me/rjsxrd
   type: hysteria2
-  server: 167.234.249.46
-  port: 444
-  password: sysadmin.sysadmin
-  sni: a.961229.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'B - 🇹🇼 TW 08 TG: @nodpai'
-  type: hysteria2
-  server: tw07.352343.cc
-  port: 8080
-  password: 7e2b98ee-5a4c-4630-b389-4afb2087621b
-  sni: tw07.352343.cc
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: '🇮🇳IN_@WangCai_8 #1'
-  type: hysteria2
-  server: 13.201.62.194
+  server: vpn-au-001.fastervpn.world
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: https://t.me/WangCai2🇨🇳
+  sni: vpn-au-001.fastervpn.world
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: '🇮🇳IN_@WangCai_8 #3'
+- name: 👀5@oneclickvpnkeys
   type: hysteria2
-  server: 13.206.218.221
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: https://t.me/WangCai2🇨🇳
+  server: 212.192.13.242
+  port: 4433
+  password: 2545ab46-6306-4f2b-badd-5531f384d55f
+  sni: hk1.xiaoliyu.cyou
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: '🇮🇳IN_@WangCai_8 #4'
+- name: 👀6@oneclickvpnkeys
   type: hysteria2
-  server: 13.206.251.0
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: https://t.me/WangCai2🇨🇳
+  server: 68.233.103.254
+  port: 4433
+  password: 2545ab46-6306-4f2b-badd-5531f384d55f
+  sni: ln4.xiaoliyu.cyou
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: 🇸🇬SG_@WangCai_8
+- name: 👀4@oneclickvpnkeys
   type: hysteria2
-  server: 13.229.112.192
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: https://t.me/WangCai2🇨🇳
+  server: 166.88.142.205
+  port: 2056
+  password: 4d092122-268a-4a1a-b23f-83931c5abc3a
+  sni: mg6.mangshe.xyz
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: '🇸🇬SG_@WangCai_8 #1'
+- name: 👀3@oneclickvpnkeys
   type: hysteria2
-  server: 13.250.25.232
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: https://t.me/WangCai2🇨🇳
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: '🇸🇬SG_@WangCai_8 #2'
-  type: hysteria2
-  server: 13.250.60.252
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: https://t.me/WangCai2🇨🇳
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: '🇸🇬SG_@WangCai_8 #3'
-  type: hysteria2
-  server: 47.129.174.18
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: https://t.me/WangCai2🇨🇳
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: '🇸🇬SG_@WangCai_8 #4'
-  type: hysteria2
-  server: 52.77.240.3
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: https://t.me/WangCai2🇨🇳
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'A - 🇸🇬 SG 05 TG: @nodpai'
-  type: hysteria2
-  server: sg12.352343.cc
-  port: 8080
-  password: b172c76d-e25a-449a-88cc-e19e0549d863
-  sni: sg12.352343.cc
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'A - 🇸🇬 SG 07 TG: @nodpai'
-  type: hysteria2
-  server: hkmax02.352343.cc
-  port: 8080
-  password: b172c76d-e25a-449a-88cc-e19e0549d863
-  sni: hkmax02.352343.cc
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'A - 🇸🇬 SG 10 TG: @nodpai'
-  type: hysteria2
-  server: sg04.352343.cc
-  port: 8080
-  password: b172c76d-e25a-449a-88cc-e19e0549d863
-  sni: sg04.352343.cc
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'A - 🇸🇬 SG 06 TG: @nodpai'
-  type: hysteria2
-  server: sg15.476579.xyz
-  port: 8080
-  password: 8d9ddfb4-7583-45b3-acf1-5343db385a38
-  sni: sg15.476579.xyz
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 'A - 🇸🇬 SG 09 TG: @nodpai'
-  type: hysteria2
-  server: sg03.344233.cc
-  port: 8080
-  password: b172c76d-e25a-449a-88cc-e19e0549d863
-  sni: sg03.344233.cc
+  server: 167.17.178.128
+  port: 10086
+  password: 2545ab46-6306-4f2b-badd-5531f384d55f
+  sni: fr1.xiaoliyu.cyou
   skip-cert-verify: true
   alpn:
   - h3
@@ -201,24 +91,14 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 🇹🇼TW_4|2.4MB/s t.me/rjsxrd
-  - 🇸🇬 机场推荐:dafei.de 新加坡 01 t.me/rjsxrd
-  - 🇺🇸US_3|1.3MB/s t.me/rjsxrd
-  - 🔒
-  - 'B - 🇹🇼 TW 08 TG: @nodpai'
-  - '🇮🇳IN_@WangCai_8 #1'
-  - '🇮🇳IN_@WangCai_8 #3'
-  - '🇮🇳IN_@WangCai_8 #4'
-  - 🇸🇬SG_@WangCai_8
-  - '🇸🇬SG_@WangCai_8 #1'
-  - '🇸🇬SG_@WangCai_8 #2'
-  - '🇸🇬SG_@WangCai_8 #3'
-  - '🇸🇬SG_@WangCai_8 #4'
-  - 'A - 🇸🇬 SG 05 TG: @nodpai'
-  - 'A - 🇸🇬 SG 07 TG: @nodpai'
-  - 'A - 🇸🇬 SG 10 TG: @nodpai'
-  - 'A - 🇸🇬 SG 06 TG: @nodpai'
-  - 'A - 🇸🇬 SG 09 TG: @nodpai'
+  - 🇨🇳TW_@WangCai_8 t.me/rjsxrd
+  - 🇸🇬SG_1|3.3MB/s t.me/rjsxrd
+  - 🇰🇷 机场推荐:dafei.de 韩国 01 t.me/rjsxrd
+  - 🇦🇺AU_1|1.2MB/s|GPT⁺|YT-AU|GM|15% t.me/rjsxrd
+  - 👀5@oneclickvpnkeys
+  - 👀6@oneclickvpnkeys
+  - 👀4@oneclickvpnkeys
+  - 👀3@oneclickvpnkeys
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
