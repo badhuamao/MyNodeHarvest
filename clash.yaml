@@ -1,15 +1,4 @@
 proxies:
-- name: 👀1@oneclickvpnkeys t.me/rjsxrd
-  type: hysteria2
-  server: 185.228.139.247
-  port: 4433
-  password: 2545ab46-6306-4f2b-badd-5531f384d55f
-  sni: de2.xiaoliyu.cyou
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
 - name: 👀5@oneclickvpnkeys t.me/rjsxrd
   type: hysteria2
   server: 212.192.13.242
@@ -21,45 +10,89 @@ proxies:
   - h3
   up: '100'
   down: '100'
-- name: KR
+- name: 'B - 🇹🇼 TW 01 TG: @nodpai t.me/rjsxrd'
   type: hysteria2
-  server: vpn-kr-001.fastervpn.world
+  server: 160.187.100.109
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-kr-001.fastervpn.world
+  sni: https://t.me/WangCai2🇨🇳
   skip-cert-verify: true
   alpn:
   - h3
   up: '100'
   down: '100'
-- name: RU
+- name: 👀1@oneclickvpnkeys t.me/rjsxrd
   type: hysteria2
-  server: 195.133.53.33
-  port: 443
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  sni: s516.okgfw.top
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 🇺🇸 United States, San Francisco | [BL] t.me/rjsxrd
-  type: hysteria2
-  server: 185.106.96.231
-  port: 443
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  sni: s559.ccgfw.top
-  skip-cert-verify: true
-  alpn:
-  - h3
-  up: '100'
-  down: '100'
-- name: 👀3@oneclickvpnkeys t.me/rjsxrd
-  type: hysteria2
-  server: 167.17.178.128
-  port: 10086
+  server: 185.228.139.247
+  port: 4433
   password: 2545ab46-6306-4f2b-badd-5531f384d55f
-  sni: fr1.xiaoliyu.cyou
+  sni: de2.xiaoliyu.cyou
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇮🇳IN_1|1.6MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-in-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-in-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇺🇸US_8|1.1MB/s t.me/rjsxrd
+  type: hysteria2
+  server: vpn-us-005.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-us-005.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: FR
+  type: hysteria2
+  server: vpn-fr-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-fr-001.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🇸🇬SG_5|2.3MB/s|GPT⁺|YT-SG|GM|3% t.me/rjsxrd
+  type: hysteria2
+  server: vpn-sg-003.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-sg-003.fastervpn.world
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 8|HK_@WangCai_8 t.me/rjsxrd
+  type: hysteria2
+  server: 202.146.222.30
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  alpn:
+  - h3
+  up: '100'
+  down: '100'
+- name: 🔒
+  type: hysteria2
+  server: 167.234.249.46
+  port: 444
+  password: sysadmin.sysadmin
+  sni: a.961229.xyz
   skip-cert-verify: true
   alpn:
   - h3
@@ -69,12 +102,15 @@ proxy-groups:
 - name: 🐻 熊家 HY2 专线
   type: url-test
   proxies:
-  - 👀1@oneclickvpnkeys t.me/rjsxrd
   - 👀5@oneclickvpnkeys t.me/rjsxrd
-  - KR
-  - RU
-  - 🇺🇸 United States, San Francisco | [BL] t.me/rjsxrd
-  - 👀3@oneclickvpnkeys t.me/rjsxrd
+  - 'B - 🇹🇼 TW 01 TG: @nodpai t.me/rjsxrd'
+  - 👀1@oneclickvpnkeys t.me/rjsxrd
+  - 🇮🇳IN_1|1.6MB/s t.me/rjsxrd
+  - 🇺🇸US_8|1.1MB/s t.me/rjsxrd
+  - FR
+  - 🇸🇬SG_5|2.3MB/s|GPT⁺|YT-SG|GM|3% t.me/rjsxrd
+  - 8|HK_@WangCai_8 t.me/rjsxrd
+  - 🔒
   url: http://www.gstatic.com/generate_204
   interval: 300
 rules:
